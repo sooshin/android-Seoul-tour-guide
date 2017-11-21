@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--지우기-->
+    <string name="action_settings">Settings</string>
+
+    <!-- String for content description -->
+    <string name="attraction_image_des">Attraction Image</string>
+
+    <!-- Sights name -->
+    <string name="taejongdae">Taejongdae</string>
+    <string name="haedong_yonggung">Haedong Yonggung Temple</string>
+    <string name="haeundae">Haeundae Beach</string>
+    <string name="gamcheon">Gamcheon Culture Village</string>
+    <string name="gwangandaegyo">Gwangandaegyo Bridge</string>
+    <string name="beomeosa">Beomeosa Temple</string>
+    <string name="oryukdo">Oryukdo Island</string>
+    <string name="songdo">Songo Skywalk &amp; Cable car</string>
+    <string name="songjeong">Songjeong Beach</string>
+    <string name="hwangnyeongsan">Mountain Hwangnyeongsan Observatory</string>
+    <string name="cheongsapo">Cheongsapo Daritdol Observatory</string>
+
+    <!-- Sights description -->
+    <string name="taejongdae_des">Taejongdae is a representative coastal scenic spot of Busan where has
+        dense evergreen trees and rocky cliffs.</string>
+
+    <!-- Tours & Entertainment name -->
+    <string name="sajik_baseball">Sajik Baseball Stadium</string>
+    <string name="the_bay_101">The Bay 101 Yacht Club</string>
+
+</resources>
