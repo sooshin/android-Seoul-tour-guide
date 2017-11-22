@@ -16,11 +16,10 @@ import java.util.List;
  */
 
 public class ParkFragment extends Fragment {
-    View rootView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.fragment_park, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_park, container, false);
 
         RecyclerView recyclerView = rootView.findViewById(R.id.recyclerview);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
@@ -29,7 +28,7 @@ public class ParkFragment extends Fragment {
 
         List<Attraction> attractions = new ArrayList<>();
 
-        attractions.add(new Attraction(R.drawable.taejongdae, "1", "a"));
+        attractions.add(new Attraction(R.drawable.gyeongbokgung, getString(R.string.gyeongbokgung), "a"));
 
         recyclerView.setAdapter(new RecyclerAdapter(getActivity(), attractions, R.layout.activity_main));
 

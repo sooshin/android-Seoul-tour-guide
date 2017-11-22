@@ -11,24 +11,28 @@
     <string name="attraction_image_des">Attraction Image</string>
 
     <!-- Sights name -->
-    <string name="taejongdae">Taejongdae</string>
-    <string name="haedong_yonggung">Haedong Yonggung Temple</string>
-    <string name="haeundae">Haeundae Beach</string>
-    <string name="gamcheon">Gamcheon Culture Village</string>
-    <string name="gwangandaegyo">Gwangandaegyo Bridge</string>
-    <string name="beomeosa">Beomeosa Temple</string>
-    <string name="oryukdo">Oryukdo Island</string>
-    <string name="songdo">Songo Skywalk &amp; Cable car</string>
-    <string name="songjeong">Songjeong Beach</string>
-    <string name="hwangnyeongsan">Mountain Hwangnyeongsan Observatory</string>
-    <string name="cheongsapo">Cheongsapo Daritdol Observatory</string>
+    <string name="gyeongbokgung">Gyeongbokgung Palace</string>
+    <string name="bukchon_hanok">Bukchon Hanok Village</string>
+    <string name="changdeokgung">Changdeokgung Palace</string>
+    <string name="n_seoul_tower">N Seoul Tower</string>
+    <string name="cheonggyecheon">Cheonggyecheon Stream</string>
+    <string name="the_war_memorial">The War Memorial of Korea</string>
+    <string name="lotte_world_tower">Lotte World Tower</string>
+    <string name="bongeunsa">Bongeunsa Temple</string>
+    <string name="insadong">Insadong</string>
+    <string name="dongdaemun_design_plaza">Dongdaemun design plaza</string>
+    <string name="hongik_uni_street">Hongik University Street</string>
 
     <!-- Sights description -->
-    <string name="taejongdae_des">Taejongdae is a representative coastal scenic spot of Busan where has
-        dense evergreen trees and rocky cliffs.</string>
+    <!-- Address -->
+    <!-- Transportation -->
+    <!-- Inquiries -->
+    <!-- Homepage -->
+    <!--Open -->
+    <!-- Admission Fees -->
 
     <!-- Tours & Entertainment name -->
-    <string name="sajik_baseball">Sajik Baseball Stadium</string>
-    <string name="the_bay_101">The Bay 101 Yacht Club</string>
-
+    <string name="national_museum">National Museum of Korea</string>
+    <string name="grevin_museum">Grevin Museum</string>
+    <string name="trickeye_museum">Trick Eye Museum</string>
 </resources>

@@ -28,16 +28,18 @@ public class SightsFragment extends Fragment{
 
         List<Attraction> attractions = new ArrayList<>();
 
-        attractions.add(new Attraction(R.drawable.taejongdae, getString(R.string.taejongdae), getString(R.string.taejongdae_des)));
-        attractions.add(new Attraction(R.drawable.haedong_yonggung, getString(R.string.haedong_yonggung), "b"));
-        attractions.add(new Attraction(R.drawable.haeundae, getString(R.string.haeundae), "c"));
-        attractions.add(new Attraction(R.drawable.gwangandaegyo_spaid, getString(R.string.gwangandaegyo), "d"));
-        attractions.add(new Attraction(R.drawable.beomeosa, getString(R.string.beomeosa), "e"));
-        attractions.add(new Attraction(R.drawable.gamcheon, getString(R.string.gamcheon), "f"));
-        attractions.add(new Attraction(R.drawable.oryukdo, getString(R.string.oryukdo), "g"));
-        attractions.add(new Attraction(R.drawable.hwangnyeongsan, getString(R.string.hwangnyeongsan), "h"));
-        attractions.add(new Attraction(R.drawable.songdo_cablecar, getString(R.string.songdo), "i"));
-        attractions.add(new Attraction(R.drawable.cheongsapo_spaid, getString(R.string.cheongsapo), "j"));
+        attractions.add(new Attraction(R.drawable.gyeongbokgung, getString(R.string.gyeongbokgung), "a"));
+        attractions.add(new Attraction(R.drawable.bukchon_hanok_sakaori, getString(R.string.bukchon_hanok), "b"));
+        attractions.add(new Attraction(R.drawable.changdukgung_choinjeong, getString(R.string.changdeokgung), "c"));
+        attractions.add(new Attraction(R.drawable.seoul_tower, getString(R.string.n_seoul_tower), "d"));
+        attractions.add(new Attraction(R.drawable.cheonggyecheon, getString(R.string.cheonggyecheon), "e"));
+        attractions.add(new Attraction(R.drawable.war_memorial, getString(R.string.the_war_memorial), "f"));
+        attractions.add(new Attraction(R.drawable.lotte_world_tower, getString(R.string.lotte_world_tower), "g"));
+        attractions.add(new Attraction(R.drawable.bongeunsa_gael_chardon, getString(R.string.bongeunsa), "h"));
+        attractions.add(new Attraction(R.drawable.insadong_leslie_pahang, getString(R.string.insadong), "i"));
+        attractions.add(new Attraction(R.drawable.dongdaemun_design_plaza_nestor_lacle, getString(R.string.dongdaemun_design_plaza),"j"));
+        attractions.add(new Attraction(R.drawable.hongik_uni_street_ken_eckert,getString(R.string.hongik_uni_street),"k"));
+
 
         recyclerView.setAdapter(new RecyclerAdapter(getActivity(), attractions, R.layout.activity_main));
 
