@@ -17,4 +17,16 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <!--Styles for TextView in the activity_detail.xml -->
+    <style name="DetailTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom</item>
+        <item name="android:drawablePadding">@dimen/drawable_padding</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
 </resources>

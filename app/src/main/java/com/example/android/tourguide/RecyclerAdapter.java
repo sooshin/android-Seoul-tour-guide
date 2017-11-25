@@ -1,6 +1,7 @@
 package com.example.android.tourguide;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.CardView;
@@ -63,6 +64,31 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             @Override
             public void onClick(View view) {
                 Toast.makeText(mContext, attraction.getAttractionName(), Toast.LENGTH_SHORT).show();
+                // Create a new intent to open the {@link DetailActivity}
+                Intent detailIntent = new Intent(mContext, DetailActivity.class);
+
+                // Pass value to {@link DetailActivity}
+                detailIntent.putExtra(mContext.getString(R.string.image_id),
+                        attraction.getAttractionImageId());
+                detailIntent.putExtra(mContext.getString(R.string.name),
+                        attraction.getAttractionName());
+                detailIntent.putExtra(mContext.getString(R.string.description),
+                        attraction.getAttractionDescription());
+                detailIntent.putExtra(mContext.getString(R.string.address),
+                        attraction.getAttractionAddress());
+                detailIntent.putExtra(mContext.getString(R.string.transport),
+                        attraction.getAttractionTransportation());
+                detailIntent.putExtra(mContext.getString(R.string.phone),
+                        attraction.getAttractionPhone());
+                detailIntent.putExtra(mContext.getString(R.string.web),
+                        attraction.getAttractionWeb());
+                detailIntent.putExtra(mContext.getString(R.string.hours),
+                        attraction.getAttractionHours());
+                detailIntent.putExtra(mContext.getString(R.string.fee),
+                        attraction.getAttractionFee());
+
+                // Start the new activity
+                mContext.startActivity(detailIntent);
             }
         });
     }

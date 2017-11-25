@@ -26,7 +26,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/image_des"/>
 
             <TextView
                 android:id="@+id/attraction_name_card"
@@ -37,7 +38,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:textColor="@android:color/white"
                 android:padding="10dp"
-                android:text="name" />
+                tools:text="name" />
 
             <TextView
                 android:id="@+id/attraction_description_card"

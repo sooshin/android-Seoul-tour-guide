@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/detail_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:contentDescription="@string/image_des"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/detail_long_description"
+            android:paddingTop="16dp"
+            style="@style/DetailTextViewStyle"
+            android:fontFamily="sans-serif"
+            tools:text="Long description" />
+
+        <TextView
+            android:id="@+id/detail_address"
+            android:paddingTop="8dp"
+            style="@style/DetailTextViewStyle"
+            android:autoLink="map"
+            tools:text="Address" />
+
+        <TextView
+            android:id="@+id/detail_transport"
+            style="@style/DetailTextViewStyle"
+            tools:text="Transportation" />
+
+        <TextView
+            android:id="@+id/detail_phone"
+            style="@style/DetailTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:fontFamily="sans-serif-light"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingLeft="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:textSize="16sp"
+            tools:text="Phone" />
+
+        <TextView
+            android:id="@+id/detail_web"
+            style="@style/DetailTextViewStyle"
+            android:autoLink="web"
+            tools:text="Homepage" />
+
+        <TextView
+            android:id="@+id/detail_hours"
+            style="@style/DetailTextViewStyle"
+            tools:text="Hours" />
+
+        <TextView
+            android:id="@+id/detail_fee"
+            style="@style/DetailTextViewStyle"
+            android:layout_marginBottom="8dp"
+            tools:text="Admission Fee" />
+
+    </LinearLayout>
+</ScrollView>

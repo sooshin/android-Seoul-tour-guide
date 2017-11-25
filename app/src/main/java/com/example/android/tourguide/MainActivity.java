@@ -80,18 +80,22 @@ public class MainActivity extends AppCompatActivity
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame, new SightsFragment())
                     .commit();
-        } else if (id == R.id.nav_park) {
+        } else if (id == R.id.nav_nature_culture) {
             fragmentManager.beginTransaction()
-                    .replace(R.id.content_frame, new ParkFragment())
+                    .replace(R.id.content_frame, new NatureCultureFragment())
+                    .commit();
+        } else if (id == R.id.nav_shop){
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame, new NatureCultureFragment())
                     .commit();
         } else if (id == R.id.nav_food) {
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame, new FoodFragment())
                     .commit();
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_basic_korean) {
+            fragmentManager.beginTransaction()
+                    .replace(R.id.content_frame, new FoodFragment())
+                    .commit();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

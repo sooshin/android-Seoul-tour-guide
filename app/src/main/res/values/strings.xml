@@ -7,32 +7,285 @@
     <!--지우기-->
     <string name="action_settings">Settings</string>
 
+    <!---->
+    <string name="basic_info">Basic information</string>
+    <string name="sights">Sights</string>
+    <string name="nature_and_culture">Nature &amp; Culture</string>
+    <string name="shop">Shop</string>
+    <string name="food">Food</string>
+    <string name="communicate">Communicate</string>
+    <string name="basic_korean">Basic Korean</string>
+
     <!-- String for content description -->
     <string name="attraction_image_des">Attraction Image</string>
+    <string name="image_des">Image</string>
 
-    <!-- Sights name -->
+    <!-- Strings for java file -->
+    <string name="image_id">image ID</string>
+    <string name="name">name</string>
+    <string name="description">description</string>
+    <string name="address">address</string>
+    <string name="transport">transport</string>
+    <string name="phone">phone</string>
+    <string name="web">web</string>
+    <string name="hours">hours</string>
+    <string name="fee">fee</string>
+
+    <!-- Sights and Landmarks -->
+    <!-- Gyeongbokgoung -->
     <string name="gyeongbokgung">Gyeongbokgung Palace</string>
+    <string name="gyeongbokgung_des">Built in 1395, Gyeongbokgung Palace is also commonly
+        referred to as the Northern Palace because its location is furthest north when compared to
+        the neighboring palaces of Changdeokgung (Eastern Palace) and Gyeonghuigung (Western Palace)
+        Palace. Gyeongbokgung Palace is arguably the most beautiful, and remains the largest of all
+        five palaces.</string>
+    <string name="gyeongbokgung_address">161 Sajik-ro, Sejongno, Jongno-gu, Seoul</string>
+    <string name="gyeongbokgung_transport">Gyeongbokgung Station (Subway Line 3),
+        Exit 5</string>
+    <string name="gyeongbokgung_phone">+82&#8211;2&#8211;3700&#8211;3900</string>
+    <string name="gyeongbokgung_web">royalpalace.go.kr (Korean, English)</string>
+    <string name="gyeongbokgung_hours">Opening hours vary depending on the season. 
+        ※ Closed on Tuesdays</string>
+    <string name="gyeongbokgung_fee">Adults : 3,000 won</string>
+    <string name="gyeongbokgung_tip">You can see Royal Guard Changing Ceremonies at 10:00
+        and 14:00</string>
+
+    <!-- Bukchon Hanok Village -->
     <string name="bukchon_hanok">Bukchon Hanok Village</string>
-    <string name="changdeokgung">Changdeokgung Palace</string>
+    <string name="bukchon_hanok_des">B</string>
+    <string name="bukchon_hanok_address">37, Gyedong-gil, Jongno-gu, Seoul</string>
+    <string name="bukchon_hanok_transport">Anguk Station (Subway Line 3), Exit 1 or 2</string>
+    <string name="bukchon_hanok_phone">+82&#8211;2&#8211;2148&#8211;4160</string>
+    <string name="bukchon_hanok_web">hanok.seoul.go.kr </string>
+    <string name="bukchon_hanok_hours">Open all year round</string>
+    <string name="bukchon_hanok_fee">Free</string>
+
+    <!-- Changdeokgung -->
+    <string name="changdeokgung">Changdeokgung Palace and Huwon</string>
+    <string name="changdeokgung_des">UNESCO World Heritage</string>
+    <string name="changdeokgung_address">99, Yulgok-ro, Waryong-dong, Jongno-gu, Seoul</string>
+    <string name="changdeokgung_transport">Anguk Station (Subway Line 3), Exit 3</string>
+    <string name="changdeokgung_phone">+82&#8211;2&#8211;3668&#8211;2300</string>
+    <string name="changdeokgung_web">eng.cdg.go.kr</string>
+    <string name="changdeokgung_hours">Closed on Mondays</string>
+    <string name="changdeokgung_fee">Adults : 3,000 won</string>
+    <string name="changdeokgung_tip">You can visit Huwon(Secret Garden) by making a reservation
+        on the homepage from 10:00 6 days before the desired visit date. </string>
+
+    <!-- N Seoul Tower -->
     <string name="n_seoul_tower">N Seoul Tower</string>
+    <string name="n_seoul_tower_des">N</string>
+    <string name="n_seoul_tower_address">105, Namsangongwon-gil, Yongsan-gu, Seoul</string>
+    <string name="n_seoul_tower_transport">[Cable Car] Myeong-dong Station (Subway Line 4),
+        Exit 3</string>
+    <string name="n_seoul_tower_phone">+82&#8211;2&#8211;3455&#8211;9277</string>
+    <string name="n_seoul_tower_web">seoultower.co.kr</string>
+    <string name="n_seoul_tower_hours">10:00~23:00</string>
+    <string name="n_seoul_tower_fee">[Observatory] 10,000 won</string>
+
+    <!-- Cheonggyecheon -->
     <string name="cheonggyecheon">Cheonggyecheon Stream</string>
-    <string name="the_war_memorial">The War Memorial of Korea</string>
+    <string name="cheonggyecheon_des">C</string>
+    <string name="cheonggyecheon_address">Cheonggyecheon-ro, Sangwangsimni-dong, Jongno-gu,
+        Seoul</string>
+    <string name="cheonggyecheon_transport">City Hall Station (Subway Line 1, 2), Exit 4.
+        Walk 250 m north to Cheonggye Plaza. </string>
+    <string name="cheonggyecheon_phone">+82&#8211;2&#8211;2290&#8211;7111</string>
+    <string name="cheonggyecheon_web">english.visitkorea.or.kr</string>
+    <string name="cheonggyecheon_hours">Open 24 hours</string>
+    <string name="cheonggyecheon_fee">Free</string>
+
+    <!-- The War Memorial of Korea -->
+    <string name="war_memorial">The War Memorial of Korea</string>
+    <string name="war_memorial_des"></string>
+    <string name="war_memorial_address">29, Itaewon-ro, Yongsan-gu, Seoul</string>
+    <string name="war_memorial_transport">Samgakji Station(Subway Line 4, 6), Exit 12</string>
+    <string name="war_memorial_phone">+82&#8211;2&#8211;709&#8211;3139</string>
+    <string name="war_memorial_web">www.warmemo.or.kr</string>
+    <string name="war_memorial_hours">09:00 ~ 18:00 ※ Closed on Mondays</string>
+    <string name="war_memorial_fee">Free</string>
+
+    <!-- Lotte World Tower -->
     <string name="lotte_world_tower">Lotte World Tower</string>
+    <string name="lotte_world_tower_des">Lotte World Tower</string>
+    <string name="lotte_world_tower_address"> 300 Olympic-ro, Songpa-gu, Seoul(Sincheon-dong 29)</string>
+    <string name="lotte_world_tower_transport">Jamshil Station (Subway Line 2), Exit 2
+        \nJamshil Station(Subway Line 8 ), Exit 11</string>
+    <string name="lotte_world_tower_phone">+82&#8211;2&#8211;3213&#8211;5000</string>
+    <string name="lotte_world_tower_web">www.lwt.co.kr</string>
+    <string name="lotte_world_tower_hours">09:30 ~ 23:00</string>
+    <string name="lotte_world_tower_fee">Adults : 27,000 won (Fast Pass: 50,000 won)</string>
+
+    <!-- Bongeunsa Temple -->
     <string name="bongeunsa">Bongeunsa Temple</string>
+    <string name="bongeunsa_des"></string>
+    <string name="bongeunsa_address">531, Bongeunsa-ro, Gangnam-gu, Seoul(Samseong-dong)</string>
+    <string name="bongeunsa_transport">Bongeunsa Temple Station (Subway Line 9), Exit 1\n
+        Samseong Station (Subway Line 2), Exit 6</string>
+    <string name="bongeunsa_phone">+82&#8211;2&#8211;3218&#8211;4800</string>
+    <string name="bongeunsa_web">english.visitKorea.or.kr</string>
+    <string name="bongeunsa_hours">Open all year round</string>
+    <string name="bongeunsa_fee">Free</string>
+
+    <!-- Insadong -->
     <string name="insadong">Insadong</string>
-    <string name="dongdaemun_design_plaza">Dongdaemun design plaza</string>
+    <string name="insadong_des"></string>
+    <string name="insadong_address">62, Insadong-gil, Jongno-gu, Seoul, South Korea</string>
+    <string name="insadong_transport">Anguk Station (Subway Line 3), Exit 6\n
+        Jonggak Station (Subway Line 1), Exit 3</string>
+    <string name="insadong_phone">+82&#8211;2&#8211;734&#8211;0222</string>
+    <string name="insadong_web">www.insainfo.or.kr(Korean only)</string>
+    <string name="insadong_hours">Open all year round</string>
+    <string name="insadong_fee">Free</string>
+
+    <!-- Dongdaemun Design Plaza (DDP) -->
+    <string name="ddp">Dongdaemun design plaza</string>
+    <string name="ddp_des"></string>
+    <string name="ddp_address">281, Eulji-ro, Jung-gu, Seoul, South Korea</string>
+    <string name="ddp_transport">Dongdaemun History &amp; Culture Park Station (Subway
+        Line 2, 4 ,5), Exit 1</string>
+    <string name="ddp_phone">+82&#8211;2&#8211;2153&#8211;0408</string>
+    <string name="ddp_web">www.ddp.or.kr</string>
+    <string name="ddp_hours">[Museum] 10:00~21:00 ※ Closed on Mondays</string>
+    <string name="ddp_fee">Prices vary depending on the exhibition</string>
+
+    <!-- Hongik University Street -->
     <string name="hongik_uni_street">Hongik University Street</string>
+    <string name="hongik_uni_street_des"></string>
+    <string name="hongik_uni_street_address">Seogyo-dong, Mapo-gu, Seoul, South Korea</string>
+    <string name="hongik_uni_street_transport">Hongik University Station (Subway Line 2, Gyeongui-Jungang, AREX), Exit 8 or 9</string>
 
-    <!-- Sights description -->
-    <!-- Address -->
-    <!-- Transportation -->
-    <!-- Inquiries -->
-    <!-- Homepage -->
-    <!--Open -->
-    <!-- Admission Fees -->
+    <!-- Jongmyo Shrine-->
+    <string name="jongmyo">Jongmyo Shrine</string>
+    <string name="jongmyo_des"></string>
+    <string name="jongmyo_address">157, Jong-ro, Jongno-gu, Seoul</string>
+    <string name="jongmyo_transport">Jongno3(sam)-ga Station (Subway Line 1, 3, 5), Exit 11</string>
+    <string name="jongmyo_phone">+82&#8211;2&#8211;765&#8211;0195</string>
+    <string name="jongmyo_web">jm.cha.go.kr</string>
+    <string name="jongmyo_hours">10:00 12:00 14:00 16:00 (English guided tour)
+        \n※Closed on Tuesdays</string>
+    <string name="jongmyo_fee">Adults : 1,000 won</string>
 
-    <!-- Tours & Entertainment name -->
+    <!-- Tours & Nature & Culture -->
+    <!--DMZ tour -->
+    <string name="dmz">Demilitarized Zone (DMZ) Tour</string>
+    <string name="dmz_des"></string>
+    <string name="dmz_address"></string>
+    <string name="dmz_transport"></string>
+
+    <!-- Bukhansan National Park -->
+    <string name="bukhansan">Bukhansan National Park</string>
+    <string name="bukhansan_des"></string>
+    <string name="bukhansan_address">Eunpyeong-gu, Jongno-gu, Gangbuk-gu, Seongbuk-gu, Goyang-si, Seoul</string>
+    <string name="bukhansan_transport">Gireum Station (Subway Line 4), Exit 3. Take Bus 110B or 143, and get off at the last bus stop.</string>
+    <string name="bukhansan_phone">+82&#8211;2&#8211;909&#8211;0498</string>
+    <string name="bukhansan_web">bukhan.knps.or.kr</string>
+    <string name="bukhansan_hours">Open all year round</string>
+    <string name="bukhansan_fee">Free</string>
+
+    <!-- National Museum of Korea -->
     <string name="national_museum">National Museum of Korea</string>
+    <string name="national_museum_des"></string>
+    <string name="national_museum_address">137, Seobinggo-ro, Yongsan-gu, Seoul</string>
+    <string name="national_museum_transport">Ichon Station (Seoul Line 4 &amp;Gyeongui-Jungang
+        Line), Exit 2</string>
+    <string name="national_museum_phone">+82&#8211;2&#8211;2077&#8211;9000</string>
+    <string name="national_museum_web">www.museum.go.kr</string>
+    <string name="national_museum_hours"> [Mon, Tue, Thu, Fri] 10:00-18:00\n
+        [Wed &amp; Sat] 10:00-21:00 \n
+        [Sun &amp; Public Holidays] 10:00-19:00 </string>
+    <string name="national_museum_fee">Free (except for special exhibitions)</string>
+
+    <!-- Yeouido Hangang Park -->
+    <string name="hangang_park">Yeouido Hangang Park</string>
+    <string name="hangang_park_des"></string>
+    <string name="hangang_park_address">330, Yeouidong-ro, Yeongdeungpo-gu, Seoul</string>
+    <string name="hangang_park_transport">Yeouinaru Station (Subway Line 5), Exit 2, 3</string>
+    <string name="hangang_park_phone">+82&#8211;2&#8211;3780&#8211;0561</string>
+    <string name="hangang_park_web">http://hangang.seoul.go.kr/park_yoido/</string>
+    <string name="hangang_park_hours">Open all year round</string>
+    <string name="hangang_park_fee">Free</string>
+
+    <!-- Grevin museum -->
     <string name="grevin_museum">Grevin Museum</string>
+    <string name="grevin_museum_des"></string>
+    <string name="grevin_museum_address">23, Eulji-ro, Jung-gu, Seoul</string>
+    <string name="grevin_museum_transport">Euljiro 1-ga Station (Subway Line 2), Exit 1&#8211;1</string>
+    <string name="grevin_museum_phone">+82&#8211;70&#8211;4280&#8211;8749</string>
+    <string name="grevin_museum_web">www.grevin-seoul.com</string>
+    <string name="grevin_museum_hours">09:30 ~ 19:00 (Fri, Sat 09:30 ~ 21:00)</string>
+    <string name="grevin_museum_fee">Adults: 18,000 won</string>
+
+    <!--Trick Eye Museum -->
     <string name="trickeye_museum">Trick Eye Museum</string>
+    <string name="trickeye_museum_des"></string>
+    <string name="trickeye_museum_address">Seogyo Plaza B2, 20, Hongik-ro 3-gil, Mapo-gu, Seoul, South Korea</string>
+    <string name="trickeye_museum_transport">Hongik University Station (Subway Line 2), Exit 9</string>
+    <string name="trickeye_museum_phone">+82&#8211;2&#8211;3144&#8211;6300</string>
+    <string name="trickeye_museum_web">www.trickeye.com</string>
+    <string name="trickeye_museum_hours">09:00 ~ 21:00</string>
+    <string name="trickeye_museum_fee">Adults: 15,000 won</string>
+
+    <!-- Olympic Park -->
+    <string name="olympic_park">Olympic Park</string>
+    <string name="olympic_park_des"></string>
+    <string name="olympic_park_address"></string>
+    <string name="olympic_park_transport"></string>
+    <string name="olympic_park_phone"></string>
+    <string name="olympic_park_web"></string>
+    <string name="olympic_park_hours"></string>
+    <string name="olympic_park_fee">Free</string>
+
+    <!-- Jamsil Baseball Stadium -->
+    <string name="jamsil_baseball">Jamsil Baseball Stadium</string>
+    <string name="jamsil_baseball_des"></string>
+    <string name="jamsil_baseball_address"></string>
+    <string name="jamsil_baseball_transport"></string>
+    <string name="jamsil_baseball_phone"></string>
+    <string name="jamsil_baseball_web"></string>
+    <string name="jamsil_baseball_hours"></string>
+    <string name="jamsil_baseball_fee"></string>
+
+    <!-- National Folk Museum -->
+    <string name="national_folk_museum">National Folk Museum of Korea</string>
+    <string name="national_folk_museum_des"></string>
+    <string name="national_folk_museum_address"></string>
+    <string name="national_folk_museum_transport"></string>
+    <string name="national_folk_museum_phone"></string>
+    <string name="national_folk_museum_web"></string>
+    <string name="national_folk_museum_hours"></string>
+    <string name="national_folk_museum_fee"></string>
+
+    <!-- Leeum Samsung -->
+    <string name="leeum">Leeum Samsung Museum of Art</string>
+    <string name="leeum_des"></string>
+    <string name="leeum_address"></string>
+    <string name="leeum_transport"></string>
+    <string name="leeum_phone"></string>
+    <string name="leeum_web"></string>
+    <string name="leeum_hours"></string>
+    <string name="leeum_fee"></string>
+
+    <!-- Coex Auarium -->
+    <string name="coex_aquarium">Coex Aquarium</string>
+    <string name="coex_aquarium_des"></string>
+    <string name="coex_aquarium_address"></string>
+    <string name="coex_aquarium_transport"></string>
+    <string name="coex_aquarium_phone"></string>
+    <string name="coex_aquarium_web"></string>
+    <string name="coex_aquarium_hours"></string>
+    <string name="coex_aquarium_fee"></string>
+
+    <!-- Spa -->
+    <string name="spa">Siloam Spa</string>
+    <string name="spa_des"></string>
+    <string name="spa_address">49, Jungnim-ro,Jung-gu, Seoul</string>
+    <string name="spa_transport">Seoul Station(subway Line 1, 4), Exit 1</string>
+    <string name="spa_phone">+82&#8211;2&#8211;364&#8211;3944</string>
+    <string name="spa_web">www.silloamsauna.com</string>
+    <string name="spa_hours">00:00 ~ 24:00 Open all year round </string>
+    <string name="spa_fee">[Daytime] 10,000 won (includes Jjimjil-bang)
+        \n[Nighttime] 15,000 won (includes Jjimjil-bang)</string>
+
+
 </resources>
