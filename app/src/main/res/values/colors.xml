@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="color_teal_l_100">#e5ffff</color>
+    <color name="color_detail_background">#ffeeff</color>
+    <color name="color_background_green_d_500">#e5ffff</color>
 </resources>

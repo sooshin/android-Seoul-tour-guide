@@ -18,6 +18,7 @@ import java.util.List;
 public class SightsFragment extends Fragment{
 
     private List<Attraction> attractions;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_sights, container, false);
@@ -48,12 +49,12 @@ public class SightsFragment extends Fragment{
                 getString(R.string.gyeongbokgung_transport), getString(R.string.gyeongbokgung_phone),
                 getString(R.string.gyeongbokgung_web), getString(R.string.gyeongbokgung_hours),
                 getString(R.string.gyeongbokgung_fee)));
-        attractions.add(new Attraction(R.drawable.bukchon_hanok_sakaori, getString(R.string.bukchon_hanok),
+        attractions.add(new Attraction(R.drawable.bukchon_hanok, getString(R.string.bukchon_hanok),
                 getString(R.string.bukchon_hanok_des), getString(R.string.bukchon_hanok_address),
                 getString(R.string.bukchon_hanok_transport), getString(R.string.bukchon_hanok_phone),
                 getString(R.string.bukchon_hanok_web), getString(R.string.bukchon_hanok_hours),
                 getString(R.string.bukchon_hanok_fee)));
-        attractions.add(new Attraction(R.drawable.changdeokgung_choinjeong, getString(R.string.changdeokgung),
+        attractions.add(new Attraction(R.drawable.changdeokgung, getString(R.string.changdeokgung),
                 getString(R.string.changdeokgung_des), getString(R.string.changdeokgung_address),
                 getString(R.string.changdeokgung_transport), getString(R.string.changdeokgung_phone),
                 getString(R.string.changdeokgung_web), getString(R.string.changdeokgung_hours),
@@ -83,17 +84,17 @@ public class SightsFragment extends Fragment{
                 getString(R.string.bongeunsa_transport), getString(R.string.bongeunsa_phone),
                 getString(R.string.bongeunsa_web), getString(R.string.bongeunsa_hours),
                 getString(R.string.bongeunsa_fee)));
-        attractions.add(new Attraction(R.drawable.insadong_leslie_pahang, getString(R.string.insadong),
+        attractions.add(new Attraction(R.drawable.insadong, getString(R.string.insadong),
                 getString(R.string.insadong_des), getString(R.string.insadong_address),
                 getString(R.string.insadong_transport), getString(R.string.insadong_phone),
                 getString(R.string.insadong_web), getString(R.string.insadong_hours),
                 getString(R.string.insadong_fee)));
-        attractions.add(new Attraction(R.drawable.ddp_nestor_lacle, getString(R.string.ddp),
+        attractions.add(new Attraction(R.drawable.ddp, getString(R.string.ddp),
                 getString(R.string.ddp_des), getString(R.string.ddp_address),
                 getString(R.string.ddp_transport), getString(R.string.ddp_phone),
                 getString(R.string.ddp_web), getString(R.string.ddp_hours),
                 getString(R.string.ddp_fee)));
-        attractions.add(new Attraction(R.drawable.hongik_uni_street_ken_eckert,
+        attractions.add(new Attraction(R.drawable.hongik_uni_street,
                 getString(R.string.hongik_uni_street),
                 getString(R.string.hongik_uni_street_des),
                 getString(R.string.hongik_uni_street_address),

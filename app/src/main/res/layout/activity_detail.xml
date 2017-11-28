@@ -18,53 +18,60 @@
 
         <TextView
             android:id="@+id/detail_long_description"
-            android:paddingTop="16dp"
             style="@style/DetailTextViewStyle"
             android:fontFamily="sans-serif"
+            android:paddingTop="16dp"
             tools:text="Long description" />
 
-        <TextView
-            android:id="@+id/detail_address"
-            android:paddingTop="8dp"
-            style="@style/DetailTextViewStyle"
-            android:autoLink="map"
-            tools:text="Address" />
-
-        <TextView
-            android:id="@+id/detail_transport"
-            style="@style/DetailTextViewStyle"
-            tools:text="Transportation" />
-
-        <TextView
-            android:id="@+id/detail_phone"
-            style="@style/DetailTextViewStyle"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:autoLink="phone"
-            android:drawablePadding="@dimen/drawable_padding"
-            android:fontFamily="sans-serif-light"
-            android:paddingBottom="@dimen/padding_bottom"
-            android:paddingLeft="@dimen/padding"
-            android:paddingRight="@dimen/padding"
-            android:textSize="16sp"
-            tools:text="Phone" />
+            android:background="@color/color_detail_background"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/detail_web"
-            style="@style/DetailTextViewStyle"
-            android:autoLink="web"
-            tools:text="Homepage" />
+            <TextView
+                android:id="@+id/detail_address"
+                style="@style/DetailTextViewStyle"
+                android:autoLink="map"
+                android:paddingTop="8dp"
+                tools:text="Address" />
 
-        <TextView
-            android:id="@+id/detail_hours"
-            style="@style/DetailTextViewStyle"
-            tools:text="Hours" />
+            <TextView
+                android:id="@+id/detail_transport"
+                style="@style/DetailTextViewStyle"
+                tools:text="Transportation" />
 
-        <TextView
-            android:id="@+id/detail_fee"
-            style="@style/DetailTextViewStyle"
-            android:layout_marginBottom="8dp"
-            tools:text="Admission Fee" />
+            <TextView
+                android:id="@+id/detail_phone"
+                style="@style/DetailTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="phone"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:fontFamily="sans-serif-light"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:paddingLeft="@dimen/padding"
+                android:paddingRight="@dimen/padding"
+                android:textSize="16sp"
+                tools:text="Phone" />
 
+            <TextView
+                android:id="@+id/detail_web"
+                style="@style/DetailTextViewStyle"
+                android:autoLink="web"
+                tools:text="Homepage" />
+
+            <TextView
+                android:id="@+id/detail_hours"
+                style="@style/DetailTextViewStyle"
+                tools:text="Hours" />
+
+            <TextView
+                android:id="@+id/detail_fee"
+                style="@style/DetailTextViewStyle"
+                android:layout_marginBottom="8dp"
+                tools:text="Admission Fee" />
+
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

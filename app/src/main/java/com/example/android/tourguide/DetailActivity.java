@@ -1,8 +1,12 @@
 package com.example.android.tourguide;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.SpannableString;
+import android.text.style.UnderlineSpan;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -49,28 +53,43 @@ public class DetailActivity extends AppCompatActivity {
         descriptionTextView. setText(description);
         descriptionTextView.setBackgroundResource(R.color.color_teal_l_100);
 
-        TextView addressTextView = findViewById(R.id.detail_address);
+        final TextView addressTextView = findViewById(R.id.detail_address);
         addressTextView.setText(address);
-        addressTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_location_on_black_24dp, 0, 0, 0);
+        addressTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_location, 0, 0, 0);
+
+        // If autoLink map does not work, add links to addressTextView
+        SpannableString spanStr = new SpannableString(address);
+        spanStr.setSpan(new UnderlineSpan(), 0, spanStr.length(), 0);
+        addressTextView.setText(spanStr);
+
+        // Set a click listener to start geoIntent when address is clicked on
+        addressTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent geoIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q="
+                        +addressTextView.getText().toString()));
+                startActivity(geoIntent);
+            }
+        });
 
         TextView transportTextView = findViewById(R.id.detail_transport);
         transportTextView.setText(transport);
-        transportTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_directions_subway_black_24dp, 0, 0, 0);
+        transportTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_subway, 0, 0, 0);
 
         TextView phoneTextView = findViewById(R.id.detail_phone);
         phoneTextView.setText(phone);
-        phoneTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_call_black_24dp, 0, 0, 0);
+        phoneTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_call, 0, 0, 0);
 
         TextView webTextView = findViewById(R.id.detail_web);
         webTextView.setText(web);
-        webTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_directions_subway_black_24dp, 0, 0, 0);
+        webTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_public, 0, 0, 0);
 
         TextView hoursTextView = findViewById(R.id.detail_hours);
         hoursTextView.setText(hours);
-        hoursTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_access_time_black_24dp, 0, 0, 0);
+        hoursTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_time, 0, 0, 0);
 
         TextView feeTextView = findViewById(R.id.detail_fee);
         feeTextView.setText(fee);
-        feeTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_monetization_on_black_24dp, 0, 0, 0);
+        feeTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_monetization, 0, 0, 0);
     }
 }

@@ -4,10 +4,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <!--지우기-->
-    <string name="action_settings">Settings</string>
-
-    <!---->
+    <!-- Categories -->
     <string name="basic_info">Basic information</string>
     <string name="sights">Sights</string>
     <string name="nature_and_culture">Nature &amp; Culture</string>
@@ -15,12 +12,13 @@
     <string name="food">Food</string>
     <string name="communicate">Communicate</string>
     <string name="basic_korean">Basic Korean</string>
+    <string name="detail">Detail</string>
 
     <!-- String for content description -->
     <string name="attraction_image_des">Attraction Image</string>
     <string name="image_des">Image</string>
 
-    <!-- Strings for java file -->
+    <!-- Strings for intent -->
     <string name="image_id">image ID</string>
     <string name="name">name</string>
     <string name="description">description</string>
@@ -31,28 +29,57 @@
     <string name="hours">hours</string>
     <string name="fee">fee</string>
 
+    <!-- Basic information -->
+    <string name="seoul">Seoul is the capital of the Republic of Korea(commonly known as South Korea).
+        Seoul was the capital of Baekje in the past (BC18 ~ AD475) and was the capital of the Joseon Dynasty (1392–1897).
+        Since then, it has been the center of politics, economy, society, and culture, and now about 10 million people (one-fifth of the total population) live in Seoul.
+        The Han River which flows into the center of the city played an important role in Korean history.
+
+        \n\nSeoul is a city where past and present coexist.
+        Gyeongbok Palace, Changdeok Palace, Deoksugung Palace, Jongmyo Shrine and the ruins show the historical city with its tradition.
+        The Dongdaemun Design Plaza, where the design begin, Lotte World Tower, the world's fifth tallest building(555m), and the landmark N Seoul Tower, show the modern Seoul.
+
+        After the Korean War in the 1950s, it achieved remarkable economic growth for half a century, which is called the miracle on the Han River.
+    </string>
+
+    <!-- Basic information about climate -->
+    <string name="climate">In spring, it is warm enough during the day, but it gets chilly at night.
+        In summer, it is really hot and humid(25 ~ 35 °C). There is a rainy season from late June
+        to early July. It is hottest in the late July and early August. In autumn, it is clear and
+        dry(10 ~ 25°C). The fall foliage reaches a peak in mid-October. In winter, it is too cold. (-10~10°C)
+        December and January are coldest months. </string>
+
+    <!-- Basic information about currency -->
+    <string name="currency">Won (\) is the Korean currency fo money. One dollar (USD) is worth about 1,000 won.</string>
+
     <!-- Sights and Landmarks -->
     <!-- Gyeongbokgoung -->
     <string name="gyeongbokgung">Gyeongbokgung Palace</string>
-    <string name="gyeongbokgung_des">Built in 1395, Gyeongbokgung Palace is also commonly
-        referred to as the Northern Palace because its location is furthest north when compared to
-        the neighboring palaces of Changdeokgung (Eastern Palace) and Gyeonghuigung (Western Palace)
-        Palace. Gyeongbokgung Palace is arguably the most beautiful, and remains the largest of all
-        five palaces.</string>
+    <string name="gyeongbokgung_short">Gyeongbokgung Palace is the royal palace of Joseon Dynasty
+        built in the 4th year of Taejo (1395). It is not only a tourist attraction of history and
+        culture that attracts 5.5 million people annually but also a cultural space for education
+        and leisure where you can learn about the history and culture of the Joseon Dynasty.</string>
+    <string name="gyeongbokgung_des">Gyeongbokgung Palace was the first of the five palaces built
+        in the Joseon Dynasty (1395). It was destroyed by Japanese Invasion of Korea(1592) but rebuilt
+        during King Kojong(1867). During the Japanese colonial period(1910-1945), much of the palace was
+        destroyed by Japan and Japanese governor-general of Korea was built in the palace. The
+        restoration projects have been promoted since 1989.</string>
     <string name="gyeongbokgung_address">161 Sajik-ro, Sejongno, Jongno-gu, Seoul</string>
-    <string name="gyeongbokgung_transport">Gyeongbokgung Station (Subway Line 3),
-        Exit 5</string>
+    <string name="gyeongbokgung_transport">Gyeongbokgung Station (Subway Line 3), Exit 5</string>
     <string name="gyeongbokgung_phone">+82&#8211;2&#8211;3700&#8211;3900</string>
     <string name="gyeongbokgung_web">royalpalace.go.kr (Korean, English)</string>
     <string name="gyeongbokgung_hours">Opening hours vary depending on the season. 
-        ※ Closed on Tuesdays</string>
+        ※ Closed on Tuesdays \n※ You can see Royal Guard Changing Ceremonies at 10:00 and 14:00</string>
     <string name="gyeongbokgung_fee">Adults : 3,000 won</string>
-    <string name="gyeongbokgung_tip">You can see Royal Guard Changing Ceremonies at 10:00
-        and 14:00</string>
 
     <!-- Bukchon Hanok Village -->
     <string name="bukchon_hanok">Bukchon Hanok Village</string>
-    <string name="bukchon_hanok_des">B</string>
+    <string name="bukchon_hanok_short">Bukchon Hanok Village is a good place to get a quick intro
+        to old Korea. This traditional village is located between Gyeongbok Palace, Changdeok Palace.</string>
+    <string name="bukchon_hanok_des">Bukchon was a high-class residential area that prime ministers,
+        the royal family inhabited in Joseon Dynasty(1392–1897). The village is composed of many
+        traditional houses, called Hanok and has a history of 600 years. There are museums, craft
+        workshops which allows visitors to experience traditional culture.</string>
     <string name="bukchon_hanok_address">37, Gyedong-gil, Jongno-gu, Seoul</string>
     <string name="bukchon_hanok_transport">Anguk Station (Subway Line 3), Exit 1 or 2</string>
     <string name="bukchon_hanok_phone">+82&#8211;2&#8211;2148&#8211;4160</string>
@@ -62,30 +89,52 @@
 
     <!-- Changdeokgung -->
     <string name="changdeokgung">Changdeokgung Palace and Huwon</string>
-    <string name="changdeokgung_des">UNESCO World Heritage</string>
+    <string name="changdeokgung_short">Changdeok Palace was the second palace after Gyeongbokgung
+        which had been built in the 5th year of Taejong (1405). Chadeokgung was added to the UNESCO
+        World Heritage List in 1997.</string>
+    <string name="changdeokgung_des">Changdeok Palace is the palace where the kings of the
+        Joseon Dynasty lived for the longest time. It represents the atypical beauty of Korean palace
+        architecture by arranging the buildings along the mountains. It is relatively well preserved
+        in its original form and its harmonious arrangement with nature is excellent. \n\n
+        You can see Changdeokgung Palace by moonlight and hear historical information from a guide
+        on an evening tour. This moonlight tour is held in spring and fall and you must reserve the
+        ticket online in advance.(ticket.interpark.com/Global)\n\n
+        You can visit Huwon(Secret Garden) by making a reservation on the homepage from 10:00 6 days
+        before the desired visit date. </string>
     <string name="changdeokgung_address">99, Yulgok-ro, Waryong-dong, Jongno-gu, Seoul</string>
     <string name="changdeokgung_transport">Anguk Station (Subway Line 3), Exit 3</string>
     <string name="changdeokgung_phone">+82&#8211;2&#8211;3668&#8211;2300</string>
     <string name="changdeokgung_web">eng.cdg.go.kr</string>
-    <string name="changdeokgung_hours">Closed on Mondays</string>
+    <string name="changdeokgung_hours">Opening hours vary depending on the season. ※ Closed on Mondays</string>
     <string name="changdeokgung_fee">Adults : 3,000 won</string>
-    <string name="changdeokgung_tip">You can visit Huwon(Secret Garden) by making a reservation
-        on the homepage from 10:00 6 days before the desired visit date. </string>
 
     <!-- N Seoul Tower -->
     <string name="n_seoul_tower">N Seoul Tower</string>
-    <string name="n_seoul_tower_des">N</string>
+    <string name="n_seoul_tower_short">N Seoul Tower is one of the symbolic landmarks of Seoul.
+        Located on the Namsan Mountain, it provides an amazing 360-degree view of Seoul.</string>
+    <string name="n_seoul_tower_des">The N Seoul tower was  first established as a broadcast
+        tower to send out TV and radio signals in 1969. As of now, it has become one of the
+        representative landmarks and multi-cultural venues in Seoul. There is a cable car that makes
+        it easy to access, but the walk up through the park gives you beautiful sights to see.
+    </string>
     <string name="n_seoul_tower_address">105, Namsangongwon-gil, Yongsan-gu, Seoul</string>
     <string name="n_seoul_tower_transport">[Cable Car] Myeong-dong Station (Subway Line 4),
         Exit 3</string>
     <string name="n_seoul_tower_phone">+82&#8211;2&#8211;3455&#8211;9277</string>
-    <string name="n_seoul_tower_web">seoultower.co.kr</string>
+    <string name="n_seoul_tower_web">seoultower.co.kr/en/</string>
     <string name="n_seoul_tower_hours">10:00~23:00</string>
     <string name="n_seoul_tower_fee">[Observatory] 10,000 won</string>
 
     <!-- Cheonggyecheon -->
     <string name="cheonggyecheon">Cheonggyecheon Stream</string>
-    <string name="cheonggyecheon_des">C</string>
+    <string name="cheonggyecheon_short">Cheonggyecheon Stream is popular places for those
+        seeking recreation and a variety of performances.</string>
+    <string name="cheonggyecheon_des">In the Cheonggyecheon, large and small events are held
+        almost every week. There is also a music performance and a movie screening day. \n
+        Cheonggyecheon Stream passes close to Deoksugung Palace, Seoul Plaza, the Sejong Center,
+        Insadong Street, Changdeokgung Palace, and Changgyeonggung Palace, allowing visitors to easily
+        visit major tourist sites after a leisure stroll along the stream.
+        </string>
     <string name="cheonggyecheon_address">Cheonggyecheon-ro, Sangwangsimni-dong, Jongno-gu,
         Seoul</string>
     <string name="cheonggyecheon_transport">City Hall Station (Subway Line 1, 2), Exit 4.
@@ -97,7 +146,18 @@
 
     <!-- The War Memorial of Korea -->
     <string name="war_memorial">The War Memorial of Korea</string>
-    <string name="war_memorial_des"></string>
+    <string name="war_memorial_short">The War Memorial of Korea, located in Yongsan-gu, Seoul,
+        exhibits and preserve materials related to the Korean War and serves as a national moral
+        educational venue.</string>
+    <string name="war_memorial_des">The War Memorial of Korea was established to commemorate the
+        noble sacrifice of patriotic martyrs by the War Memorial Service Korea Society on June 10, 1994.
+        The museum houses approximately 33,000 artifacts with about 10,000 on display at an indoor and
+        outside exhibition halls. There are six separate indoor halls, including Expeditionary Forces Room,
+        Patriotic Memorial Room, War History Room, 6·25 Korean War Room, Development Hall and Large
+        Machinery Room. The outdoor exhibition hall showcases large-sized weapons. Visitors of all ages
+        from children to adults can also participate in 20 various educational programs and diverse
+        cultural events such as military music and honor guard events, drawing contest, cultural event and more.
+    </string>
     <string name="war_memorial_address">29, Itaewon-ro, Yongsan-gu, Seoul</string>
     <string name="war_memorial_transport">Samgakji Station(Subway Line 4, 6), Exit 12</string>
     <string name="war_memorial_phone">+82&#8211;2&#8211;709&#8211;3139</string>
@@ -107,10 +167,17 @@
 
     <!-- Lotte World Tower -->
     <string name="lotte_world_tower">Lotte World Tower</string>
-    <string name="lotte_world_tower_des">Lotte World Tower</string>
-    <string name="lotte_world_tower_address"> 300 Olympic-ro, Songpa-gu, Seoul(Sincheon-dong 29)</string>
-    <string name="lotte_world_tower_transport">Jamshil Station (Subway Line 2), Exit 2
-        \nJamshil Station(Subway Line 8 ), Exit 11</string>
+    <string name="lotte_world_tower_short">The Lotte World Tower is a supertall skyscraper
+        with a 123-floor, 555 m-high. It opened to the public on April 3, 2017 and is the fifth
+        tallest building in the world as of today.</string>
+    <string name="lotte_world_tower_des">Lotte World Tower was designed with a conceptual design
+        drawing inspiration from Korean ceramics and Korean writing brushes. The tower contains
+        galleries, cafes, and a luxury hotel, in addition to a sky walk and an observation deck.
+        It will be one of the best spots to appreciate the breathtaking view of Seoul's vibrant
+        city lights.</string>
+    <string name="lotte_world_tower_address"> 300, Olympic-ro, Songpa-gu, Seoul(Sincheon-dong 29)</string>
+    <string name="lotte_world_tower_transport">Jamsil Station (Subway Line 2), Exit 2
+        \nJamsil Station(Subway Line 8 ), Exit 11</string>
     <string name="lotte_world_tower_phone">+82&#8211;2&#8211;3213&#8211;5000</string>
     <string name="lotte_world_tower_web">www.lwt.co.kr</string>
     <string name="lotte_world_tower_hours">09:30 ~ 23:00</string>
@@ -118,12 +185,18 @@
 
     <!-- Bongeunsa Temple -->
     <string name="bongeunsa">Bongeunsa Temple</string>
-    <string name="bongeunsa_des"></string>
+    <string name="bongeunsa_short">Bongeunsa Temple is a Buddhist temple located across the road from
+        COEX mall and was founded in the 10th year of Silla King Weongseong's reign (794). </string>
+    <string name="bongeunsa_des">Bongeunsa Temple is once known as Gyeonseongsa Temple. In 1498,
+        Queen Jeonghyeon refurbished Gyeonseongsa Temple at the east of King Seongjong\'s royal
+        mausoleum and renamed the temple as Bongeunsa.
+        \nTemple Stay \nTea Ceremony Experience, Temple Tour, 108 Bows, Buddhist Aervice, Buddhist Meal,
+        Interacting with monks and etc.</string>
     <string name="bongeunsa_address">531, Bongeunsa-ro, Gangnam-gu, Seoul(Samseong-dong)</string>
     <string name="bongeunsa_transport">Bongeunsa Temple Station (Subway Line 9), Exit 1\n
         Samseong Station (Subway Line 2), Exit 6</string>
     <string name="bongeunsa_phone">+82&#8211;2&#8211;3218&#8211;4800</string>
-    <string name="bongeunsa_web">english.visitKorea.or.kr</string>
+    <string name="bongeunsa_web">temple.bongeunsa.org/public_html_en/</string>
     <string name="bongeunsa_hours">Open all year round</string>
     <string name="bongeunsa_fee">Free</string>
 
@@ -140,7 +213,15 @@
 
     <!-- Dongdaemun Design Plaza (DDP) -->
     <string name="ddp">Dongdaemun design plaza</string>
-    <string name="ddp_des"></string>
+    <string name="ddp_short">Dongdaemun Design Plaza (DDP) holds various exhibitions, fashion
+        shows, forums, conferences, and other various cultural events.</string>
+    <string name="ddp_des">Dongdaemun Design Plaza opened in March 2014 is a multi-cultural complex.
+        There are various facilities such as Art halls, Museum, Design Lab, Dongdaemun History &amp; Culture Park.
+        DDP provides diverse contents to experience new design. \n
+        The DDP was designed by Zaha Hadid. She focused on the dynamism fo the Dongdaemun area,
+        which is in a state of constant flux from the early morning to late at night. \n
+        In the night(Fri. Sat. 18:00 ~23:00), Youth Runway Market opens at DDP. You can enjoy diverse
+        foods or exciting performances.</string>
     <string name="ddp_address">281, Eulji-ro, Jung-gu, Seoul, South Korea</string>
     <string name="ddp_transport">Dongdaemun History &amp; Culture Park Station (Subway
         Line 2, 4 ,5), Exit 1</string>
@@ -175,8 +256,12 @@
 
     <!-- Bukhansan National Park -->
     <string name="bukhansan">Bukhansan National Park</string>
-    <string name="bukhansan_des"></string>
-    <string name="bukhansan_address">Eunpyeong-gu, Jongno-gu, Gangbuk-gu, Seongbuk-gu, Goyang-si, Seoul</string>
+    <string name="bukhansan_short">Bukhansan National Park is a rare urban park in the world.
+        It preserves beautiful natural scenery and cultural resources.</string>
+    <string name="bukhansan_des">Bukhansan National Park is made up of huge granite. There are
+        dozens of beautiful valleys between the main peaks, more than 1,300 species of flora and fauna
+        are inhabited. It provides a variety of sights and ecological learning places.</string>
+    <string name="bukhansan_address">215, Bogukmun-ro, Seongbuk-gu, Seoul, Republic of Korea</string>
     <string name="bukhansan_transport">Gireum Station (Subway Line 4), Exit 3. Take Bus 110B or 143, and get off at the last bus stop.</string>
     <string name="bukhansan_phone">+82&#8211;2&#8211;909&#8211;0498</string>
     <string name="bukhansan_web">bukhan.knps.or.kr</string>
@@ -190,7 +275,7 @@
     <string name="national_museum_transport">Ichon Station (Seoul Line 4 &amp;Gyeongui-Jungang
         Line), Exit 2</string>
     <string name="national_museum_phone">+82&#8211;2&#8211;2077&#8211;9000</string>
-    <string name="national_museum_web">www.museum.go.kr</string>
+    <string name="national_museum_web">www.museum.go.kr/site/eng/home</string>
     <string name="national_museum_hours"> [Mon, Tue, Thu, Fri] 10:00-18:00\n
         [Wed &amp; Sat] 10:00-21:00 \n
         [Sun &amp; Public Holidays] 10:00-19:00 </string>
@@ -198,7 +283,12 @@
 
     <!-- Yeouido Hangang Park -->
     <string name="hangang_park">Yeouido Hangang Park</string>
-    <string name="hangang_park_des"></string>
+    <string name="hangang_park_short">There are 12 Hangang Citizens\' Park, located along the
+        Han River(Hangang). The Yeouido Hangang Park is the most popular spot for locals and tourists alike.</string>
+    <string name="hangang_park_des">The Yeouido Hangang Park is a leisure place for citizens to
+        relax. It is a great place for picnics or cycling. There is a public bicycle rental center
+        next to Exit 1 of Yeouido Station. There are many events to enjoy such as spring flower
+        festival, world fireworks festival, various performances and marathon events.</string>
     <string name="hangang_park_address">330, Yeouidong-ro, Yeongdeungpo-gu, Seoul</string>
     <string name="hangang_park_transport">Yeouinaru Station (Subway Line 5), Exit 2, 3</string>
     <string name="hangang_park_phone">+82&#8211;2&#8211;3780&#8211;0561</string>
@@ -208,17 +298,31 @@
 
     <!-- Grevin museum -->
     <string name="grevin_museum">Grevin Museum</string>
-    <string name="grevin_museum_des"></string>
+    <string name="grevin_museum_short">Grevin Museum Seoul is a wax museum, displaying the waxworks
+        of famous and historic people.</string>
+    <string name="grevin_museum_des">The Grevin Museum has 133 years of history and locations
+        in Paris, Prague, and Montreal. The opening of the Seoul location is the museum\'s 4th
+        location worldwide and the first in Asia. \n\nWax figures include celebrities such as John
+        Lennon, Marilyn Monroe, Tom Cruise, Psy, G-Dragon, Yuna Kim, and other Hallyu stars.
+        King Sejong, Yi Sun-shin, and other historical figures are also represented at the museum.
+        In total, there will be about 80 different wax figures.</string>
     <string name="grevin_museum_address">23, Eulji-ro, Jung-gu, Seoul</string>
     <string name="grevin_museum_transport">Euljiro 1-ga Station (Subway Line 2), Exit 1&#8211;1</string>
     <string name="grevin_museum_phone">+82&#8211;70&#8211;4280&#8211;8749</string>
-    <string name="grevin_museum_web">www.grevin-seoul.com</string>
+    <string name="grevin_museum_web">www.grevin-seoul.com/en/</string>
     <string name="grevin_museum_hours">09:30 ~ 19:00 (Fri, Sat 09:30 ~ 21:00)</string>
     <string name="grevin_museum_fee">Adults: 18,000 won</string>
 
     <!--Trick Eye Museum -->
     <string name="trickeye_museum">Trick Eye Museum</string>
-    <string name="trickeye_museum_des"></string>
+    <string name="trickeye_museum_short">Trick Eye Museum is a new concept of exhibition space
+        where culture and entertainment are combined. Visitors are invited to explore 3D optical
+        illusion paintings and installations.</string>
+    <string name="trickeye_museum_des">Trick Eye is shortened from \'Trick of the eye\' and
+        refers to a traditional art technique Trompe-l\' oeil that turns two-dimensional paintings
+        into three-dimensional images through the use of optical illusions. Paintings on museum walls,
+        floors and ceilings come alive! Visitors are invited to step inside Trick Eye paintings and
+        installations and create their own original stories.</string>
     <string name="trickeye_museum_address">Seogyo Plaza B2, 20, Hongik-ro 3-gil, Mapo-gu, Seoul, South Korea</string>
     <string name="trickeye_museum_transport">Hongik University Station (Subway Line 2), Exit 9</string>
     <string name="trickeye_museum_phone">+82&#8211;2&#8211;3144&#8211;6300</string>
@@ -228,23 +332,40 @@
 
     <!-- Olympic Park -->
     <string name="olympic_park">Olympic Park</string>
-    <string name="olympic_park_des"></string>
-    <string name="olympic_park_address"></string>
-    <string name="olympic_park_transport"></string>
-    <string name="olympic_park_phone"></string>
-    <string name="olympic_park_web"></string>
-    <string name="olympic_park_hours"></string>
+    <string name="olympic_park_short">The Olympic Park built for the 1988 Seoul Olympic Games
+        is a multi-complex for sports, culture, and leisure.</string>
+    <string name="olympic_park_des">Spread across approximately 1.45 million ㎡, Olympic Park
+        encompasses the land that was once Mongchontoseong Fortress and Mongchonhaeja (manmade lake)
+        from the early Baekje period. The park is divided into several zones: a leisure sports park,
+        a cultural art park, an eco-park, and the History Experience Park dedicated to the area’s
+        rich historic heritage. </string>
+    <string name="olympic_park_address">424, Olympic-ro, Songpa-gu, Seoul</string>
+    <string name="olympic_park_transport">Mongchontoseong Station (Subway Line8), Exit 1
+        \nOlympic Park Station (Subway Line5), Exit 3</string>
+    <string name="olympic_park_phone">+82&#8211;2&#8211;410&#8211;1114</string>
+    <string name="olympic_park_web">www.olympicpark.co.kr</string>
+    <string name="olympic_park_hours">Walking/Bicycle : 05:00 ~ 22:00 (~24:00 for Squares)\n
+        Car : 06:00 ~ 22:00 \n※ For safety reasons, any entrance to all park property is NOT allowed
+        except Peace Square and Meeting Square after 22:00.</string>
     <string name="olympic_park_fee">Free</string>
 
     <!-- Jamsil Baseball Stadium -->
     <string name="jamsil_baseball">Jamsil Baseball Stadium</string>
-    <string name="jamsil_baseball_des"></string>
-    <string name="jamsil_baseball_address"></string>
-    <string name="jamsil_baseball_transport"></string>
-    <string name="jamsil_baseball_phone"></string>
-    <string name="jamsil_baseball_web"></string>
-    <string name="jamsil_baseball_hours"></string>
-    <string name="jamsil_baseball_fee"></string>
+    <string name="jamsil_baseball_short">In Jamsil Baseball Stadium, visitors can experience
+        the ardent fervor and cheering of Korean baseball fans.</string>
+    <string name="jamsil_baseball_des">Jamsil Baseball Stadium is the home of two teams from
+        the Korean Professional Baseball league, the LG Twins and the Doosan Bears. Even if you do
+        not know about baseball, you can have a good time at Korean baseball stadium. There are lots
+        of singing and dancing and all around good energy for the entire game. You can buy fried chicken
+        and beer and other food. </string>
+    <string name="jamsil_baseball_address">25, Olympic-ro, Songpa-gu, Seoul</string>
+    <string name="jamsil_baseball_transport">Jamsil Sports Complex Station(Subway Line 2), Exit 5 or Exit 6</string>
+    <string name="jamsil_baseball_phone">+82&#8211;2&#8211;2202&#8211;3852</string>
+    <string name="jamsil_baseball_web">http://eng.koreabaseball.com\n
+        ticket.interpark.com/contents/Promotion/Detail/gateway</string>
+    <string name="jamsil_baseball_hours">KBO League : March 31 ~ September
+        \nPost Season : October</string>
+    <string name="jamsil_baseball_fee">Prices vary depending on location. 10,000 won ~ 20,000 won</string>
 
     <!-- National Folk Museum -->
     <string name="national_folk_museum">National Folk Museum of Korea</string>
@@ -256,36 +377,65 @@
     <string name="national_folk_museum_hours"></string>
     <string name="national_folk_museum_fee"></string>
 
-    <!-- Leeum Samsung -->
-    <string name="leeum">Leeum Samsung Museum of Art</string>
-    <string name="leeum_des"></string>
-    <string name="leeum_address"></string>
-    <string name="leeum_transport"></string>
-    <string name="leeum_phone"></string>
-    <string name="leeum_web"></string>
-    <string name="leeum_hours"></string>
-    <string name="leeum_fee"></string>
-
-    <!-- Coex Auarium -->
-    <string name="coex_aquarium">Coex Aquarium</string>
-    <string name="coex_aquarium_des"></string>
-    <string name="coex_aquarium_address"></string>
-    <string name="coex_aquarium_transport"></string>
-    <string name="coex_aquarium_phone"></string>
-    <string name="coex_aquarium_web"></string>
-    <string name="coex_aquarium_hours"></string>
-    <string name="coex_aquarium_fee"></string>
+    <!-- COEX Aquarium -->
+    <string name="coex_aquarium">COEX Aquarium</string>
+    <string name="coex_aquarium_short">COEX Aquarium located in COEX shopping mall pursues an
+        entertainment and education where anyone can discover and explore the marvelous ocean world.</string>
+    <string name="coex_aquarium_des">The COEX aquarium houses 40,000 sea creatures, which come
+        from 650 different species divided into 16 themed zones. The highest number of sharks and
+        the largest variety of species in Korea are living in the aquarium.</string>
+    <string name="coex_aquarium_address">513, Yeongdong-daero, Gangnam-gu, Seoul</string>
+    <string name="coex_aquarium_transport">Bongeunsa Station (Subway Line 9), Exit 7\n
+    Samseong Station (Subway Line 2), Exit 6</string>
+    <string name="coex_aquarium_phone">+82&#8211;2&#8211;6002&#8211;6200</string>
+    <string name="coex_aquarium_web">www.coexaqua.com/index_eng.asp</string>
+    <string name="coex_aquarium_hours">10:00 ~ 20:00</string>
+    <string name="coex_aquarium_fee">Adults : 28,000 won</string>
 
     <!-- Spa -->
     <string name="spa">Siloam Spa</string>
-    <string name="spa_des"></string>
+    <string name="spa_short">Siloam Spa also known as Siloam Bulgama Sauna is Korean Jjimjilbang.
+    It is a place full of surprises and located within walking distance of Seoul.
+    Station.</string>
+    <string name="spa_des">Siloam Spa is a kind of Jjimjilbang, Korean bathhouse. If you want to
+        find inexpensive accommodation in Seoul, it may be the best choice. You can eat, sleep, and
+        bath here. There are various fomentation rooms and after fomentation you will feel more relaxed.
+    </string>
     <string name="spa_address">49, Jungnim-ro,Jung-gu, Seoul</string>
     <string name="spa_transport">Seoul Station(subway Line 1, 4), Exit 1</string>
     <string name="spa_phone">+82&#8211;2&#8211;364&#8211;3944</string>
     <string name="spa_web">www.silloamsauna.com</string>
-    <string name="spa_hours">00:00 ~ 24:00 Open all year round </string>
-    <string name="spa_fee">[Daytime] 10,000 won (includes Jjimjil-bang)
-        \n[Nighttime] 15,000 won (includes Jjimjil-bang)</string>
+    <string name="spa_hours">00:00 ~ 24:00  Open all year round </string>
+    <string name="spa_fee">Daytime 10,000 won (includes Jjimjil)
+        \nNighttime 15,000 won (includes Jjimjil)</string>
+
+    <!-- -->
+    <string name="bamdokkaebi"></string>
+
+    <!-- Korean Fragment -->
+    <string name="hello">Hello</string>
+    <string name="hello_p">An-nyeong-ha-se-yo</string>
+    <string name="hello_k">안녕하세요.</string>
+
+    <string name="nice_to_meet_you">Nice to meet you.</string>
+    <string name="nice_to_meet_you_p">Man-na-seo ban-gab-seub-ni-da.</string>
+    <string name="nice_to_meet_you_k">만나서 반갑습니다.</string>
+
+    <string name="thank_you">Thank you.</string>
+    <string name="thank_you_p">Gam-sa-ham-ni-da.</string>
+    <string name="thank_you_k">감사합니다.</string>
+
+    <string name="good_bye">Good bye.(said to somebody not departing)</string>
+    <string name="good_bye_p">An-nyeong-hi gye-se-yo.</string>
+    <string name="good_bye_k">안녕히 계세요.</string>
+
+    <string name="i_am_sorry">I\'m sorry</string>
+    <string name="i_am_sorry_p"></string>
+    <string name="i_am_sorry_k">죄송합니다.</string>
+
+    <string name="how_much_is_this">How much is this?</string>
+    <string name="how_much_is_this_p">Eol-ma-imm-ni-kka?</string>
+    <string name="how_much_is_this_k">얼마입니까?</string>
 
 
 </resources>

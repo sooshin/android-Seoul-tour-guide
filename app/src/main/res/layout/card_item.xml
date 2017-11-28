@@ -41,13 +41,13 @@
                 tools:text="name" />
 
             <TextView
-                android:id="@+id/attraction_description_card"
+                android:id="@+id/attraction_short_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/attraction_name_card"
                 android:padding="10dp"
-                tools:text="description" />
+                tools:text="short description" />
 
         </RelativeLayout>
     </android.support.v7.widget.CardView>

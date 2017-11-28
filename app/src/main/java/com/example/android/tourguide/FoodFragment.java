@@ -12,11 +12,9 @@ import android.view.ViewGroup;
 
 public class FoodFragment extends Fragment{
 
-    View myView;
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        myView = inflater.inflate(R.layout.fragment_food, container, false);
-        return myView;
+        View rootView = inflater.inflate(R.layout.fragment_food, container, false);
+        return rootView;
     }
 }

@@ -41,14 +41,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     public class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
         private TextView nameTextView;
-        private TextView descriptionTextView;
+        private TextView descriptionShortTextView;
         private CardView cardView;
 
         public ViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.attraction_image_card);
             nameTextView = itemView.findViewById(R.id.attraction_name_card);
-            descriptionTextView = itemView.findViewById(R.id.attraction_description_card);
+            descriptionShortTextView = itemView.findViewById(R.id.attraction_short_card);
             cardView = itemView.findViewById(R.id.cardview);
         }
     }
@@ -59,7 +59,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         Drawable drawable = ContextCompat.getDrawable(mContext, attraction.getAttractionImageId());
         holder.imageView.setBackground(drawable);
         holder.nameTextView.setText(attraction.getAttractionName());
-        holder.descriptionTextView.setText(attraction.getAttractionDescription());
+        holder.descriptionShortTextView.setText(attraction.getAttractionDescription());
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

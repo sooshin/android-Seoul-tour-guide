@@ -21,7 +21,7 @@ public class NatureCultureFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_natureculture, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_sights, container, false);
 
         RecyclerView recyclerView = rootView.findViewById(R.id.recyclerview);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
@@ -88,11 +88,6 @@ public class NatureCultureFragment extends Fragment {
                 getString(R.string.national_folk_museum_address), getString(R.string.national_folk_museum_transport),
                 getString(R.string.national_folk_museum_phone), getString(R.string.national_folk_museum_web),
                 getString(R.string.national_folk_museum_hours), getString(R.string.national_folk_museum_fee)));
-        attractions.add(new Attraction(R.drawable.leeum,
-                getString(R.string.leeum), getString(R.string.leeum_des),
-                getString(R.string.leeum_address), getString(R.string.leeum_transport),
-                getString(R.string.leeum_phone), getString(R.string.leeum_web),
-                getString(R.string.leeum_hours), getString(R.string.leeum_fee)));
         attractions.add(new Attraction(R.drawable.coex_aquarium,
                 getString(R.string.coex_aquarium), getString(R.string.coex_aquarium_des),
                 getString(R.string.coex_aquarium_address), getString(R.string.coex_aquarium_transport),

@@ -8,5 +8,6 @@
 
     <dimen name="padding">16dp</dimen>
     <dimen name="padding_bottom">8dp</dimen>
+    <dimen name="padding_top">8dp</dimen>
     <dimen name="drawable_padding">8dp</dimen>
 </resources>

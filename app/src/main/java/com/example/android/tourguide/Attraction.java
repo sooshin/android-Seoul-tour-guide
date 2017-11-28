@@ -8,6 +8,7 @@ public class Attraction {
 
     private int mAttractionImageId;
     private String mAttractionName;
+    private String mAttractionShortDs;
     private String mAttractionDescription;
     private String mAttractionAddress;
     private String mAttractionTransportation;
