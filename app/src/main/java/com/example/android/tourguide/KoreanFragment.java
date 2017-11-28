@@ -25,7 +25,7 @@ public class KoreanFragment extends Fragment {
     /** Handles audio focus when playing a sound file */
     private AudioManager mAudioManager;
 
-    /***/
+    /** Handles ArrayList of Phrases */
     private ArrayList<Phrase> mPhrases;
 
     /**
@@ -83,21 +83,28 @@ public class KoreanFragment extends Fragment {
         // Add phrases to the list of phrases
         addPhrases();
 
+        // Create a {link PhraseAdapter}, whose data source is a list of {@link Phrase}s.
+        // The adapter knows how to create list items for each item in the list.
         PhraseAdapter phraseAdapter = new PhraseAdapter(getActivity(), mPhrases);
 
+        // Find the {@link ListView} object
         ListView listView = rootView.findViewById(R.id.listview);
 
-        // Make the recyclerView use the RecyclerAdapter
+        // Make the recyclerView use the phraseAdapter
         listView.setAdapter(phraseAdapter);
 
+        // Set a click listener to play the audio when the list item is clicked on
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-
+                // Release the media player if it currently exists because we are about to
+                // play a different sound file
                 releaseMediaPlayer();
 
+                // Get the {@link Phrase} object at the given position the user clicked on
                 Phrase phrase = mPhrases.get(position);
 
+                // Request audio focus so in order to play the audio file.
                 int result = mAudioManager.requestAudioFocus(mOnAudioFocusChangeListener,
                         AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
 
@@ -121,6 +128,9 @@ public class KoreanFragment extends Fragment {
         return rootView;
     }
 
+    /**
+     * Add phrases to the list of phrases
+     */
     public void addPhrases() {
         mPhrases.add(new Phrase(getString(R.string.nice_to_meet_you_p),
                 getString(R.string.nice_to_meet_you), getString(R.string.nice_to_meet_you_k),
