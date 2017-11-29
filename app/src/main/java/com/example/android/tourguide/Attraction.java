@@ -24,26 +24,30 @@ public class Attraction {
      * @param attractionName is a name of the place
      * @param attractionDescription is the description of the place
      */
-    public Attraction(int attractionImageId, String attractionName, String attractionDescription){
+    public Attraction(int attractionImageId, String attractionName, String attractionShortDs, String attractionDescription){
         mAttractionImageId = attractionImageId;
         mAttractionName = attractionName;
+        mAttractionShortDs = attractionShortDs;
         mAttractionDescription = attractionDescription;
     }
 
-    public Attraction(int attractionImageId, String attractionName, String attractionDescription,
+    public Attraction(int attractionImageId, String attractionName, String attractionShortDs, String attractionDescription,
                       String attractionAddress, String attractionTransportation){
         mAttractionImageId = attractionImageId;
         mAttractionName = attractionName;
+        mAttractionShortDs = attractionShortDs;
         mAttractionDescription = attractionDescription;
         mAttractionAddress = attractionAddress;
         mAttractionTransportation = attractionTransportation;
     }
 
-    public Attraction(int attractionImageId, String attractionName, String attractionDescription,
-                      String attractionAddress, String attractionTransportation, String attractionPhone,
+    public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
+                      String attractionDescription, String attractionAddress,
+                      String attractionTransportation, String attractionPhone,
                       String attractionWeb, String attractionHours, String attractionFee) {
         mAttractionImageId = attractionImageId;
         mAttractionName = attractionName;
+        mAttractionShortDs = attractionShortDs;
         mAttractionDescription = attractionDescription;
         mAttractionAddress = attractionAddress;
         mAttractionTransportation = attractionTransportation;
@@ -65,6 +69,13 @@ public class Attraction {
      */
     public String getAttractionName() {
         return mAttractionName;
+    }
+
+    /**
+     * Get the short description of the place
+     */
+    public String getAttractionShortDs() {
+        return mAttractionShortDs;
     }
 
     /**

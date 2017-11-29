@@ -21,6 +21,7 @@
     <!-- Strings for intent -->
     <string name="image_id">image ID</string>
     <string name="name">name</string>
+    <string name="short_description">short description</string>
     <string name="description">description</string>
     <string name="address">address</string>
     <string name="transport">transport</string>
@@ -202,6 +203,7 @@
 
     <!-- Insadong -->
     <string name="insadong">Insadong</string>
+    <string name="insadong_short"></string>
     <string name="insadong_des"></string>
     <string name="insadong_address">62, Insadong-gil, Jongno-gu, Seoul, South Korea</string>
     <string name="insadong_transport">Anguk Station (Subway Line 3), Exit 6\n
@@ -232,12 +234,14 @@
 
     <!-- Hongik University Street -->
     <string name="hongik_uni_street">Hongik University Street</string>
+    <string name="hongik_uni_street_short"></string>
     <string name="hongik_uni_street_des"></string>
     <string name="hongik_uni_street_address">Seogyo-dong, Mapo-gu, Seoul, South Korea</string>
     <string name="hongik_uni_street_transport">Hongik University Station (Subway Line 2, Gyeongui-Jungang, AREX), Exit 8 or 9</string>
 
     <!-- Jongmyo Shrine-->
     <string name="jongmyo">Jongmyo Shrine</string>
+    <string name="jongmyo_short"></string>
     <string name="jongmyo_des"></string>
     <string name="jongmyo_address">157, Jong-ro, Jongno-gu, Seoul</string>
     <string name="jongmyo_transport">Jongno3(sam)-ga Station (Subway Line 1, 3, 5), Exit 11</string>
@@ -250,6 +254,7 @@
     <!-- Tours & Nature & Culture -->
     <!--DMZ tour -->
     <string name="dmz">Demilitarized Zone (DMZ) Tour</string>
+    <string name="dmz_short"></string>
     <string name="dmz_des"></string>
     <string name="dmz_address"></string>
     <string name="dmz_transport"></string>
@@ -270,6 +275,7 @@
 
     <!-- National Museum of Korea -->
     <string name="national_museum">National Museum of Korea</string>
+    <string name="national_museum_short"></string>
     <string name="national_museum_des"></string>
     <string name="national_museum_address">137, Seobinggo-ro, Yongsan-gu, Seoul</string>
     <string name="national_museum_transport">Ichon Station (Seoul Line 4 &amp;Gyeongui-Jungang
@@ -369,6 +375,7 @@
 
     <!-- National Folk Museum -->
     <string name="national_folk_museum">National Folk Museum of Korea</string>
+    <string name="national_folk_museum_short"></string>
     <string name="national_folk_museum_des"></string>
     <string name="national_folk_museum_address"></string>
     <string name="national_folk_museum_transport"></string>
@@ -395,8 +402,7 @@
     <!-- Spa -->
     <string name="spa">Siloam Spa</string>
     <string name="spa_short">Siloam Spa also known as Siloam Bulgama Sauna is Korean Jjimjilbang.
-    It is a place full of surprises and located within walking distance of Seoul.
-    Station.</string>
+    It is a place full of surprises and located within walking distance of Seoul Station.</string>
     <string name="spa_des">Siloam Spa is a kind of Jjimjilbang, Korean bathhouse. If you want to
         find inexpensive accommodation in Seoul, it may be the best choice. You can eat, sleep, and
         bath here. There are various fomentation rooms and after fomentation you will feel more relaxed.

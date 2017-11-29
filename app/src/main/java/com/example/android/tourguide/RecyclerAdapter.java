@@ -59,7 +59,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         Drawable drawable = ContextCompat.getDrawable(mContext, attraction.getAttractionImageId());
         holder.imageView.setBackground(drawable);
         holder.nameTextView.setText(attraction.getAttractionName());
-        holder.descriptionShortTextView.setText(attraction.getAttractionDescription());
+        holder.descriptionShortTextView.setText(attraction.getAttractionShortDs());
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

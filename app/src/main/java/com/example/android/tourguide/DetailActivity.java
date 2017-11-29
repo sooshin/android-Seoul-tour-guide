@@ -19,6 +19,7 @@ public class DetailActivity extends AppCompatActivity {
     private int imageId;
     private String name;
     private String description;
+    private String shortDescription;
     private String address;
     private String transport;
     private String phone;
@@ -36,6 +37,7 @@ public class DetailActivity extends AppCompatActivity {
         // Get the data from the intent
         imageId = detailIntent.getIntExtra(getString(R.string.image_id), -1);
         name = detailIntent.getStringExtra(getString(R.string.name));
+        shortDescription = detailIntent.getStringExtra(getString(R.string.short_description));
         description = detailIntent.getStringExtra(getString(R.string.description));
         address = detailIntent.getStringExtra(getString(R.string.address));
         transport = detailIntent.getStringExtra(getString(R.string.transport));
@@ -50,7 +52,7 @@ public class DetailActivity extends AppCompatActivity {
 
         // Find descriptionView and set the description on that textView
         TextView descriptionTextView = findViewById(R.id.detail_long_description);
-        descriptionTextView. setText(description);
+        descriptionTextView.setText(description);
         descriptionTextView.setBackgroundResource(R.color.color_teal_l_100);
 
         final TextView addressTextView = findViewById(R.id.detail_address);
