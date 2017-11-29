@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.SpannableString;
 import android.text.style.UnderlineSpan;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -93,5 +94,20 @@ public class DetailActivity extends AppCompatActivity {
         TextView feeTextView = findViewById(R.id.detail_fee);
         feeTextView.setText(fee);
         feeTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_monetization, 0, 0, 0);
+
+        // Navigate with the app icon in the action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+    }
+
+    // Go back to the previous screen when up button is clicked.
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
