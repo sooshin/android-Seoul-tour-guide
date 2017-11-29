@@ -345,7 +345,7 @@
     <string name="olympic_park_phone">+82&#8211;2&#8211;410&#8211;1114</string>
     <string name="olympic_park_web">www.olympicpark.co.kr</string>
     <string name="olympic_park_hours">Walking/Bicycle : 05:00 ~ 22:00 (~24:00 for Squares)\n
-        Car : 06:00 ~ 22:00 \n※ For safety reasons, any entrance to all park property is NOT allowed
+         Car : 06:00 ~ 22:00 \n※ For safety reasons, any entrance to all park property is NOT allowed
         except Peace Square and Meeting Square after 22:00.</string>
     <string name="olympic_park_fee">Free</string>
 
@@ -413,9 +413,9 @@
     <string name="bamdokkaebi"></string>
 
     <!-- Korean Fragment -->
-    <string name="hello">Hello</string>
+    <string name="hello">Hello.</string>
     <string name="hello_p">An-nyeong-ha-se-yo</string>
-    <string name="hello_k">안녕하세요.</string>
+    <string name="hello_k">안녕하세요?</string>
 
     <string name="nice_to_meet_you">Nice to meet you.</string>
     <string name="nice_to_meet_you_p">Man-na-seo ban-gab-seub-ni-da.</string>
@@ -429,13 +429,29 @@
     <string name="good_bye_p">An-nyeong-hi gye-se-yo.</string>
     <string name="good_bye_k">안녕히 계세요.</string>
 
-    <string name="i_am_sorry">I\'m sorry</string>
-    <string name="i_am_sorry_p"></string>
+    <string name="i_am_sorry">I\'m sorry.</string>
+    <string name="i_am_sorry_p">Jweh-song-ham-ni-da</string>
     <string name="i_am_sorry_k">죄송합니다.</string>
 
     <string name="how_much_is_this">How much is this?</string>
-    <string name="how_much_is_this_p">Eol-ma-imm-ni-kka?</string>
-    <string name="how_much_is_this_k">얼마입니까?</string>
+    <string name="how_much_is_this_p">Eol-ma-ye-yo?</string>
+    <string name="how_much_is_this_k">얼마예요?</string>
+
+    <string name="picture">Could you take a picture of me, please?</string>
+    <string name="picture_p">Sajin jom jjig-eo ju-si-ge-sseo-yo?</string>
+    <string name="picture_k">사진 좀 찍어 주시겠어요?</string>
+
+    <string name="where_is_the_restroom">Where is the restroom?</string>
+    <string name="where_is_the_restroom_p">Hwa-jang-sil-eun eo-di-e i-sseo-yo?</string>
+    <string name="where_is_the_restroom_k">화장실은 어디에 있어요?</string>
+
+    <string name="how_to_get_to_gangnam">Could you tell me how to get to Gangnam?</string>
+    <string name="how_to_get_to_gangnam_p">Gangnam-Kka-ji eo-tteo-ke ga-yo?</string>
+    <string name="how_to_get_to_gangnam_k">강남까지 어떻게 가요?</string>
+    
+    <string name="how_far">How far is it from here?</string>
+    <string name="how_far_p">Yeo-gi-seo eul-ma-na meom-ni-kka?</string>
+    <string name="how_far_k">여기서 얼마나 멉니까?</string>
 
 
 </resources>

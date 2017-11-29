@@ -132,9 +132,46 @@ public class KoreanFragment extends Fragment {
      * Add phrases to the list of phrases
      */
     public void addPhrases() {
+        mPhrases.add(new Phrase(getString(R.string.hello_p),
+                getString(R.string.hello),
+                getString(R.string.hello_k),
+                R.raw.hello));
         mPhrases.add(new Phrase(getString(R.string.nice_to_meet_you_p),
-                getString(R.string.nice_to_meet_you), getString(R.string.nice_to_meet_you_k),
+                getString(R.string.nice_to_meet_you),
+                getString(R.string.nice_to_meet_you_k),
                 R.raw.nice_to_meet_you));
+        mPhrases.add(new Phrase(getString(R.string.thank_you_p),
+                getString(R.string.thank_you),
+                getString(R.string.thank_you_k),
+                R.raw.thank_you));
+        mPhrases.add(new Phrase(getString(R.string.good_bye_p),
+                getString(R.string.good_bye),
+                getString(R.string.good_bye_k),
+                R.raw.good_bye));
+        mPhrases.add(new Phrase(getString(R.string.i_am_sorry_p),
+                getString(R.string.i_am_sorry),
+                getString(R.string.i_am_sorry_k),
+                R.raw.i_am_sorry));
+        mPhrases.add(new Phrase(getString(R.string.how_much_is_this_p),
+                getString(R.string.how_much_is_this),
+                getString(R.string.how_much_is_this_k),
+                R.raw.how_much_is_this));
+        mPhrases.add(new Phrase(getString(R.string.picture_p),
+                getString(R.string.picture),
+                getString(R.string.picture_k),
+                R.raw.picture));
+        mPhrases.add(new Phrase(getString(R.string.where_is_the_restroom_p),
+                getString(R.string.where_is_the_restroom),
+                getString(R.string.where_is_the_restroom_k),
+                R.raw.where_is_the_restroom));
+        mPhrases.add(new Phrase(getString(R.string.how_to_get_to_gangnam_p),
+                getString(R.string.how_to_get_to_gangnam),
+                getString(R.string.how_to_get_to_gangnam_k),
+                R.raw.how_to_get_to_gangnam));
+        mPhrases.add(new Phrase(getString(R.string.how_far_p),
+                getString(R.string.how_far),
+                getString(R.string.how_far_k),
+                R.raw.how_far));
     }
 
     @Override
