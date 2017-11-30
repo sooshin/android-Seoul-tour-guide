@@ -461,7 +461,47 @@
         \nNighttime 15,000 won (includes Jjimjil)</string>
 
     <!-- Shopping -->
-    <string name="myeongdong"></string>
+    <!-- Myeongdong -->
+    <string name="myeongdong">Myeongdong</string>
+    <string name="myeongdong_des">Myeong-dong is hottest shopping spot. There are tons of
+        shops selling clothing, accessories, cosmetics, eyeglasses, and souvenirs. \n\nLotte department
+        store, Shinsegae department store, several large shopping malls, and plenty of smaller shops
+        offer the latest fashion items year-round. It is known as the to-go place for skincare and
+        cosmetic brands.</string>
+    <string name="myeongdong_address"> Myeongdong-gil, Jung-gu, Seoul</string>
+    <string name="myeongdong_transport">Myeongdong Station (Subway Line 4), Exit 6\nEuljiro
+        1-ga Station (Subway Line 2), Exit 6</string>
+    <string name="myeongdong_hours">10:00 ~ 22:00</string>
+
+    <!-- Namdaemun Market -->
+    <string name="namdaemun">Namdaemun market</string>
+    <string name="namdaemun_des">Namdaemun market is the largest traditional market in Korea
+        with shops selling various goods. All products cost affordable prices and the stores
+        in this area also function as wholesale markets.\n\nThe market sells a variety of clothes,
+        glasses, kitchenware, toys, mountain gear, fishing equipment, stationery, fine arts,
+        accessories, hats, carpets, flowers, ginseng, and imported goods.</string>
+    <string name="namdaemun_address">21, Namdaemunsijang 4-gil, Jung-gu, Seoul</string>
+    <string name="namdaemun_transport">Hoehyeon Station (Subway Line 4), Exit 5</string>
+    <string name="namdaemun_hours">23:00 ~ 17:00 (the next day) ※ Opening hours will vary by shop.</string>
+
+    <!-- Goto mall (Gangnam Terminal Underground Shopping Center -->
+    <string name="goto_mall">Goto Mall</string>
+    <string name="goto_mall_des">Goto Mall, also known as the Gangnam Terminal Underground Shopping Center,
+        is 800 m long underground alley of accessories, skincare brands, shoes, clothes for all ages.
+        This mall has over 600 stores. It is more popular among locals, and the price is reasonable.
+        \n\n※ There are 3 rest areas. \n1) Near exit 1 ~ 4. \n2) Jungang Square between exit 7 and 8.
+        \n3) West Square near exit 13 ~ 16</string>
+    <string name="goto_mall_address">jiha 200, Sinbanpo-ro, Seocho-gu, Seoul</string>
+    <string name="goto_mall_transport">Express Bus Terminal Station (Subway Line 3, 7, 9), Exit 8&#8211;1.</string>
+    <string name="goto_mall_hours">10:00 ~ 22:00 (Varies by store.)</string>
+
+    <!-- Dongdaemun -->
+    <string name="dongdaemun">Dongdaemun Shopping Mall</string>
+    <string name="dongdaemun_des">Dongdaemun is a </string>
+    <string name="dongdaemun_address"></string>
+    <string name="dongdaemun_transport"></string>
+    <string name="dongdaemun_hours">10:30 am ~ 05:00 am(the next day)
+    </string>
 
     <!-- -->
     <string name="bamdokkaebi"></string>

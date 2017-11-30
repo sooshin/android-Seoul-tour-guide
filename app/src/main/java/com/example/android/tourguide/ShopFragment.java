@@ -2,9 +2,14 @@ package com.example.android.tourguide;
 
 import android.app.Fragment;
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by sj on 11/25/2017.
@@ -12,9 +17,46 @@ import android.view.ViewGroup;
 
 public class ShopFragment extends Fragment {
 
+    private List<Attraction> attractions;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_shop, container, false);
+
+        // Set up the RecyclerView
+        RecyclerView recyclerView = rootView.findViewById(R.id.recyclerview);
+        int numberOfColumns = 2;
+        GridLayoutManager layoutManager = new GridLayoutManager(getActivity(), numberOfColumns);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(layoutManager);
+
+        // Create a list of attractions
+        attractions = new ArrayList<>();
+
+        // Add attractions to the list of attractions
+        addAttractions();
+
+        // Make the recyclerView use the RecyclerAdapter
+        recyclerView.setAdapter(new RecyclerAdapter(getActivity(), attractions, R.layout.activity_main));
+
         return rootView;
+    }
+
+    /**
+     * Add attractions to the list of attractions
+     */
+    public void addAttractions() {
+        attractions.add(new Attraction(R.drawable.gyeongbokgung,
+                getString(R.string.myeongdong), getString(R.string.myeongdong_des),
+                getString(R.string.myeongdong_address),getString(R.string.myeongdong_transport),
+                getString(R.string.myeongdong_hours)));
+        attractions.add(new Attraction(R.drawable.gyeongbokgung,
+                getString(R.string.namdaemun), getString(R.string.namdaemun_des),
+                getString(R.string.namdaemun_address),getString(R.string.namdaemun_transport),
+                getString(R.string.namdaemun_hours)));
+        attractions.add(new Attraction(R.drawable.gyeongbokgung,
+                getString(R.string.goto_mall), getString(R.string.goto_mall_des),
+                getString(R.string.goto_mall_address),getString(R.string.goto_mall_transport),
+                getString(R.string.goto_mall_hours)));
+
     }
 }

@@ -18,11 +18,13 @@ public class Attraction {
     private String mAttractionFee;
 
     /**
-     * Create a new Attraction object.
+     * Create a new Attraction object. (for DMZ tour)
      *
      * @param attractionImageId is the image resource id of the place
      * @param attractionName is a name of the place
+     * @param attractionShortDs is the short description of the place
      * @param attractionDescription is the description of the place
+     * @param attractionWeb is the website of the place
      */
     public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
                       String attractionDescription, String attractionWeb){
@@ -33,6 +35,17 @@ public class Attraction {
         mAttractionWeb = attractionWeb;
     }
 
+    /**
+     * Create a new Attraction object. (for Hongik University Street)
+     *
+     * @param attractionImageId is the image resource id of the place
+     * @param attractionName is a name of the place
+     * @param attractionShortDs is the short description of the place
+     * @param attractionDescription is the description of the place
+     * @param attractionAddress is the address of the place
+     * @param attractionTransportation is the transportation of the place
+     * @param attractionPhone is the phone number of the place
+     */
     public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
                       String attractionDescription, String attractionAddress,
                       String attractionTransportation, String attractionPhone){
@@ -45,6 +58,20 @@ public class Attraction {
         mAttractionPhone = attractionPhone;
     }
 
+    /**
+     * Create a new Attraction object.
+     *
+     * @param attractionImageId is the image resource id of the place
+     * @param attractionName is a name of the place
+     * @param attractionShortDs is the short description of the place
+     * @param attractionDescription is the description of the place
+     * @param attractionAddress is the address of the place
+     * @param attractionTransportation is the transportation of the place
+     * @param attractionPhone is the phone number of the place
+     * @param attractionWeb is the website of the place
+     * @param attractionHours is the operating hours of the place
+     * @param attractionFee is the admission fee of the place
+     */
     public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
                       String attractionDescription, String attractionAddress,
                       String attractionTransportation, String attractionPhone,
@@ -59,6 +86,16 @@ public class Attraction {
         mAttractionWeb = attractionWeb;
         mAttractionHours = attractionHours;
         mAttractionFee =attractionFee;
+    }
+
+    public Attraction(int attractionImageId, String attractionName, String attractionDescription,
+                      String attractionAddress, String attractionTransportation, String attractionHours) {
+        mAttractionImageId = attractionImageId;
+        mAttractionName = attractionName;
+        mAttractionDescription = attractionDescription;
+        mAttractionAddress = attractionAddress;
+        mAttractionTransportation = attractionTransportation;
+        mAttractionHours = attractionHours;
     }
 
     /**
