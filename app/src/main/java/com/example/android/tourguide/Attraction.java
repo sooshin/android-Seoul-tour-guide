@@ -24,21 +24,25 @@ public class Attraction {
      * @param attractionName is a name of the place
      * @param attractionDescription is the description of the place
      */
-    public Attraction(int attractionImageId, String attractionName, String attractionShortDs, String attractionDescription){
+    public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
+                      String attractionDescription, String attractionWeb){
         mAttractionImageId = attractionImageId;
         mAttractionName = attractionName;
         mAttractionShortDs = attractionShortDs;
         mAttractionDescription = attractionDescription;
+        mAttractionWeb = attractionWeb;
     }
 
-    public Attraction(int attractionImageId, String attractionName, String attractionShortDs, String attractionDescription,
-                      String attractionAddress, String attractionTransportation){
+    public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
+                      String attractionDescription, String attractionAddress,
+                      String attractionTransportation, String attractionPhone){
         mAttractionImageId = attractionImageId;
         mAttractionName = attractionName;
         mAttractionShortDs = attractionShortDs;
         mAttractionDescription = attractionDescription;
         mAttractionAddress = attractionAddress;
         mAttractionTransportation = attractionTransportation;
+        mAttractionPhone = attractionPhone;
     }
 
     public Attraction(int attractionImageId, String attractionName, String attractionShortDs,

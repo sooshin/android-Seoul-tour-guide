@@ -47,8 +47,8 @@
     <string name="climate">In spring, it is warm enough during the day, but it gets chilly at night.
         In summer, it is really hot and humid(25 ~ 35 °C). There is a rainy season from late June
         to early July. It is hottest in the late July and early August. In autumn, it is clear and
-        dry(10 ~ 25°C). The fall foliage reaches a peak in mid-October. In winter, it is too cold. (-10~10°C)
-        December and January are coldest months. </string>
+        dry(10 ~ 25°C). The fall foliage reaches a peak in mid-October. In winter, it is too cold.
+        (-10~10°C) December and January are coldest months. </string>
 
     <!-- Basic information about currency -->
     <string name="currency">Won (\) is the Korean currency fo money. One dollar (USD) is worth about 1,000 won.</string>
@@ -57,7 +57,7 @@
     <!-- Gyeongbokgoung -->
     <string name="gyeongbokgung">Gyeongbokgung Palace</string>
     <string name="gyeongbokgung_short">Gyeongbokgung Palace is the royal palace of Joseon Dynasty
-        built in the 4th year of Taejo (1395). It is not only a tourist attraction of history and
+        built in the 4th year of King Taejo (1395). It is not only a tourist attraction of history and
         culture that attracts 5.5 million people annually but also a cultural space for education
         and leisure where you can learn about the history and culture of the Joseon Dynasty.</string>
     <string name="gyeongbokgung_des">Gyeongbokgung Palace was the first of the five palaces built
@@ -131,7 +131,7 @@
     <string name="cheonggyecheon_short">Cheonggyecheon Stream is popular places for those
         seeking recreation and a variety of performances.</string>
     <string name="cheonggyecheon_des">In the Cheonggyecheon, large and small events are held
-        almost every week. There is also a music performance and a movie screening day. \n
+        almost every week. There is also a music performance and a movie screening day. \n\n
         Cheonggyecheon Stream passes close to Deoksugung Palace, Seoul Plaza, the Sejong Center,
         Insadong Street, Changdeokgung Palace, and Changgyeonggung Palace, allowing visitors to easily
         visit major tourist sites after a leisure stroll along the stream.
@@ -153,9 +153,9 @@
     <string name="war_memorial_des">The War Memorial of Korea was established to commemorate the
         noble sacrifice of patriotic martyrs by the War Memorial Service Korea Society on June 10, 1994.
         The museum houses approximately 33,000 artifacts with about 10,000 on display at an indoor and
-        outside exhibition halls. There are six separate indoor halls, including Expeditionary Forces Room,
+        outside exhibition halls.\n\nThere are six separate indoor halls, including Expeditionary Forces Room,
         Patriotic Memorial Room, War History Room, 6·25 Korean War Room, Development Hall and Large
-        Machinery Room. The outdoor exhibition hall showcases large-sized weapons. Visitors of all ages
+        Machinery Room. The outdoor exhibition hall showcases large-sized weapons.\n\nVisitors of all ages
         from children to adults can also participate in 20 various educational programs and diverse
         cultural events such as military music and honor guard events, drawing contest, cultural event and more.
     </string>
@@ -203,13 +203,20 @@
 
     <!-- Insadong -->
     <string name="insadong">Insadong</string>
-    <string name="insadong_short"></string>
-    <string name="insadong_des"></string>
+    <string name="insadong_short">Insa-dong is an important place where old but precious and
+        traditional goods are on display.  There is one main road in Insa-dong with alleys on each
+        side. Within these alleys are galleries and traditional restaurants, tea houses, and cafes.
+</string>
+    <string name="insadong_des">Insadong is one of the must-visit neighborhoods in Seoul.
+        You can experience various traditions, such as making crafts using traditional Hanji
+        (traditional handmade paper), trying on Hanbok, making Kimchi.\n\nThere are lots of galleries
+        that show traditional Korean fine art. On the main street and each alley are lots of buildings of
+        arts, crafts, shops, traditional cafes. </string>
     <string name="insadong_address">62, Insadong-gil, Jongno-gu, Seoul, South Korea</string>
     <string name="insadong_transport">Anguk Station (Subway Line 3), Exit 6\n
         Jonggak Station (Subway Line 1), Exit 3</string>
     <string name="insadong_phone">+82&#8211;2&#8211;734&#8211;0222</string>
-    <string name="insadong_web">www.insainfo.or.kr(Korean only)</string>
+    <string name="insadong_web">www.hiinsa.com/eng/</string>
     <string name="insadong_hours">Open all year round</string>
     <string name="insadong_fee">Free</string>
 
@@ -218,8 +225,8 @@
     <string name="ddp_short">Dongdaemun Design Plaza (DDP) holds various exhibitions, fashion
         shows, forums, conferences, and other various cultural events.</string>
     <string name="ddp_des">Dongdaemun Design Plaza opened in March 2014 is a multi-cultural complex.
-        There are various facilities such as Art halls, Museum, Design Lab, Dongdaemun History &amp; Culture Park.
-        DDP provides diverse contents to experience new design. \n
+        There are various facilities such as Art halls, Museum, Design Lab, Dongdaemun History
+        &amp; Culture Park. DDP provides diverse contents to experience new design. \n
         The DDP was designed by Zaha Hadid. She focused on the dynamism fo the Dongdaemun area,
         which is in a state of constant flux from the early morning to late at night. \n
         In the night(Fri. Sat. 18:00 ~23:00), Youth Runway Market opens at DDP. You can enjoy diverse
@@ -234,30 +241,55 @@
 
     <!-- Hongik University Street -->
     <string name="hongik_uni_street">Hongik University Street</string>
-    <string name="hongik_uni_street_short"></string>
-    <string name="hongik_uni_street_des"></string>
+    <string name="hongik_uni_street_short">Hongik University Street (also called Hongdae Street)
+        is known for underground music, clubs, cafes, fashion and art festivals.</string>
+    <string name="hongik_uni_street_des">Hongdae Street is a energetic neighborhood where lots
+        of young people hang out especially at night. There are lots of street performances, fashion
+        shops, live cafes, restaurants, bars, and clubs.\n\nHongdae Walking Street is a main spot of
+        Hongdae area which has an outdoor stage for indie band performance and dynamic culture of
+        young people. </string>
     <string name="hongik_uni_street_address">Seogyo-dong, Mapo-gu, Seoul, South Korea</string>
-    <string name="hongik_uni_street_transport">Hongik University Station (Subway Line 2, Gyeongui-Jungang, AREX), Exit 8 or 9</string>
+    <string name="hongik_uni_street_transport">Hongik University Station (Subway Line 2,
+        Gyeongui-Jungang, AREX), Exit 8 or 9</string>
+    <string name="hongik_uni_street_phone">Hongdae Tourist Information Center :
+        +82&#8211;2&#8211;3153&#8211;8363</string>
 
     <!-- Jongmyo Shrine-->
     <string name="jongmyo">Jongmyo Shrine</string>
-    <string name="jongmyo_short"></string>
-    <string name="jongmyo_des"></string>
+    <string name="jongmyo_short">Jongmyo is a royal shrine dedicated to the performance of
+        ancestral rites for the deceased kings and queens of the Joseon Dynasty.</string>
+    <string name="jongmyo_des">Being the place where the royal ancestral tablets are enshrined,
+        Jongmyo\'s atmosphere is solemn and sacred rather than splendid like the royal palaces. The
+        simple and elegant buildings of this shrine have faithfully kept their original forms since
+        the 16th century.\n\nFor assistance with reserving a tour of Jongmyo, please call the 1330
+        Korea Travel Hotline.</string>
     <string name="jongmyo_address">157, Jong-ro, Jongno-gu, Seoul</string>
     <string name="jongmyo_transport">Jongno3(sam)-ga Station (Subway Line 1, 3, 5), Exit 11</string>
-    <string name="jongmyo_phone">+82&#8211;2&#8211;765&#8211;0195</string>
+    <string name="jongmyo_phone">+82&#8211;2&#8211;765&#8211;0195\nKorea Travel Hotline: +82&#8211;2&#8211;1330</string>
     <string name="jongmyo_web">jm.cha.go.kr</string>
-    <string name="jongmyo_hours">10:00 12:00 14:00 16:00 (English guided tour)
-        \n※Closed on Tuesdays</string>
+    <string name="jongmyo_hours">English Guide tour - 10:00 12:00 14:00 16:00 ※ Closed on Tuesdays</string>
     <string name="jongmyo_fee">Adults : 1,000 won</string>
 
     <!-- Tours & Nature & Culture -->
     <!--DMZ tour -->
     <string name="dmz">Demilitarized Zone (DMZ) Tour</string>
-    <string name="dmz_short"></string>
-    <string name="dmz_des"></string>
-    <string name="dmz_address"></string>
-    <string name="dmz_transport"></string>
+    <string name="dmz_short">The Korean Demilitarized Zone (DMZ) is a border zone that divides
+        the Korean Peninsula into South Korea and North Korea. </string>
+    <string name="dmz_des">The Demilitarized Zone (DMZ) is a buffer zone, which was established
+        on July 27, 1953, when the Armistice Agreement was signed during the Korean War. The DMZ
+        vividly captures the scars and wounds of the Korean War as well as the wishes and hopes for
+        the future.\n\nDMZ extends largely from Gyeonggi-do to Gangwon-do, it is advised to make a plan in advance
+        for which region you are most interested in visiting. The Major DMZ tourist destinations in
+        Gyeonggi-do are Imjingak Resort, The Third Tunnel, Dorasan Station, Panmunjeom (Joint Security Area),
+        Unification Hill and Yeolsoe Observatory.\n\nMore importantly, you are required to bring a
+        legitimate form of identification and/or your passport when going to the DMZ.\n\nVisitors can
+        only access Panmunjeom by joining a DMZ packaged tour provided by approved travel agencies.</string>
+    <string name="dmz_web">DMZ in Gyeonggi-do: english.gg.go.kr/dmz-imjingak
+        \nInternational Cultural Service Club website: www.tourdmz.com
+        \nKorea Travel Bureau Inc. website: www.go2korea.co.kr
+        \nJoongang Express Tour website: jsatour.com
+        \nPanmunjeom Travel Center website: www.koreadmztour.com
+    </string>
 
     <!-- Bukhansan National Park -->
     <string name="bukhansan">Bukhansan National Park</string>
@@ -275,16 +307,21 @@
 
     <!-- National Museum of Korea -->
     <string name="national_museum">National Museum of Korea</string>
-    <string name="national_museum_short"></string>
-    <string name="national_museum_des"></string>
+    <string name="national_museum_short">The National Museum of Korea is the largest museum in
+        Korea and houses precious Korean cultural assets that tell the story of Korea’s fascinating
+        history, from ancient times to the modern era.</string>
+    <string name="national_museum_des">In National Museum of Korea, more than 12,044 pieces are
+        always on display in our six permanent exhibition sections. Visitors can examine numerous
+        national treasures of Korea, including Pensive Bodhisattva (Korean National Treasure No.78
+        or No.83), Goryeo Celadon Openwork Burner (No.95), Ten-Story Pagoda from Gyeongcheonsa
+        Temple-Site (No.86), and Gold Crown from Silla (No.191).</string>
     <string name="national_museum_address">137, Seobinggo-ro, Yongsan-gu, Seoul</string>
     <string name="national_museum_transport">Ichon Station (Seoul Line 4 &amp;Gyeongui-Jungang
         Line), Exit 2</string>
     <string name="national_museum_phone">+82&#8211;2&#8211;2077&#8211;9000</string>
     <string name="national_museum_web">www.museum.go.kr/site/eng/home</string>
-    <string name="national_museum_hours"> [Mon, Tue, Thu, Fri] 10:00-18:00\n
-        [Wed &amp; Sat] 10:00-21:00 \n
-        [Sun &amp; Public Holidays] 10:00-19:00 </string>
+    <string name="national_museum_hours">[Mon, Tue, Thu, Fri] 10:00-18:00\n[Wed &amp; Sat]
+        10:00-21:00\n[Sun &amp; Public Holidays] 10:00-19:00 </string>
     <string name="national_museum_fee">Free (except for special exhibitions)</string>
 
     <!-- Yeouido Hangang Park -->
@@ -375,14 +412,22 @@
 
     <!-- National Folk Museum -->
     <string name="national_folk_museum">National Folk Museum of Korea</string>
-    <string name="national_folk_museum_short"></string>
-    <string name="national_folk_museum_des"></string>
-    <string name="national_folk_museum_address"></string>
-    <string name="national_folk_museum_transport"></string>
-    <string name="national_folk_museum_phone"></string>
-    <string name="national_folk_museum_web"></string>
-    <string name="national_folk_museum_hours"></string>
-    <string name="national_folk_museum_fee"></string>
+    <string name="national_folk_museum_short">Adjacent to the Gyeongbokgung Palace, the National
+        Folk Museum of Korea presents historical artifacts that were used in the daily lives of Korean
+        people in the past.</string>
+    <string name="national_folk_museum_des">The National Folk Museum of Korea has three permanent
+        exhibitions and two special exhibitions as well as a library, souvenir shop, and other
+        subsidiary facilities. Through the displays, visitors can learn about the domestic and
+        agricultural lifestyles, as well as Korea’s cultural beliefs.</string>
+    <string name="national_folk_museum_address">37, Samcheong-ro, Jongno-gu, Seoul</string>
+    <string name="national_folk_museum_transport">Gyeongbokgung Station (Subway Line 3),
+        Exit 5.\nAnguk Station (Subway Line 3), Exit 1.</string>
+    <string name="national_folk_museum_phone">+82&#8211;2&#8211;3704&#8211;3114</string>
+    <string name="national_folk_museum_web">www.nfm.go.kr</string>
+    <string name="national_folk_museum_hours">March-May, September-October: 09:00-18:00\n
+        June-August: 09:00-18:30\nNovember-February: 09:00-17:00\nWeekends &amp; public holidays
+        (May-August): 09:00-19:00</string>
+    <string name="national_folk_museum_fee">Free</string>
 
     <!-- COEX Aquarium -->
     <string name="coex_aquarium">COEX Aquarium</string>
@@ -401,7 +446,7 @@
 
     <!-- Spa -->
     <string name="spa">Siloam Spa</string>
-    <string name="spa_short">Siloam Spa also known as Siloam Bulgama Sauna is Korean Jjimjilbang.
+    <string name="spa_short">Siloam Spa, also known as Siloam Bulgama Sauna, is Korean Jjimjilbang.
     It is a place full of surprises and located within walking distance of Seoul Station.</string>
     <string name="spa_des">Siloam Spa is a kind of Jjimjilbang, Korean bathhouse. If you want to
         find inexpensive accommodation in Seoul, it may be the best choice. You can eat, sleep, and
@@ -414,6 +459,9 @@
     <string name="spa_hours">00:00 ~ 24:00  Open all year round </string>
     <string name="spa_fee">Daytime 10,000 won (includes Jjimjil)
         \nNighttime 15,000 won (includes Jjimjil)</string>
+
+    <!-- Shopping -->
+    <string name="myeongdong"></string>
 
     <!-- -->
     <string name="bamdokkaebi"></string>

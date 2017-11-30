@@ -57,13 +57,17 @@ public class DetailActivity extends AppCompatActivity {
         descriptionTextView.setBackgroundResource(R.color.color_teal_l_100);
 
         final TextView addressTextView = findViewById(R.id.detail_address);
-        addressTextView.setText(address);
-        addressTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_location, 0, 0, 0);
+        if (address == null) {
+            addressTextView.setVisibility(View.GONE);
+        } else {
+            addressTextView.setText(address);
+            addressTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_location, 0, 0, 0);
 
-        // If autoLink map does not work, add links to addressTextView
-        SpannableString spanStr = new SpannableString(address);
-        spanStr.setSpan(new UnderlineSpan(), 0, spanStr.length(), 0);
-        addressTextView.setText(spanStr);
+            // If autoLink map does not work, add links to addressTextView
+            SpannableString spanStr = new SpannableString(address);
+            spanStr.setSpan(new UnderlineSpan(), 0, spanStr.length(), 0);
+            addressTextView.setText(spanStr);
+        }
 
         // Set a click listener to start geoIntent when address is clicked on
         addressTextView.setOnClickListener(new View.OnClickListener() {
@@ -76,25 +80,48 @@ public class DetailActivity extends AppCompatActivity {
         });
 
         TextView transportTextView = findViewById(R.id.detail_transport);
-        transportTextView.setText(transport);
-        transportTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_subway, 0, 0, 0);
+        if (transport == null) {
+            transportTextView.setVisibility(View.GONE);
+        } else {
+            transportTextView.setText(transport);
+            transportTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_subway, 0, 0, 0);
+        }
 
         TextView phoneTextView = findViewById(R.id.detail_phone);
-        phoneTextView.setText(phone);
-        phoneTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_call, 0, 0, 0);
+        if(phone == null) {
+            phoneTextView.setVisibility(View.GONE);
+        } else{
+
+            phoneTextView.setText(phone);
+            phoneTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_call, 0, 0, 0);
+        }
 
         TextView webTextView = findViewById(R.id.detail_web);
-        webTextView.setText(web);
-        webTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_public, 0, 0, 0);
+        if (web == null) {
+            webTextView.setVisibility(View.GONE);
+        } else {
+
+            webTextView.setText(web);
+            webTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_public, 0, 0, 0);
+        }
 
         TextView hoursTextView = findViewById(R.id.detail_hours);
-        hoursTextView.setText(hours);
-        hoursTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_time, 0, 0, 0);
+        if (hours == null) {
+            hoursTextView.setVisibility(View.GONE);
+        } else {
+
+            hoursTextView.setText(hours);
+            hoursTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_time, 0, 0, 0);
+        }
 
         TextView feeTextView = findViewById(R.id.detail_fee);
-        feeTextView.setText(fee);
-        feeTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_monetization, 0, 0, 0);
+        if (fee == null) {
+            feeTextView.setVisibility(View.GONE);
+        } else {
 
+            feeTextView.setText(fee);
+            feeTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_monetization, 0, 0, 0);
+        }
         // Navigate with the app icon in the action bar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);

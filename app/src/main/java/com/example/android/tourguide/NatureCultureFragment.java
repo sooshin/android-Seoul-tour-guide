@@ -45,8 +45,7 @@ public class NatureCultureFragment extends Fragment {
      */
     public void addAttractions() {
         attractions.add(new Attraction(R.drawable.dmz, getString(R.string.dmz), getString(R.string.dmz_short),
-                getString(R.string.dmz_des), getString(R.string.dmz_address),
-                getString(R.string.dmz_transport)));
+                getString(R.string.dmz_des), getString(R.string.dmz_web)));
         attractions.add(new Attraction(R.drawable.bukhansan, getString(R.string.bukhansan), getString(R.string.bukhansan_short),
                 getString(R.string.bukhansan_des), getString(R.string.bukhansan_address),
                 getString(R.string.bukhansan_transport), getString(R.string.bukhansan_phone),
