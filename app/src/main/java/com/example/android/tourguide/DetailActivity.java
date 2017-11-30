@@ -20,7 +20,6 @@ public class DetailActivity extends AppCompatActivity {
     private int imageId;
     private String name;
     private String description;
-    private String shortDescription;
     private String address;
     private String transport;
     private String phone;
@@ -38,7 +37,6 @@ public class DetailActivity extends AppCompatActivity {
         // Get the data from the intent
         imageId = detailIntent.getIntExtra(getString(R.string.image_id), -1);
         name = detailIntent.getStringExtra(getString(R.string.name));
-        shortDescription = detailIntent.getStringExtra(getString(R.string.short_description));
         description = detailIntent.getStringExtra(getString(R.string.description));
         address = detailIntent.getStringExtra(getString(R.string.address));
         transport = detailIntent.getStringExtra(getString(R.string.transport));
@@ -57,17 +55,6 @@ public class DetailActivity extends AppCompatActivity {
         descriptionTextView.setBackgroundResource(R.color.color_teal_l_100);
 
         final TextView addressTextView = findViewById(R.id.detail_address);
-        if (address == null) {
-            addressTextView.setVisibility(View.GONE);
-        } else {
-            addressTextView.setText(address);
-            addressTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_location, 0, 0, 0);
-
-            // If autoLink map does not work, add links to addressTextView
-            SpannableString spanStr = new SpannableString(address);
-            spanStr.setSpan(new UnderlineSpan(), 0, spanStr.length(), 0);
-            addressTextView.setText(spanStr);
-        }
 
         // Set a click listener to start geoIntent when address is clicked on
         addressTextView.setOnClickListener(new View.OnClickListener() {
@@ -79,52 +66,42 @@ public class DetailActivity extends AppCompatActivity {
             }
         });
 
-        TextView transportTextView = findViewById(R.id.detail_transport);
-        if (transport == null) {
-            transportTextView.setVisibility(View.GONE);
-        } else {
-            transportTextView.setText(transport);
-            transportTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_subway, 0, 0, 0);
-        }
+        // Set details on the textView
+        setDetails(R.id.detail_address, address, R.drawable.ic_location);
+        setDetails(R.id.detail_transport, transport, R.drawable.ic_subway);
+        setDetails(R.id.detail_phone, phone, R.drawable.ic_call);
+        setDetails(R.id.detail_web, web, R.drawable.ic_public);
+        setDetails(R.id.detail_hours, hours, R.drawable.ic_time);
+        setDetails(R.id.detail_fee, fee, R.drawable.ic_monetization);
 
-        TextView phoneTextView = findViewById(R.id.detail_phone);
-        if(phone == null) {
-            phoneTextView.setVisibility(View.GONE);
-        } else{
-
-            phoneTextView.setText(phone);
-            phoneTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_call, 0, 0, 0);
-        }
-
-        TextView webTextView = findViewById(R.id.detail_web);
-        if (web == null) {
-            webTextView.setVisibility(View.GONE);
-        } else {
-
-            webTextView.setText(web);
-            webTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_public, 0, 0, 0);
-        }
-
-        TextView hoursTextView = findViewById(R.id.detail_hours);
-        if (hours == null) {
-            hoursTextView.setVisibility(View.GONE);
-        } else {
-
-            hoursTextView.setText(hours);
-            hoursTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_time, 0, 0, 0);
-        }
-
-        TextView feeTextView = findViewById(R.id.detail_fee);
-        if (fee == null) {
-            feeTextView.setVisibility(View.GONE);
-        } else {
-
-            feeTextView.setText(fee);
-            feeTextView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_monetization, 0, 0, 0);
-        }
         // Navigate with the app icon in the action bar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+    }
+
+    /**
+     * Find textView in the activity_detail.xml layout with the textViewId
+     * If the string is null, hide the textView, otherwise set the string on the textView and
+     * set drawableLeft on that textView based on the icResourceId
+     *
+     * @param textViewId textView ID in the activity_detail.xml
+     * @param string A string to display on the textView
+     * @param icResourceId Resource ID for the ic image
+     */
+    public void setDetails(int textViewId, String string, int icResourceId) {
+        TextView textView = findViewById(textViewId);
+        if (string == null) {
+            textView.setVisibility(View.GONE);
+        } else {
+            textView.setText(string);
+            textView.setCompoundDrawablesWithIntrinsicBounds(icResourceId, 0, 0, 0);
+            if (string.equals(address)) {
+                // If autoLink map does not work, add links to addressTextView
+                SpannableString spanStr = new SpannableString(address);
+                spanStr.setSpan(new UnderlineSpan(), 0, spanStr.length(), 0);
+                textView.setText(spanStr);
+            }
+        }
     }
 
     // Go back to the previous screen when up button is clicked.
