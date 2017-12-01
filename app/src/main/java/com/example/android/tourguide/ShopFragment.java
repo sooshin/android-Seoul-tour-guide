@@ -57,6 +57,22 @@ public class ShopFragment extends Fragment {
                 getString(R.string.goto_mall), getString(R.string.goto_mall_des),
                 getString(R.string.goto_mall_address),getString(R.string.goto_mall_transport),
                 getString(R.string.goto_mall_hours)));
+        attractions.add(new Attraction(R.drawable.gyeongbokgung,
+                getString(R.string.dongdaemun), getString(R.string.dongdaemun_des),
+                getString(R.string.dongdaemun_address),getString(R.string.dongdaemun_transport),
+                getString(R.string.dongdaemun_hours)));
+        attractions.add(new Attraction(R.drawable.gyeongbokgung,
+                getString(R.string.common_ground), getString(R.string.common_ground_des),
+                getString(R.string.common_ground_address),getString(R.string.common_ground_transport),
+                getString(R.string.common_ground_hours)));
+        attractions.add(new Attraction(R.drawable.gyeongbokgung,
+                getString(R.string.garosu_gil), getString(R.string.garosu_gil_des),
+                getString(R.string.garosu_gil_address),getString(R.string.garosu_gil_transport),
+                getString(R.string.garosu_gil_hours)));
+        attractions.add(new Attraction(R.drawable.gyeongbokgung,
+                getString(R.string.times_square), getString(R.string.times_square_des),
+                getString(R.string.times_square_address),getString(R.string.times_square_transport),
+                getString(R.string.times_square_hours)));
 
     }
 }

@@ -320,8 +320,8 @@
         Line), Exit 2</string>
     <string name="national_museum_phone">+82&#8211;2&#8211;2077&#8211;9000</string>
     <string name="national_museum_web">www.museum.go.kr/site/eng/home</string>
-    <string name="national_museum_hours">[Mon, Tue, Thu, Fri] 10:00-18:00\n[Wed &amp; Sat]
-        10:00-21:00\n[Sun &amp; Public Holidays] 10:00-19:00 </string>
+    <string name="national_museum_hours">Mon, Tue, Thu, Fri 10:00-18:00\nWed &amp; Sat
+        10:00-21:00\nSun &amp; Public Holidays 10:00-19:00 </string>
     <string name="national_museum_fee">Free (except for special exhibitions)</string>
 
     <!-- Yeouido Hangang Park -->
@@ -497,11 +497,60 @@
 
     <!-- Dongdaemun -->
     <string name="dongdaemun">Dongdaemun Shopping Mall</string>
-    <string name="dongdaemun_des">Dongdaemun is a </string>
-    <string name="dongdaemun_address"></string>
-    <string name="dongdaemun_transport"></string>
-    <string name="dongdaemun_hours">10:30 am ~ 05:00 am(the next day)
-    </string>
+    <string name="dongdaemun_des">Dongdaemun is a large shopping district filled with many
+        shopping malls, divided into wholesale and non-wholesale. The must-visit malls are Doota and
+        Migliore which sells retail goods.
+        \n\nDoota is one of the largest fashion malls full of trendy fashion items, unique and
+        high-quality products. Migliore is a convenient facility that has an enormous variety of
+        products sold at reasonable prices.</string>
+    <string name="dongdaemun_address">Doota: 275, Jangchungdan-ro, Jung-gu, Seoul
+        \nMigliore: 263, Jangchungdan-ro, Jung-gu, Seoul</string>
+    <string name="dongdaemun_transport">Dongdaemun History &amp; Culture Park Station (Subway Line
+        2, 4, 5), Exit 14\nDongdaemun Station (Subway Line 1, 4), Exit 8</string>
+    <string name="dongdaemun_hours">Doota: 10:30am ~ 12:00am (Extended till 5am on Fri &amp; Sat)
+        \nMigliore : 10:30am ~ 4:30am (Closed on Mondays)</string>
+
+    <!-- Common Ground -->
+    <string name="common_ground">Common Ground</string>
+    <string name="common_ground_des">Common Ground is the first artsy pop-up container mall in
+        Korea and a great place to hang out and take pictures.\n\nMost of the shops are aimed at the
+        young and sells the latest fashion, unique items, and accessories. It is divided into 5 areas,
+        such as street market, market hall, terrace market, market ground, and food truck market.</string>
+    <string name="common_ground_address">200, Achasan-ro, Gwangjin-gu, Seoul</string>
+    <string name="common_ground_transport">Konkuk University Station (Subway Line 2 or 7), Exit 6</string>
+    <string name="common_ground_hours">Store: 11:00 ~ 22:00 \nPub: 11:00 ~ 02:00</string>
+
+    <!-- Garosu-gil -->
+    <string name="garosu_gil">Garosugil</string>
+    <string name="garosu_gil_des">Garosugil means tree-lined streets. Garosugil is a beautiful
+        street with trendy fashion shops, prop shops, chic art galleries, restaurants, bars and great
+        cafes along both sides. \n\nGarosugil is particularly lovely in autumn when the golden Gingko
+        leaves begin to fall.</string>
+    <string name="garosu_gil_address">Sinsa-dong, Gangnam-gu, Seoul</string>
+    <string name="garosu_gil_transport">Sinsa Station (Subway Line 3), Exit 8</string>
+    <string name="garosu_gil_hours">10:00 ~ 24:00</string>
+
+    <!-- Times Square Mall -->
+    <string name="times_square">Times Square Mall</string>
+    <string name="times_square_des">Times Square is one of Seoul\'s largest shopping malls,
+        including a Shinsegae department store, multiplex theater(CGV), E-Mart discount store, book
+        store, hotel and restaurants. The shopping mall offers a relaxed and friendly natural
+        environment such as a rest area, a terrace, a fountain and a garden.</string>
+    <string name="times_square_address">15, Yeongjung-ro, Yeongdeungpo-gu, Seoul</string>
+    <string name="times_square_transport">Yeongdeungpo Station (Subway Line 1), Exit 3</string>
+    <string name="times_square_hours">10:30 ~ 22:00</string>
+
+    <!-- Food -->
+    <!-- Gwangjang Market -->
+    <string name="gwangjang_market">Gwangjang Market</string>
+    <string name="gwangjang_market_des">Gwangjang Market is the traditional market which is popular for
+        foreign visitors to experience an authentic Korean culture.</string>
+    <string name="gwangjang_market_address">88, Changgyeonggung-ro, Jongno-gu, Seoul</string>
+    <string name="gwangjang_market_transport">Jongno 5-ga Station (Subway Line 1), Exit 8
+        \nEuljiro 4-ga Station (Subway Line 2, 5), Exit 4</string>
+    <string name="gwangjang_market_hours">General stores 08:30 ~ 18:00
+        \nRestaurants 08:30 ~ 23:00
+        \nClothing stores 21:00 ~ 10:00am (the next day)\n※ Closed on Sundays</string>
 
     <!-- -->
     <string name="bamdokkaebi"></string>
