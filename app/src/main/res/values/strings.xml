@@ -520,7 +520,7 @@
     <string name="common_ground_transport">Konkuk University Station (Subway Line 2 or 7), Exit 6</string>
     <string name="common_ground_hours">Store: 11:00 ~ 22:00 \nPub: 11:00 ~ 02:00</string>
 
-    <!-- Garosu-gil -->
+    <!-- Garosugil -->
     <string name="garosu_gil">Garosugil</string>
     <string name="garosu_gil_des">Garosugil means tree-lined streets. Garosugil is a beautiful
         street with trendy fashion shops, prop shops, chic art galleries, restaurants, bars and great
@@ -542,18 +542,117 @@
 
     <!-- Food -->
     <!-- Gwangjang Market -->
-    <string name="gwangjang_market">Gwangjang Market</string>
-    <string name="gwangjang_market_des">Gwangjang Market is the traditional market which is popular for
-        foreign visitors to experience an authentic Korean culture.</string>
-    <string name="gwangjang_market_address">88, Changgyeonggung-ro, Jongno-gu, Seoul</string>
-    <string name="gwangjang_market_transport">Jongno 5-ga Station (Subway Line 1), Exit 8
+    <string name="gwangjang">Gwangjang Market</string>
+    <string name="gwangjang_des">Gwangjang Market is the traditional market which is
+        notable for foreign visitors to experience an authentic Korean culture especially street food.
+        The most famous street foods are bindaetteok (Korean style pancake), Tteokbokki, Gimbap,
+        Beef Tartare (called yukhoe), Beef Tartare Bibimbap, Sliced raw octopus.</string>
+    <string name="gwangjang_address">88, Changgyeonggung-ro, Jongno-gu, Seoul</string>
+    <string name="gwangjang_transport">Jongno 5-ga Station (Subway Line 1), Exit 8
         \nEuljiro 4-ga Station (Subway Line 2, 5), Exit 4</string>
-    <string name="gwangjang_market_hours">General stores 08:30 ~ 18:00
-        \nRestaurants 08:30 ~ 23:00
-        \nClothing stores 21:00 ~ 10:00am (the next day)\n※ Closed on Sundays</string>
+    <string name="gwangjang_phone">+82&#8211;2&#8211;2267&#8211;0291</string>
+    <string name="gwangjang_web">www.kwangjangmarket.co.kr/en/</string>
+    <string name="gwangjang_hours">General stores 09:00 ~ 18:00 (※ Closed on Sundays)
+        \nFood Street 09:00 ~ 23:00 (※ Open all year round)
+        \nVintage shops 10:00 ~ 19:00(※ Closed on Sundays)
+        \nHours vary by store.</string>
+    <string name="gwangjang_fee">Bindaetteok: 4,000 won ~ 8,000 won
+        \nGimbap: 3,000 won\nBeef Tartare: 15,000 won</string>
 
-    <!-- -->
-    <string name="bamdokkaebi"></string>
+    <!-- Hanilkwan -->
+    <string name="hanilkwan">Hanilkwan</string>
+    <string name="hanilkwan_des">Hanilkwan, founded in 1939, serves the typical Seoul cuisine.
+        The menus are Korean barbecue, Grilled chadol-baeggi, Roast pyunchae, Platter of nine delicacies,
+        Stir-fried baby octopus, Goldongban and so on. They offer a course meal with original Korean
+        food. It is a little more expensive than other restaurants.
+        \nThere are other branches in addition to Apgujeong and Yeongdeungpo.</string>
+    <string name="hanilkwan_address">Yeongdeungpo(Times Square Mall 4F): 15, Yeongjung-ro,
+        Yeongdeungpo-gu, Seoul</string>
+    <string name="hanilkwan_transport">Yeongdeungpo: Yeongdeungpo Station (Subway Line 1),
+        Exit 3\nApgujeong: Apgujeong Station (Subway Line 2), Exit 2</string>
+    <string name="hanilkwan_phone">+82&#8211;1577&#8211;9963</string>
+    <string name="hanilkwan_web">www.hanilkwan.co.kr (Korean, English)</string>
+    <string name="hanilkwan_hours">Yeongdeungpo: 11:30 ~ 22:30\nApgujeong: 11:30 ~ 21:30</string>
+    <string name="hanilkwan_fee">Bansan Soup &amp; Rice Noodle Special: 13,000 ~ 17,000won
+        \nBansang Grill Lunch: 21,000 ~ 22,000won
+        \nBansang Grill Special: 37,000 ~ 61,000won (These menus differ depending on which branch you choose.)</string>
+
+    <!-- Tosokchon Samgyetang -->
+    <string name="tosokchon">Tosokchon Samgyetang</string>
+    <string name="tosokchon_des">Tosokchon Samgyetang, located near Gyeongbokgung, is a chicken
+        soup made by adding luxurious ginseng and glutinous rice, pumpkin seed, black sesame, walnut,
+        pine, native chestnut, medicinal jujube, ginkgo nut, garlic, sunflower seeds, and secret
+        ingredients.</string>
+    <string name="tosokchon_address">5, Jahamun-ro 5-gil, Jongno-gu, Seoul</string>
+    <string name="tosokchon_transport">Gyeongbokgung Station (Subway Line 3), Exit 2. After
+        getting out of the Exit 2, go straight 120m and it\'s on the lef alley of GS25.</string>
+    <string name="tosokchon_phone">+82&#8211;2&#8211;737&#8211;7444</string>
+    <string name="tosokchon_web">www.tosokchon.co.kr</string>
+    <string name="tosokchon_hours">10:00 ~ 22:00</string>
+    <string name="tosokchone_fee">Tosokchon Samgyetang : 16,000won</string>
+
+    <!-- Manjok ohyang jokbal -->
+    <string name="jokbal">Manjok Ohyang Jokbal</string>
+    <string name="jokbal_des">Manjok Ohyang Jokbal features jokbal (pig\'s trotter) served with
+        sliced cabbage and specialty garlic sauce to eat together. Also, bul-jokbal (spicy pig\'s
+        trotter) is a famous menu item that gets its spicy taste from cheongyang red pepper powder
+        and is served with bossam (steamed pork) cooked with special meat stock and boiled every day.
+    </string>
+    <string name="jokbal_address">134&#8211;7, Seosomun-ro, Jung-gu, Seoul</string>
+    <string name="jokbal_transport">City Hall Station (Seoul Subway Line 1 &amp; 2), Exit 8.
+        \nGo down Seosomun-gil Street, which has a pharmacy on the left side. After walking 30m, you
+        will see a building on the right side with ‘jokbal, mandu’ written on it. Manjok Ohyang
+        Jokbal restaurant is on the 2nd floor of this building, above a restaurant called Cheongsol.</string>
+    <string name="jokbal_phone">+82&#8211;2&#8211;753&#8211;4755</string>
+    <string name="jokbal_web">www.manjok.net (Korean only)</string>
+    <string name="jokbal_hours">Weekdays 11:30 ~ 22:00\nWeekends 12:00 ~ 22:00\n※ Operating
+        hours and closed days are subject to changes. Make a phone-inquiry before visiting.</string>
+    <string name="jokbal_fee">Manjok Ohyang Jokbal: 32,000won</string>
+
+    <!-- Better than Beef -->
+    <string name="better_than_beef">Better than Beef</string>
+    <string name="better_than_beef_des">Better than Beef is a special pork belly fushion restaurant
+        located in Garosugil, Shinsa-dong. There are unique menus such as Variety Samgyeopsal
+        (pork belly), cheese tofu and creamy toast pork. Variety Samgyeopsal dish consists of
+        cream sauce, jalapeno, sliced potato, cheese and of course well-cooked Samgyeopsal.
+        \n\nBetter than Beef also sells all kinds of homemade rice wine, called Makgeolli with distinct
+        flavors, such as ricotta cheese and blueberry.</string>
+    <string name="better_than_beef_address">5, Dosan-daero11-Gil, Seoul</string>
+    <string name="better_than_beef_transport">Shinsa Station (Subway Line 3), Exit 8</string>
+    <string name="better_than_beef_phone">+82&#8211;2&#8211;3446&#8211;0400</string>
+    <string name="better_than_beef_hours">11:30 ~ 24:00 (last order - 21:30 ~ 22:00)
+        \nSat 12:00 ~ 24:00\nSun 12:00 ~ 23:00</string>
+    <string name="better_than_beef_fee">13,000won ~ 29,000won</string>
+
+    <!-- Daedo Sikdang -->
+    <string name="daedo">Daedo Sikdang</string>
+    <string name="daedo_des">Daedo Sikdang is a Korean beef (also called Hanwoo) restaurant.
+        The menu is just one item, Korean beef Sirloin. The restaurant serves sirloin steak
+        which is well-aged and has a clear marbling of fat throughout the flesh. The meat is super
+        tender and juicy.</string>
+    <string name="daedo_address">3, Muhak-ro 12-gil, Seongdong-gu, Seoul</string>
+    <string name="daedo_transport">Sangwangsimni Station (Subway Line 2), Exit 2</string>
+    <string name="daedo_phone">+82&#8211;2&#8211;2292&#8211;9772</string>
+    <string name="daedo_web">eng.kitchenborie.com</string>
+    <string name="daedo_hours">11:00 ~ 22:00</string>
+    <string name="daedo_fee">Hanwoo sirloin (200g): 38,500won</string>
+
+    <!-- Fried Chicken -->
+    <string name="chicken">Fried Chicken</string>
+    <string name="chicken_des"></string>
+    <string name="chicken_address"></string>
+    <string name="chicken_transport"></string>
+
+    <!-- Jungsik-->
+    <string name="jungsik">Jungsik</string>
+    <string name="jungsik_des"></string>
+    <string name="jungsik_address">11, seolleungro 158-gil, Gangnamgu, Seoul</string>
+    <string name="jungsik_transport">Apgugeongrodeo Station (Bundang Line), Exit 4</string>
+    <string name="jungsik_phone">+82&#8211;2&#8211;517&#8211;4654</string>
+    <string name="jungsik_web">www.jungsik.kr/</string>
+    <string name="jungsik_hours">12:00 ~ 22:00 ※ Break time 15:00 ~ 17:30</string>
+    <string name="jungsik_fee">Lunch: 60,000 ~ 150,000won
+        \nDinner: 100,000 ~ 180,000won</string>
 
     <!-- Korean Fragment -->
     <string name="hello">Hello.</string>

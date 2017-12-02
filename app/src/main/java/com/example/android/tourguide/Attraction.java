@@ -88,6 +88,15 @@ public class Attraction {
         mAttractionFee =attractionFee;
     }
 
+    /**
+     * (For shop)
+     * @param attractionImageId
+     * @param attractionName
+     * @param attractionDescription
+     * @param attractionAddress
+     * @param attractionTransportation
+     * @param attractionHours
+     */
     public Attraction(int attractionImageId, String attractionName, String attractionDescription,
                       String attractionAddress, String attractionTransportation, String attractionHours) {
         mAttractionImageId = attractionImageId;
@@ -97,6 +106,60 @@ public class Attraction {
         mAttractionTransportation = attractionTransportation;
         mAttractionHours = attractionHours;
     }
+
+    /**
+     * (For food)
+     * @param attractionImageId
+     * @param attractionName
+     * @param attractionDescription
+     * @param attractionAddress
+     * @param attractionTransportation
+     * @param attractionPhone
+     * @param attractionWeb
+     * @param attractionHours
+     * @param attractionFee
+     */
+    public Attraction(int attractionImageId, String attractionName, String attractionDescription,
+                      String attractionAddress, String attractionTransportation, String attractionPhone,
+                      String attractionWeb,String attractionHours, String attractionFee) {
+        mAttractionImageId = attractionImageId;
+        mAttractionName = attractionName;
+        mAttractionDescription = attractionDescription;
+        mAttractionAddress = attractionAddress;
+        mAttractionTransportation = attractionTransportation;
+        mAttractionPhone = attractionPhone;
+        mAttractionWeb = attractionWeb;
+        mAttractionHours = attractionHours;
+        mAttractionFee = attractionFee;
+    }
+
+    /**
+     * (For food, better than beef)
+     * @param attractionImageId
+     * @param attractionName
+     * @param attractionDescription
+     * @param attractionAddress
+     * @param attractionTransportation
+     * @param attractionPhone
+     * @param attractionHours
+     * @param attractionFee
+     */
+    public Attraction(int attractionImageId, String attractionName, String attractionDescription,
+                      String attractionAddress, String attractionTransportation, String attractionPhone,
+            String attractionHours, String attractionFee) {
+        mAttractionImageId = attractionImageId;
+        mAttractionName = attractionName;
+        mAttractionDescription = attractionDescription;
+        mAttractionAddress = attractionAddress;
+        mAttractionTransportation = attractionTransportation;
+        mAttractionPhone = attractionPhone;
+        mAttractionHours = attractionHours;
+        mAttractionFee = attractionFee;
+    }
+
+
+
+
 
     /**
      * Get the image resource Id of the place
