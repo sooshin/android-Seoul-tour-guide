@@ -611,7 +611,7 @@
 
     <!-- Better than Beef -->
     <string name="better_than_beef">Better than Beef</string>
-    <string name="better_than_beef_des">Better than Beef is a special pork belly fushion restaurant
+    <string name="better_than_beef_des">Better than Beef is a special pork belly fusion restaurant
         located in Garosugil, Shinsa-dong. There are unique menus such as Variety Samgyeopsal
         (pork belly), cheese tofu and creamy toast pork. Variety Samgyeopsal dish consists of
         cream sauce, jalapeno, sliced potato, cheese and of course well-cooked Samgyeopsal.
@@ -637,22 +637,59 @@
     <string name="daedo_hours">11:00 ~ 22:00</string>
     <string name="daedo_fee">Hanwoo sirloin (200g): 38,500won</string>
 
-    <!-- Fried Chicken -->
-    <string name="chicken">Fried Chicken</string>
-    <string name="chicken_des"></string>
-    <string name="chicken_address"></string>
-    <string name="chicken_transport"></string>
+    <!-- Fried chicken -->
+    <string name="chicken">Fried Chicken delivery</string>
+    <string name="chicken_des">Chimaek refers to a combination of chicken and beer. "chi" for
+        chicken and "maek" for maekju, Korean for beer. Eating chicken with beer is Chimaek.
+        \n\nOne of the highlights of Korean chicken is delivery culture is on another level.
+        They deliver to you by the side of the river, at a park, wherever you want. There is a
+        variety of delivery chicken brand, such as BHC, Kyochon, BBQ, Nene, Goobne, Yellow whole
+        chicken and so on. You can deliver BHC, Nene, Goobne, and other brands in English by using
+        Shuttle Delivery services. </string>
+    <string name="chicken_address">Set your Location</string>
+    <string name="chicken_phone">1661&#8211;8482</string>
+    <string name="chicken_web">www.shuttledelivery.co.kr/en</string>
+    <string name="chicken_hours">Mon - Fri 11:30 ~ 15:00&amp;16:30 ~ 21:30
+        \nSat &amp; Sun 11:30 ~ 21:30</string>
+    <string name="chicken_fee">15,000won ~ 20,000won</string>
 
     <!-- Jungsik-->
     <string name="jungsik">Jungsik</string>
-    <string name="jungsik_des"></string>
-    <string name="jungsik_address">11, seolleungro 158-gil, Gangnamgu, Seoul</string>
+    <string name="jungsik_des">Jungsik is a two-Michelin starred restaurant in Seoul and New York,
+        serving contemporary, creative Korean Cuisine. Owner Chef Jungsik Yim reinvents Korean
+        cuisine using traditional and familiar ingredients, creating a brand-new genre of food:
+        New Korean Fine Dining.</string>
+    <string name="jungsik_address">11, Seolleung-ro 158-gil, Gangnamgu, Seoul</string>
     <string name="jungsik_transport">Apgugeongrodeo Station (Bundang Line), Exit 4</string>
     <string name="jungsik_phone">+82&#8211;2&#8211;517&#8211;4654</string>
     <string name="jungsik_web">www.jungsik.kr/</string>
     <string name="jungsik_hours">12:00 ~ 22:00 ※ Break time 15:00 ~ 17:30</string>
-    <string name="jungsik_fee">Lunch: 60,000 ~ 150,000won
-        \nDinner: 100,000 ~ 180,000won</string>
+    <string name="jungsik_fee">Lunch: 60,000 ~ 150,000won\nDinner: 100,000 ~ 180,000won</string>
+
+    <!-- Beef of Love -->
+    <string name="beef_sarang">Beef of Love</string>
+    <string name="beef_sarang_des">Beef of Love is very modern and atmospheric unlike to other
+        Korean BBQ restaurants. This restaurant specializes in Korean beef, Hanwoo, especially
+        sirloin (Deungshim) and tenderloin (Anshim). You can have grilled steak with Truffle salt
+        and cheese. The owner cooks the meat to perfection. </string>
+    <string name="beef_sarang_address">106, Hannam-daero, Yongsan-gu, Seoul</string>
+    <string name="beef_sarang_transport">Hangangjin Station (Subway Line 6), Exit 3</string>
+    <string name="beef_sarang_phone">+82&#8211;2&#8211;794&#8211;3313</string>
+    <string name="beef_sarang_web">beefsarang.modod.at(Korean only)</string>
+    <string name="beef_sarang_hours">17:30 ~ 11:00 ※ Closed on Sundays</string>
+    <string name="beef_sarang_fee">Prices are subject to change.</string>
+
+    <!-- Bamdokkaebi Night Market -->
+    <string name="bamdokkaebi">Yeoido Bamdokkaebi Night Market </string>
+    <string name="bamdokkaebi_des">Bamdokkaebi Night Market is a new type of space that incorporates
+        a variety of concepts and exists for only a finite amount of time. There is the Food Truck Zone where
+        you can discover diverse foods from all over the world. Since there are lots of food to choose, the best
+        indication may be the longest queue.</string>
+    <string name="bamdokkaebi_address">330, Yeouidong-ro, Yeongdeungpo-gu, Seoul</string>
+    <string name="bamdokkaebi_transport">Yeouinaru Station (Subway Line 5), Exit 2 (walk approx. 600 m)</string>
+    <string name="bamdokkaebi_web">www.bamdokkaebi.org</string>
+    <string name="bamdokkaebi_hours">Fri &amp; Sat: 18:00 ~ 23:00 (From late March to late October)</string>
+    <string name="bamdokkaebi_fee">5,000won ~ 10,000won</string>
 
     <!-- Korean Fragment -->
     <string name="hello">Hello.</string>
