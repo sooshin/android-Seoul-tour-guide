@@ -17,7 +17,7 @@ import java.util.List;
 
 public class FoodFragment extends Fragment{
 
-    private List<Attraction> attractions;
+    private List<Food> foods;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_food, container, false);
@@ -29,22 +29,22 @@ public class FoodFragment extends Fragment{
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(layoutManager);
 
-        // Create a list of attractions
-        attractions = new ArrayList<>();
+        // Create a list of foods
+        foods = new ArrayList<>();
 
-        // Add attractions to the list of attractions
-        addAttractions();
+        // Add foods to the list of foods
+        addFoods();
 
         // Make the recyclerView use the RecyclerAdapter
-        recyclerView.setAdapter(new FoodAdapter(getActivity(), attractions, R.layout.activity_main));
+        recyclerView.setAdapter(new FoodAdapter(getActivity(), foods, R.layout.activity_main));
         return rootView;
     }
 
     /**
-     * Add attractions to the list of attractions
+     * Add foods to the list of foods
      */
-    public void addAttractions() {
-        attractions.add(new Attraction(R.drawable.gwangjang,
+    public void addFoods() {
+        foods.add(new Food(R.drawable.gwangjang,
                 getString(R.string.gwangjang),
                 getString(R.string.gwangjang_des),
                 getString(R.string.gwangjang_address),
@@ -53,7 +53,7 @@ public class FoodFragment extends Fragment{
                 getString(R.string.gwangjang_web),
                 getString(R.string.gwangjang_hours),
                 getString(R.string.gwangjang_fee)));
-        attractions.add(new Attraction(R.drawable.hanilkwan,
+        foods.add(new Food(R.drawable.hanilkwan,
                 getString(R.string.hanilkwan),
                 getString(R.string.hanilkwan_des),
                 getString(R.string.hanilkwan_address),
@@ -62,7 +62,7 @@ public class FoodFragment extends Fragment{
                 getString(R.string.hanilkwan_web),
                 getString(R.string.hanilkwan_hours),
                 getString(R.string.hanilkwan_fee)));
-        attractions.add(new Attraction(R.drawable.tosokchon,
+        foods.add(new Food(R.drawable.tosokchon,
                 getString(R.string.tosokchon),
                 getString(R.string.tosokchon_des),
                 getString(R.string.tosokchon_address),
@@ -71,7 +71,7 @@ public class FoodFragment extends Fragment{
                 getString(R.string.tosokchon_web),
                 getString(R.string.tosokchon_hours),
                 getString(R.string.tosokchone_fee)));
-        attractions.add(new Attraction(R.drawable.jokbal,
+        foods.add(new Food(R.drawable.jokbal,
                 getString(R.string.jokbal),
                 getString(R.string.jokbal_des),
                 getString(R.string.jokbal_address),
@@ -80,7 +80,7 @@ public class FoodFragment extends Fragment{
                 getString(R.string.jokbal_web),
                 getString(R.string.jokbal_hours),
                 getString(R.string.jokbal_fee)));
-        attractions.add(new Attraction(R.drawable.better_than_beef,
+        foods.add(new Food(R.drawable.better_than_beef,
                 getString(R.string.better_than_beef),
                 getString(R.string.better_than_beef_des),
                 getString(R.string.better_than_beef_address),
@@ -88,7 +88,7 @@ public class FoodFragment extends Fragment{
                 getString(R.string.better_than_beef_phone),
                 getString(R.string.better_than_beef_hours),
                 getString(R.string.better_than_beef_fee)));
-        attractions.add(new Attraction(R.drawable.daedo,
+        foods.add(new Food(R.drawable.daedo,
                 getString(R.string.daedo),
                 getString(R.string.daedo_des),
                 getString(R.string.daedo_address),
@@ -97,8 +97,39 @@ public class FoodFragment extends Fragment{
                 getString(R.string.daedo_web),
                 getString(R.string.daedo_hours),
                 getString(R.string.daedo_fee)));
-
-
+        foods.add(new Food(R.drawable.chicken,
+                getString(R.string.chicken),
+                getString(R.string.chicken_des),
+                getString(R.string.chicken_phone),
+                getString(R.string.chicken_web),
+                getString(R.string.chicken_hours),
+                getString(R.string.chicken_fee)));
+        foods.add(new Food(R.drawable.jungsik,
+                getString(R.string.jungsik),
+                getString(R.string.jungsik_des),
+                getString(R.string.jungsik_address),
+                getString(R.string.jungsik_transport),
+                getString(R.string.jungsik_phone),
+                getString(R.string.jungsik_web),
+                getString(R.string.jungsik_hours),
+                getString(R.string.jungsik_fee)));
+        foods.add(new Food(R.drawable.beef_sarang,
+                getString(R.string.beef_sarang),
+                getString(R.string.beef_sarang_des),
+                getString(R.string.beef_sarang_address),
+                getString(R.string.beef_sarang_transport),
+                getString(R.string.beef_sarang_phone),
+                getString(R.string.beef_sarang_web),
+                getString(R.string.beef_sarang_hours),
+                getString(R.string.beef_sarang_fee)));
+        foods.add(new Food(getString(R.string.bamdokkaebi),
+                R.drawable.bamdokkaebi,
+                getString(R.string.bamdokkaebi_des),
+                getString(R.string.bamdokkaebi_address),
+                getString(R.string.bamdokkaebi_transport),
+                getString(R.string.bamdokkaebi_web),
+                getString(R.string.bamdokkaebi_hours),
+                getString(R.string.bamdokkaebi_fee)));
 
     }
 }

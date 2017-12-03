@@ -159,8 +159,6 @@ public class Attraction {
 
 
 
-
-
     /**
      * Get the image resource Id of the place
      */

@@ -21,11 +21,11 @@ import java.util.List;
 
 public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
     private Context mContext;
-    private List<Attraction> mAttractions;
+    private List<Food> mFoods;
 
-    public FoodAdapter(Context context, List<Attraction> attractions, int item_layout) {
+    public FoodAdapter(Context context, List<Food> attractions, int item_layout) {
         mContext = context;
-        mAttractions = attractions;
+        mFoods = attractions;
     }
 
     @Override
@@ -36,7 +36,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-        return mAttractions.size();
+        return mFoods.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -54,36 +54,36 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        final Attraction attraction = mAttractions.get(position);
-        Drawable drawable = ContextCompat.getDrawable(mContext, attraction.getAttractionImageId());
+        final Food attraction = mFoods.get(position);
+        Drawable drawable = ContextCompat.getDrawable(mContext, attraction.getFoodImageId());
         holder.imageView.setBackground(drawable);
-        holder.nameTextView.setText(attraction.getAttractionName());
+        holder.nameTextView.setText(attraction.getFoodName());
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, attraction.getAttractionName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, attraction.getFoodName(), Toast.LENGTH_SHORT).show();
                 // Create a new intent to open the {@link DetailActivity}
                 Intent detailIntent = new Intent(mContext, DetailActivity.class);
 
                 // Pass value to {@link DetailActivity}
                 detailIntent.putExtra(mContext.getString(R.string.image_id),
-                        attraction.getAttractionImageId());
+                        attraction.getFoodImageId());
                 detailIntent.putExtra(mContext.getString(R.string.name),
-                        attraction.getAttractionName());
+                        attraction.getFoodName());
                 detailIntent.putExtra(mContext.getString(R.string.description),
-                        attraction.getAttractionDescription());
+                        attraction.getFoodDescription());
                 detailIntent.putExtra(mContext.getString(R.string.address),
-                        attraction.getAttractionAddress());
+                        attraction.getFoodAddress());
                 detailIntent.putExtra(mContext.getString(R.string.transport),
-                        attraction.getAttractionTransportation());
+                        attraction.getFoodTransportation());
                 detailIntent.putExtra(mContext.getString(R.string.phone),
-                        attraction.getAttractionPhone());
+                        attraction.getFoodPhone());
                 detailIntent.putExtra(mContext.getString(R.string.web),
-                        attraction.getAttractionWeb());
+                        attraction.getFoodWeb());
                 detailIntent.putExtra(mContext.getString(R.string.hours),
-                        attraction.getAttractionHours());
+                        attraction.getFoodHours());
                 detailIntent.putExtra(mContext.getString(R.string.fee),
-                        attraction.getAttractionFee());
+                        attraction.getFoodFee());
 
                 // Start the new activity
                 mContext.startActivity(detailIntent);
