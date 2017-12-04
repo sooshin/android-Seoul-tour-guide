@@ -11,11 +11,11 @@ import android.view.ViewGroup;
  */
 
 public class InformationFragment extends Fragment{
-    View myView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        myView = inflater.inflate(R.layout.fragment_info, container, false);
-        return myView;
+        View rootView = inflater.inflate(R.layout.fragment_info, container, false);
+
+        return rootView;
     }
 }

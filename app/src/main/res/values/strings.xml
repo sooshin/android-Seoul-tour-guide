@@ -31,35 +31,45 @@
     <string name="fee">fee</string>
 
     <!-- Basic information -->
-    <string name="seoul">Seoul is the capital of the Republic of Korea(commonly known as South Korea).
-        Seoul was the capital of Baekje in the past (BC18 ~ AD475) and was the capital of the Joseon Dynasty (1392–1897).
-        Since then, it has been the center of politics, economy, society, and culture, and now about 10 million people (one-fifth of the total population) live in Seoul.
-        The Han River which flows into the center of the city played an important role in Korean history.
-
-        \n\nSeoul is a city where past and present coexist.
-        Gyeongbok Palace, Changdeok Palace, Deoksugung Palace, Jongmyo Shrine and the ruins show the historical city with its tradition.
-        The Dongdaemun Design Plaza, where the design begin, Lotte World Tower, the world's fifth tallest building(555m), and the landmark N Seoul Tower, show the modern Seoul.
-
-        After the Korean War in the 1950s, it achieved remarkable economic growth for half a century, which is called the miracle on the Han River.
-    </string>
+    <string name="seoul">Seoul</string>
+    <string name="seoul_des">Seoul is the capital and largest city of South Korea, and it has a
+        population of around 10 million, which is one-fifth of the total population. Seoul is the
+        center of politics, economy, business, education, and culture for South Korea.\n\nSeoul is a
+        city where the traditional and modern coexist. Five Grand Palaces including Deoksugung,
+        a UNESCO heritage site, and Bukchon Hanok Village represent a fascinating blend of ancient
+        traditions. The Dongdaemun Design Plaza and Lotte World Tower are the extraordinary landmarks
+        that reflect modern Seoul.\n\nThe Han River flows into the center of the city, and beautifully
+        landscaped parks alongside the Han River provides an environmentally-friendly place
+        where city folk can take a rest.</string>
 
     <!-- Basic information about climate -->
-    <string name="climate">In spring, it is warm enough during the day, but it gets chilly at night.
+    <string name="climate">Climate</string>
+    <string name="climate_des">In spring, it is warm enough during the day, but it gets chilly at night.
         In summer, it is really hot and humid(25 ~ 35 °C). There is a rainy season from late June
         to early July. It is hottest in the late July and early August. In autumn, it is clear and
         dry(10 ~ 25°C). The fall foliage reaches a peak in mid-October. In winter, it is too cold.
         (-10~10°C) December and January are coldest months. </string>
 
     <!-- Basic information about currency -->
-    <string name="currency">Won (\) is the Korean currency fo money. One dollar (USD) is worth about 1,000 won.</string>
+    <string name="currency">Currency</string>
+    <string name="currency_des">Won (\) is the Korean currency fo money. One dollar (USD) is worth
+        about 1,000 won.</string>
+
+    <!-- Basic information about transportation -->
+    <string name="from_incheon_to_seoul">Easy way to get from Incheon Airport to Seoul </string>
+    <string name="from_incheon_to_seoul_des">The airport railroad or AREX is a very convenient way
+        to get from the airport to various locations in Seoul. There are two trains that you can
+        take.\n\nOne is the Express Train which goes straight to Seoul Station without any stops.
+        Going on this train takes 43 minutes and is presently on sale for 8000 won.\n\nThe other
+        train goes to Seoul Station as well but makes stops at various subway transfer stations
+        along the way. This training takes just over 50 minutes to go to Seoul Station and costs
+        4300 won to go to Seoul Station, or less if you get off and transfer earlier.</string>
 
     <!-- Sights and Landmarks -->
     <!-- Gyeongbokgoung -->
     <string name="gyeongbokgung">Gyeongbokgung Palace</string>
     <string name="gyeongbokgung_short">Gyeongbokgung Palace is the royal palace of Joseon Dynasty
-        built in the 4th year of King Taejo (1395). It is not only a tourist attraction of history and
-        culture that attracts 5.5 million people annually but also a cultural space for education
-        and leisure where you can learn about the history and culture of the Joseon Dynasty.</string>
+        built in 1395. It is the largest and most significant of Seoul's Five Grand Palaces.</string>
     <string name="gyeongbokgung_des">Gyeongbokgung Palace was the first of the five palaces built
         in the Joseon Dynasty (1395). It was destroyed by Japanese Invasion of Korea(1592) but rebuilt
         during King Kojong(1867). During the Japanese colonial period(1910-1945), much of the palace was
@@ -90,15 +100,14 @@
 
     <!-- Changdeokgung -->
     <string name="changdeokgung">Changdeokgung Palace and Huwon</string>
-    <string name="changdeokgung_short">Changdeok Palace was the second palace after Gyeongbokgung
-        which had been built in the 5th year of Taejong (1405). Chadeokgung was added to the UNESCO
-        World Heritage List in 1997.</string>
+    <string name="changdeokgung_short">Changdeok Palace was the second palace built in 1405
+        after Gyeongbokgung. Chagdeokgung is one of the UNESCO World Heritage Sites.</string>
     <string name="changdeokgung_des">Changdeok Palace is the palace where the kings of the
         Joseon Dynasty lived for the longest time. It represents the atypical beauty of Korean palace
         architecture by arranging the buildings along the mountains. It is relatively well preserved
         in its original form and its harmonious arrangement with nature is excellent. \n\n
         You can see Changdeokgung Palace by moonlight and hear historical information from a guide
-        on an evening tour. This moonlight tour is held in spring and fall and you must reserve the
+        on an evening tour. This moonlight tour is held in spring and fall and you must book the
         ticket online in advance.(ticket.interpark.com/Global)\n\n
         You can visit Huwon(Secret Garden) by making a reservation on the homepage from 10:00 6 days
         before the desired visit date. </string>
@@ -155,10 +164,7 @@
         The museum houses approximately 33,000 artifacts with about 10,000 on display at an indoor and
         outside exhibition halls.\n\nThere are six separate indoor halls, including Expeditionary Forces Room,
         Patriotic Memorial Room, War History Room, 6·25 Korean War Room, Development Hall and Large
-        Machinery Room. The outdoor exhibition hall showcases large-sized weapons.\n\nVisitors of all ages
-        from children to adults can also participate in 20 various educational programs and diverse
-        cultural events such as military music and honor guard events, drawing contest, cultural event and more.
-    </string>
+        Machinery Room. The outdoor exhibition hall showcases large-sized weapons.</string>
     <string name="war_memorial_address">29, Itaewon-ro, Yongsan-gu, Seoul</string>
     <string name="war_memorial_transport">Samgakji Station(Subway Line 4, 6), Exit 12</string>
     <string name="war_memorial_phone">+82&#8211;2&#8211;709&#8211;3139</string>
@@ -257,12 +263,12 @@
     <!-- Jongmyo Shrine-->
     <string name="jongmyo">Jongmyo Shrine</string>
     <string name="jongmyo_short">Jongmyo is a royal shrine dedicated to the performance of
-        ancestral rites for the deceased kings and queens of the Joseon Dynasty.</string>
+        ancestral rites for the deceased kings and queens of the Joseon Dynasty. Jongmyo is one of
+        the UNESCO World Heritage Sites.</string>
     <string name="jongmyo_des">Being the place where the royal ancestral tablets are enshrined,
         Jongmyo\'s atmosphere is solemn and sacred rather than splendid like the royal palaces. The
         simple and elegant buildings of this shrine have faithfully kept their original forms since
-        the 16th century.\n\nFor assistance with reserving a tour of Jongmyo, please call the 1330
-        Korea Travel Hotline.</string>
+        the 16th century. </string>
     <string name="jongmyo_address">157, Jong-ro, Jongno-gu, Seoul</string>
     <string name="jongmyo_transport">Jongno3(sam)-ga Station (Subway Line 1, 3, 5), Exit 11</string>
     <string name="jongmyo_phone">+82&#8211;2&#8211;765&#8211;0195\nKorea Travel Hotline: +82&#8211;2&#8211;1330</string>
@@ -328,10 +334,10 @@
     <string name="hangang_park">Yeouido Hangang Park</string>
     <string name="hangang_park_short">There are 12 Hangang Citizens\' Park, located along the
         Han River(Hangang). The Yeouido Hangang Park is the most popular spot for locals and tourists alike.</string>
-    <string name="hangang_park_des">The Yeouido Hangang Park is a leisure place for citizens to
+    <string name="hangang_park_des">Yeouido Hangang Park is a leisure place where citizens can
         relax. It is a great place for picnics or cycling. There is a public bicycle rental center
         next to Exit 1 of Yeouido Station. There are many events to enjoy such as spring flower
-        festival, world fireworks festival, various performances and marathon events.</string>
+        festival, world fireworks festival, various performances, and marathon events.</string>
     <string name="hangang_park_address">330, Yeouidong-ro, Yeongdeungpo-gu, Seoul</string>
     <string name="hangang_park_transport">Yeouinaru Station (Subway Line 5), Exit 2, 3</string>
     <string name="hangang_park_phone">+82&#8211;2&#8211;3780&#8211;0561</string>
