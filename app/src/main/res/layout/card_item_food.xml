@@ -10,8 +10,8 @@
         android:id="@+id/cardview_food"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        card_view:cardCornerRadius="8dp">
+        android:layout_margin="@dimen/layout_margin_card"
+        card_view:cardCornerRadius="@dimen/card_corner_radius">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             <ImageView
                 android:id="@+id/food_image_card"
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
+                android:layout_height="@dimen/layout_height_shop_food"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
@@ -36,7 +36,7 @@
                 android:layout_alignBottom="@id/attraction_image_card"
                 android:layout_centerVertical="true"
                 android:fontFamily="sans-serif-medium"
-                android:padding="10dp"
+                android:padding="@dimen/padding_text_view"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/white"
                 tools:text="name" />

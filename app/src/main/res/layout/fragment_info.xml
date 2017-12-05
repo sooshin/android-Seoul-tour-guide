@@ -14,7 +14,7 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/layout_width_zero"
                 android:layout_height="@dimen/layout_height_seoul_image"
                 android:layout_weight="1"
                 android:contentDescription="@string/image_des"
@@ -22,7 +22,7 @@
                 android:src="@drawable/seoul_gwanghwamun" />
 
             <ImageView
-                android:layout_width="0dp"
+                android:layout_width="@dimen/layout_width_zero"
                 android:layout_height="@dimen/layout_height_seoul_image"
                 android:layout_weight="1"
                 android:contentDescription="@string/image_des"

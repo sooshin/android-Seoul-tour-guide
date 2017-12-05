@@ -2,8 +2,8 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/color_detail_background"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/color_detail_background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         <ImageView
             android:id="@+id/detail_image_view"
             android:layout_width="match_parent"
-            android:layout_height="220dp"
+            android:layout_height="@dimen/layout_height_detail_image"
             android:contentDescription="@string/image_des"
             android:scaleType="centerCrop" />
 
@@ -21,19 +21,20 @@
             android:id="@+id/detail_long_description"
             style="@style/DetailTextViewStyle"
             android:fontFamily="sans-serif"
-            android:paddingTop="16dp"
+            android:paddingTop="@dimen/padding"
             tools:text="Long description" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:paddingTop="@dimen/padding_top">
 
             <TextView
                 android:id="@+id/detail_address"
                 style="@style/DetailTextViewStyle"
                 android:autoLink="map"
-                android:paddingTop="8dp"
                 tools:text="Address" />
 
             <TextView
@@ -44,15 +45,7 @@
             <TextView
                 android:id="@+id/detail_phone"
                 style="@style/DetailTextViewStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:autoLink="phone"
-                android:drawablePadding="@dimen/drawable_padding"
-                android:fontFamily="sans-serif-light"
-                android:paddingBottom="@dimen/padding_bottom"
-                android:paddingLeft="@dimen/padding"
-                android:paddingRight="@dimen/padding"
-                android:textSize="16sp"
                 tools:text="Phone" />
 
             <TextView
@@ -69,7 +62,6 @@
             <TextView
                 android:id="@+id/detail_fee"
                 style="@style/DetailTextViewStyle"
-                android:layout_marginBottom="8dp"
                 tools:text="Admission Fee" />
 
         </LinearLayout>

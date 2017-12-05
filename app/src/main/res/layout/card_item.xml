@@ -10,8 +10,8 @@
         android:id="@+id/cardview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        card_view:cardCornerRadius="8dp">
+        android:layout_margin="@dimen/layout_margin_card"
+        card_view:cardCornerRadius="@dimen/card_corner_radius">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             <ImageView
                 android:id="@+id/attraction_image_card"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="@dimen/layout_height_image"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
@@ -37,7 +37,7 @@
                 android:textAppearance="?android:textAppearanceMedium"
                 android:fontFamily="sans-serif-medium"
                 android:textColor="@android:color/white"
-                android:padding="10dp"
+                android:padding="@dimen/padding_text_view"
                 tools:text="name" />
 
             <TextView
@@ -46,7 +46,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_below="@+id/attraction_name_card"
-                android:padding="10dp"
+                android:padding="@dimen/padding_text_view"
+                android:textColor="@color/color_green_900"
                 tools:text="short description" />
 
         </RelativeLayout>
