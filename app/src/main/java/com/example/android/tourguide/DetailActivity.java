@@ -46,6 +46,9 @@ public class DetailActivity extends AppCompatActivity {
         hours = detailIntent.getStringExtra(getString(R.string.hours));
         fee = detailIntent.getStringExtra(getString(R.string.fee));
 
+        // Set title of an action bar
+        setTitle(name);
+
         // Find imageView and set the image resource ID on that imageView
         ImageView imageView = findViewById(R.id.detail_image_view);
         imageView.setImageResource(imageId);
