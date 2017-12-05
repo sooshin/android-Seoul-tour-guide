@@ -14,6 +14,9 @@
     <string name="basic_korean">Basic Korean</string>
     <string name="detail">Detail</string>
 
+    <!-- String for nav_header_main -->
+    <string name="seoul_travel">Seoul Travel</string>
+
     <!-- String for content description -->
     <string name="attraction_image_des">Attraction Image</string>
     <string name="image_des">Image</string>
