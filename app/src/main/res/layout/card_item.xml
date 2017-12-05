@@ -11,6 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/layout_margin_card"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
         card_view:cardCornerRadius="@dimen/card_corner_radius">
 
         <RelativeLayout
@@ -26,18 +29,18 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_gravity="center"
-                android:scaleType="centerCrop"
-                android:contentDescription="@string/image_des"/>
+                android:contentDescription="@string/image_des"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:id="@+id/attraction_name_card"
-                android:layout_alignBottom="@id/attraction_image_card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_alignBottom="@id/attraction_image_card"
                 android:fontFamily="sans-serif-medium"
-                android:textColor="@android:color/white"
                 android:padding="@dimen/padding_text_view"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
                 tools:text="name" />
 
             <TextView
