@@ -20,7 +20,7 @@ public class FoodFragment extends Fragment{
     private List<Food> foods;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_food, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_item, container, false);
 
         // Set up the RecyclerView
         RecyclerView recyclerView = rootView.findViewById(R.id.recyclerview);

@@ -20,7 +20,7 @@ public class ShopFragment extends Fragment {
     private List<Attraction> attractions;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_shop, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_item, container, false);
 
         // Set up the RecyclerView
         RecyclerView recyclerView = rootView.findViewById(R.id.recyclerview);
