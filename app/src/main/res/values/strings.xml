@@ -45,14 +45,14 @@
     <!-- Basic information about climate -->
     <string name="climate">Climate</string>
     <string name="climate_des">In spring, it is warm enough during the day, but it gets chilly at night.
-        In summer, it is really hot and humid(25 ~ 35 °C). There is a rainy season from late June
+        In summer, it is really hot and humid(25 ~ 35°C). There is a rainy season from late June
         to early July. It is hottest in the late July and early August. In autumn, it is clear and
         dry(10 ~ 25°C). The fall foliage reaches a peak in mid-October. In winter, it is too cold.
-        (-10~10°C) December and January are coldest months. </string>
+        (-10 ~ 10°C) December and January are coldest months. </string>
 
     <!-- Basic information about currency -->
     <string name="currency">Currency</string>
-    <string name="currency_des">Won (\) is the Korean currency fo money. One dollar (USD) is worth
+    <string name="currency_des">Won is the Korean currency of money. One dollar (USD) is worth
         about 1,000 won.</string>
 
     <!-- Basic information about transportation -->
@@ -60,10 +60,10 @@
     <string name="from_incheon_to_seoul_des">The airport railroad or AREX is a very convenient way
         to get from the airport to various locations in Seoul. There are two trains that you can
         take.\n\nOne is the Express Train which goes straight to Seoul Station without any stops.
-        Going on this train takes 43 minutes and is presently on sale for 8000 won.\n\nThe other
+        Going on this train takes 43 minutes and is presently on sale for 8,000 won.\n\nThe other
         train goes to Seoul Station as well but makes stops at various subway transfer stations
         along the way. This training takes just over 50 minutes to go to Seoul Station and costs
-        4300 won to go to Seoul Station, or less if you get off and transfer earlier.</string>
+        4,300 won to go to Seoul Station, or less if you get off and transfer earlier.</string>
 
     <!-- Sights and Landmarks -->
     <!-- Gyeongbokgoung -->

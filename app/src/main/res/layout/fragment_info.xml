@@ -2,65 +2,69 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/layout_height_seoul_image"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_des"
+                android:scaleType="fitXY"
+                android:src="@drawable/seoul_gwanghwamun" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/layout_height_seoul_image"
+                android:layout_weight="1"
+                android:contentDescription="@string/image_des"
+                android:scaleType="fitXY"
+                android:src="@drawable/seoul_hyangwonjeong" />
+        </LinearLayout>
+
         <ImageView
-            android:layout_width="0dp"
-            android:layout_height="120dp"
-            android:layout_weight="1"
-            android:src="@drawable/seoul_gwanghwamun"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_seoul_scenery"
+            android:contentDescription="@string/image_des"
             android:scaleType="fitXY"
-            android:contentDescription="@string/image_des"/>
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="120dp"
-            android:layout_weight="1"
-            android:src="@drawable/seoul_hyangwonjeong"
-            android:scaleType="fitXY"
-            android:contentDescription="@string/image_des"/>
+            android:src="@drawable/seoul_scenery" />
+
+        <TextView
+            android:id="@+id/seoul_des"
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/seoul_des" />
+
+        <TextView
+            style="@style/InfoTitleTextStyle"
+            android:text="@string/climate" />
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/climate_des" />
+
+        <TextView
+            style="@style/InfoTitleTextStyle"
+            android:text="@string/currency" />
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/currency_des" />
+
+        <TextView
+            style="@style/InfoTitleTextStyle"
+            android:text="@string/from_incheon_to_seoul" />
+
+        <TextView
+            style="@style/InfoDescriptionTextStyle"
+            android:text="@string/from_incheon_to_seoul_des" />
+
     </LinearLayout>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="130dp"
-        android:src="@drawable/seoul_scenery"
-        android:scaleType="fitXY"/>
-    <TextView
-        android:id="@+id/seoul"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/seoul"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/seoul_des"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/climate"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/currency"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/currency_des"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/from_incheon_to_seoul"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/from_incheon_to_seoul_des"/>
-
-</LinearLayout>
 </ScrollView>

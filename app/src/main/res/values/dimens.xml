@@ -10,4 +10,9 @@
     <dimen name="padding_bottom">8dp</dimen>
     <dimen name="padding_top">8dp</dimen>
     <dimen name="drawable_padding">8dp</dimen>
+    <dimen name="layout">16dp</dimen>
+
+    <!-- Layout Height in the fragment_info.xml -->
+    <dimen name="layout_height_seoul_image">120dp</dimen>
+    <dimen name="layout_height_seoul_scenery">130dp</dimen>
 </resources>

@@ -17,7 +17,7 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <!--Styles for TextView in the activity_detail.xml -->
+    <!-- Styles for TextView in the activity_detail.xml -->
     <style name="DetailTextViewStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -29,4 +29,27 @@
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
+    <!-- Styles for description TextView in the fragment_info.xml -->
+    <style name="InfoDescriptionTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingTop">@dimen/padding_top</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+        <item name="android:textColor">@color/color_green_900</item>
+    </style>
+
+    <!-- Styles for title TextView in the fragment_info.xml-->
+    <style name="InfoTitleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/padding</item>
+        <item name="android:layout_marginRight">@dimen/padding</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/color_light_green_500</item>
+
+    </style>
 </resources>
