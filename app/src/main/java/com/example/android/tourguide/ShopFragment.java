@@ -35,8 +35,8 @@ public class ShopFragment extends Fragment {
         // Add attractions to the list of attractions
         addAttractions();
 
-        // Make the recyclerView use the RecyclerAdapter
-        recyclerView.setAdapter(new RecyclerAdapter(getActivity(), attractions, R.layout.activity_main));
+        // Make the recyclerView use the ShopAdapter
+        recyclerView.setAdapter(new ShopAdapter(getActivity(), attractions, R.layout.activity_main));
 
         return rootView;
     }

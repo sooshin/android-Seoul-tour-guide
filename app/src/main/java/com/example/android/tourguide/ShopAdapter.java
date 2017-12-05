@@ -16,74 +16,75 @@ import android.widget.Toast;
 import java.util.List;
 
 /**
- * Created by sj on 12/2/2017.
+ * Created by sj on 12/5/2017.
  */
 
-public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
+public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ViewHolder> {
     private Context mContext;
-    private List<Food> mFoods;
+    private List<Attraction> mAttractions;
 
-    public FoodAdapter(Context context, List<Food> foods, int item_layout) {
+    public ShopAdapter(Context context, List<Attraction> attractions, int item_layout) {
         mContext = context;
-        mFoods = foods;
+        mAttractions = attractions;
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item_food, null);
-        return new ViewHolder(v);
+    public ShopAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item_shop, null);
+        return new ShopAdapter.ViewHolder(v);
     }
 
     @Override
     public int getItemCount() {
-        return mFoods.size();
+        return mAttractions.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
         private TextView nameTextView;
+        private TextView descriptionShortTextView;
         private CardView cardView;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            imageView = itemView.findViewById(R.id.food_image_card);
-            nameTextView = itemView.findViewById(R.id.food_name_card);
-            cardView = itemView.findViewById(R.id.cardview_food);
+            imageView = itemView.findViewById(R.id.shop_image_card);
+            nameTextView = itemView.findViewById(R.id.shop_name_card);
+            cardView = itemView.findViewById(R.id.cardview_shop);
         }
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
-        final Food attraction = mFoods.get(position);
-        Drawable drawable = ContextCompat.getDrawable(mContext, attraction.getFoodImageId());
+    public void onBindViewHolder(ShopAdapter.ViewHolder holder, int position) {
+        final Attraction attraction = mAttractions.get(position);
+        Drawable drawable = ContextCompat.getDrawable(mContext, attraction.getAttractionImageId());
         holder.imageView.setBackground(drawable);
-        holder.nameTextView.setText(attraction.getFoodName());
+        holder.nameTextView.setText(attraction.getAttractionName());
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, attraction.getFoodName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, attraction.getAttractionName(), Toast.LENGTH_SHORT).show();
                 // Create a new intent to open the {@link DetailActivity}
                 Intent detailIntent = new Intent(mContext, DetailActivity.class);
 
                 // Pass value to {@link DetailActivity}
                 detailIntent.putExtra(mContext.getString(R.string.image_id),
-                        attraction.getFoodImageId());
+                        attraction.getAttractionImageId());
                 detailIntent.putExtra(mContext.getString(R.string.name),
-                        attraction.getFoodName());
+                        attraction.getAttractionName());
                 detailIntent.putExtra(mContext.getString(R.string.description),
-                        attraction.getFoodDescription());
+                        attraction.getAttractionDescription());
                 detailIntent.putExtra(mContext.getString(R.string.address),
-                        attraction.getFoodAddress());
+                        attraction.getAttractionAddress());
                 detailIntent.putExtra(mContext.getString(R.string.transport),
-                        attraction.getFoodTransportation());
+                        attraction.getAttractionTransportation());
                 detailIntent.putExtra(mContext.getString(R.string.phone),
-                        attraction.getFoodPhone());
+                        attraction.getAttractionPhone());
                 detailIntent.putExtra(mContext.getString(R.string.web),
-                        attraction.getFoodWeb());
+                        attraction.getAttractionWeb());
                 detailIntent.putExtra(mContext.getString(R.string.hours),
-                        attraction.getFoodHours());
+                        attraction.getAttractionHours());
                 detailIntent.putExtra(mContext.getString(R.string.fee),
-                        attraction.getFoodFee());
+                        attraction.getAttractionFee());
 
                 // Start the new activity
                 mContext.startActivity(detailIntent);

@@ -15,4 +15,11 @@
     <!-- Layout Height in the fragment_info.xml -->
     <dimen name="layout_height_seoul_image">120dp</dimen>
     <dimen name="layout_height_seoul_scenery">130dp</dimen>
+
+    <!-- Layout margin for cardView -->
+    <dimen name="layout_margin_card">5dp</dimen>
+    <dimen name="card_corner_radius_small">1dp</dimen>
+    <dimen name="layout_height_shop_food">160dp</dimen>
+    <dimen name="padding_shop_text_view">10dp</dimen>
+
 </resources>

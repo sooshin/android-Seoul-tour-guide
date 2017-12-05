@@ -17,7 +17,7 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-    <!-- Styles for TextView in the activity_detail.xml -->
+    <!-- Style for TextView in the activity_detail.xml -->
     <style name="DetailTextViewStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -29,7 +29,7 @@
         <item name="android:fontFamily">sans-serif-light</item>
     </style>
 
-    <!-- Styles for description TextView in the fragment_info.xml -->
+    <!-- Style for description TextView in the fragment_info.xml -->
     <style name="InfoDescriptionTextStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -40,7 +40,7 @@
         <item name="android:textColor">@color/color_green_900</item>
     </style>
 
-    <!-- Styles for title TextView in the fragment_info.xml-->
+    <!-- Style for title TextView in the fragment_info.xml-->
     <style name="InfoTitleTextStyle">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -50,6 +50,27 @@
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:background">@color/color_light_green_500</item>
+    </style>
 
+    <!-- Style for shop TextView in the card_item_shop.xml -->
+    <style name="ShopTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/color_center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/padding_shop_text_view</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Style for shop ImageView in the card_item_shop.xml -->
+    <style name="ShopImageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_height_shop_food</item>
+        <item name="android:gravity">center</item>
+        <item name="android:contentDescription">@string/image_des</item>
+        <item name="android:scaleType">centerCrop</item>
     </style>
 </resources>
