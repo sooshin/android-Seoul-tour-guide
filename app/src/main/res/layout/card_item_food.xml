@@ -38,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBottom="@id/attraction_image_card"
                 android:layout_centerVertical="true"
+                android:gravity="center"
                 android:fontFamily="sans-serif-medium"
                 android:padding="@dimen/padding_text_view"
                 android:textAppearance="?android:textAppearanceMedium"

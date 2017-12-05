@@ -610,7 +610,7 @@
     <string name="jokbal_address">134&#8211;7, Seosomun-ro, Jung-gu, Seoul</string>
     <string name="jokbal_transport">City Hall Station (Seoul Subway Line 1 &amp; 2), Exit 8.
         \nGo down Seosomun-gil Street, which has a pharmacy on the left side. After walking 30m, you
-        will see a building on the right side with ‘jokbal, mandu’ written on it. Manjok Ohyang
+        will see a building on the right side with \'jokbal, mandu\' written on it. Manjok Ohyang
         Jokbal restaurant is on the 2nd floor of this building, above a restaurant called Cheongsol.</string>
     <string name="jokbal_phone">+82&#8211;2&#8211;753&#8211;4755</string>
     <string name="jokbal_web">www.manjok.net (Korean only)</string>
@@ -713,7 +713,7 @@
     <string name="thank_you_p">Gam-sa-ham-ni-da.</string>
     <string name="thank_you_k">감사합니다.</string>
 
-    <string name="good_bye">Good bye.(said to somebody not departing)</string>
+    <string name="good_bye">Good bye.(to person staying)</string>
     <string name="good_bye_p">An-nyeong-hi gye-se-yo.</string>
     <string name="good_bye_k">안녕히 계세요.</string>
 
@@ -738,8 +738,8 @@
     <string name="how_to_get_to_gangnam_k">강남까지 어떻게 가요?</string>
     
     <string name="how_far">How far is it from here?</string>
-    <string name="how_far_p">Yeo-gi-seo eul-ma-na meom-ni-kka?</string>
-    <string name="how_far_k">여기서 얼마나 멉니까?</string>
+    <string name="how_far_p">Yeo-gi-seo eul-ma-na meol-eo-yo?</string>
+    <string name="how_far_k">여기서 얼마나 멀어요?</string>
 
 
 </resources>

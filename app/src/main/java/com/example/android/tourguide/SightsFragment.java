@@ -86,7 +86,7 @@ public class SightsFragment extends Fragment{
                 getString(R.string.lotte_world_tower_transport), getString(R.string.lotte_world_tower_phone),
                 getString(R.string.lotte_world_tower_web), getString(R.string.lotte_world_tower_hours),
                 getString(R.string.lotte_world_tower_fee)));
-        attractions.add(new Attraction(R.drawable.bongeunsa_gael_chardon, getString(R.string.bongeunsa),
+        attractions.add(new Attraction(R.drawable.bongeunsa, getString(R.string.bongeunsa),
                 getString(R.string.bongeunsa_short),
                 getString(R.string.bongeunsa_des), getString(R.string.bongeunsa_address),
                 getString(R.string.bongeunsa_transport), getString(R.string.bongeunsa_phone),

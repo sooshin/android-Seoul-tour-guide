@@ -4,7 +4,14 @@
     <color name="colorPrimaryDark">#689F38</color>
     <color name="colorAccent">#FF4081</color>
 
-    <color name="color_teal_l_100">#e5ffff</color>
+    <color name="color_description_sights">#e5ffff</color>
+    <color name="color_description_sights_text">#1A237E</color>
+    <color name="color_description_nature">#e6deee</color>
+    <color name="color_description_nature_text">#3E2723</color>
+    <color name="color_description_shop">#f8ffd7</color>
+    <color name="color_description_shop_text">#1B5E20</color>
+    <color name="color_description_food">#ffecb3</color>
+    <color name="color_description_food_text">#4A148C</color>
     <color name="color_detail_background">#ffeeff</color>
     <color name="color_background_green_d_500">#e5ffff</color>
     <color name="color_green_900">#1B5E20</color>

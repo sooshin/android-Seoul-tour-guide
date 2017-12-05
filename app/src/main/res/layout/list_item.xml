@@ -16,6 +16,7 @@
         android:layout_marginTop="@dimen/layout_margin_top"
         android:fontFamily="sans-serif"
         android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/color_description_sights_text"
         android:textStyle="bold"
         tools:text="pronunciation" />
 
@@ -30,6 +31,8 @@
         android:layout_marginLeft="@dimen/layout_margin"
         android:layout_marginRight="@dimen/layout_margin"
         android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/color_description_sights_text"
         tools:text="english" />
 
     <TextView
@@ -42,6 +45,8 @@
         android:layout_marginLeft="@dimen/layout_margin"
         android:layout_marginRight="@dimen/layout_margin"
         android:fontFamily="sans-serif"
+        android:textSize="16sp"
+        android:textColor="@color/color_description_food_text"
         tools:text="korean" />
 
     <ImageView
@@ -51,6 +56,6 @@
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="@dimen/layout_margin"
-        android:src="@drawable/ic_play_circle_outline_white_24dp" />
+        android:src="@drawable/ic_play" />
 
 </RelativeLayout>

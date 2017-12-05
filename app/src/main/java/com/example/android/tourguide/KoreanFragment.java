@@ -171,7 +171,7 @@ public class KoreanFragment extends Fragment {
         mPhrases.add(new Phrase(getString(R.string.how_far_p),
                 getString(R.string.how_far),
                 getString(R.string.how_far_k),
-                R.raw.how_far));
+                R.raw.how_far_is_it));
     }
 
     @Override

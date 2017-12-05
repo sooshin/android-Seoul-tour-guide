@@ -31,7 +31,8 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        // Get an intent from the {@link SongsFragment}
+        // Get an intent from the {@link SightsFragment}, {@link NatureCultureFragment},
+        // {@link ShopFragment}, {@link FoodFragment}
         Intent detailIntent = getIntent();
 
         // Get the data from the intent
@@ -49,10 +50,8 @@ public class DetailActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.detail_image_view);
         imageView.setImageResource(imageId);
 
-        // Find descriptionView and set the description on that textView
-        TextView descriptionTextView = findViewById(R.id.detail_long_description);
-        descriptionTextView.setText(description);
-        descriptionTextView.setBackgroundResource(R.color.color_teal_l_100);
+        // Set DescriptionTextview
+        setDescriptionTextView();
 
         final TextView addressTextView = findViewById(R.id.detail_address);
 
@@ -72,7 +71,7 @@ public class DetailActivity extends AppCompatActivity {
         setDetails(R.id.detail_phone, phone, R.drawable.ic_call);
         setDetails(R.id.detail_web, web, R.drawable.ic_public);
         setDetails(R.id.detail_hours, hours, R.drawable.ic_time);
-        setDetails(R.id.detail_fee, fee, R.drawable.ic_monetization);
+        setDetails(R.id.detail_fee, fee, R.drawable.ic_money);
 
         // Navigate with the app icon in the action bar
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -101,6 +100,54 @@ public class DetailActivity extends AppCompatActivity {
                 spanStr.setSpan(new UnderlineSpan(), 0, spanStr.length(), 0);
                 textView.setText(spanStr);
             }
+        }
+    }
+
+    /**
+     * Find textView with the detail_long_description ID and display description text on that textView
+     * and set Background color based on category
+     */
+    public void setDescriptionTextView() {
+        // Find descriptionView
+        TextView descriptionTextView = findViewById(R.id.detail_long_description);
+
+        // Set the description on that textView
+        descriptionTextView.setText(description);
+        if (imageId == R.drawable.gyeongbokgung || imageId == R.drawable.bukchon_hanok ||
+                imageId == R.drawable.changdeokgung || imageId == R.drawable.seoul_tower ||
+                imageId == R.drawable.cheonggyecheon || imageId == R.drawable.war_memorial ||
+                imageId == R.drawable.lotte_world_tower || imageId == R.drawable.bongeunsa ||
+                imageId == R.drawable.insadong || imageId == R.drawable.ddp ||
+                imageId == R.drawable.hongik_uni_street || imageId == R.drawable.jongmyo_shrine) {
+
+            // if images belong to Sights category, set backgroundResource on the descriptionTextView
+            descriptionTextView.setBackgroundResource(R.color.color_description_sights);
+            descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_sights_text));
+
+        } else if(imageId == R.drawable.myeongdong || imageId == R.drawable.namdaemun ||
+                imageId == R.drawable.goto_mall || imageId == R.drawable.dongdaemun ||
+                imageId == R.drawable.common_ground || imageId == R.drawable.garosugil ||
+                imageId == R.drawable.times_square){
+
+            // if images belong to Shop category, set backgroundResource on the descriptionTextView
+            descriptionTextView.setBackgroundResource(R.color.color_description_shop);
+            descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_shop_text));
+
+        } else if(imageId == R.drawable.gwangjang || imageId == R.drawable.hanilkwan ||
+                imageId == R.drawable.tosokchon || imageId == R.drawable.jokbal ||
+                imageId == R.drawable.better_than_beef || imageId == R.drawable.daedo ||
+                imageId == R.drawable.chicken || imageId == R.drawable.jungsik ||
+                imageId == R.drawable.beef_sarang || imageId == R.drawable.bamdokkaebi) {
+
+            // if images belong to Food category, set backgroundResource on the descriptionTextView
+            descriptionTextView.setBackgroundResource(R.color.color_description_food);
+            descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_food_text));
+
+        } else {
+
+            // if images belong to Nature and Culture category, set backgroundResource on the descriptionTextView
+            descriptionTextView.setBackgroundResource(R.color.color_description_nature);
+            descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_nature_text));
         }
     }
 
