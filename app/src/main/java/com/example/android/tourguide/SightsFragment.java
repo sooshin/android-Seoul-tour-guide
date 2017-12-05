@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by sj on 11/20/2017.
+ * SightsFragment is a simple {@link Fragment} subclass and it represents attractions of Seoul
  */
 
 public class SightsFragment extends Fragment{

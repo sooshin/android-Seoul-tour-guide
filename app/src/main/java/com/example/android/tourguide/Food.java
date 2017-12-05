@@ -1,7 +1,8 @@
 package com.example.android.tourguide;
 
 /**
- * Created by sj on 12/3/2017.
+ * {@link Food} represents a Food image, name, description, address, transportation,
+ *  phone number, web site, operation hours, price.
  */
 
 public class Food {
@@ -17,16 +18,17 @@ public class Food {
     private String mFoodFee;
 
     /**
-     * (For food)
-     * @param foodImageId
-     * @param foodName
-     * @param foodDescription
-     * @param foodAddress
-     * @param foodTransportation
-     * @param foodPhone
-     * @param foodWeb
-     * @param foodHours
-     * @param foodFee
+     * Create a new Food object.
+     *
+     * @param foodImageId is the image resource id of the place
+     * @param foodName is a name of the place
+     * @param foodDescription is the description of the place
+     * @param foodAddress is the address of the place
+     * @param foodTransportation is the transportation of the place
+     * @param foodPhone is the phone number of the place
+     * @param foodWeb is the website of the place
+     * @param foodHours is the operating hours of the place
+     * @param foodFee is the price of the food
      */
     public Food(int foodImageId, String foodName, String foodDescription,
                       String foodAddress, String foodTransportation, String foodPhone,
@@ -43,7 +45,7 @@ public class Food {
     }
 
     /**
-     * (For food, better than beef)
+     * Create a new Food object. (For better than beef)
      */
     public Food(int foodImageId, String foodName, String foodDescription,
                       String foodAddress, String foodTransportation, String foodPhone,
@@ -59,7 +61,7 @@ public class Food {
     }
 
     /**
-     * For food, chicken
+     * Create a new Food object. (For chicken)
      */
     public Food(int foodImageId, String foodName, String foodDescription, String foodPhone,
                 String foodWeb,String foodHours, String foodFee) {
@@ -73,15 +75,7 @@ public class Food {
     }
 
     /**
-     * for bamdokkaebi
-     * @param foodName
-     * @param foodImageId
-     * @param foodDescription
-     * @param foodAddress
-     * @param foodTransportation
-     * @param foodWeb
-     * @param foodHours
-     * @param foodFee
+     * Create a new Food object. (for bamdokkaebi)
      */
     public Food(String foodName, int foodImageId, String foodDescription,
                 String foodAddress, String foodTransportation, String foodWeb,
@@ -99,21 +93,21 @@ public class Food {
     /**
      * Get the image resource Id of the food
      */
-    public int getFoodImageId() {
+    int getFoodImageId() {
         return mFoodImageId;
     }
 
     /**
      * Get the name of the food
      */
-    public String getFoodName() {
+    String getFoodName() {
         return mFoodName;
     }
 
     /**
      * Get the description of the food
      */
-    public String getFoodDescription() {
+    String getFoodDescription() {
         return mFoodDescription;
     }
 

@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by sj on 11/25/2017.
+ * ShopFragment is a simple {@link Fragment} subclass and it represents where tourists can shop.
  */
 
 public class ShopFragment extends Fragment {

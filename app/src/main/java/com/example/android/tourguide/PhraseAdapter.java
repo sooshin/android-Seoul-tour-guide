@@ -10,7 +10,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Created by sj on 11/26/2017.
+ * {@link PhraseAdapter} is an {@link ArrayAdapter} that can provide a layout for each list view item
  */
 public class PhraseAdapter extends ArrayAdapter<Phrase> {
 

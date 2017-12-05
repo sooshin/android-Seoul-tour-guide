@@ -8,45 +8,29 @@
 
     <TextView
         android:id="@+id/pronunciation_list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/layout_margin_bottom"
-        android:layout_marginLeft="@dimen/layout_margin"
-        android:layout_marginRight="@dimen/layout_margin"
+        style="@style/LanguageListItemStyle"
         android:layout_marginTop="@dimen/layout_margin_top"
-        android:fontFamily="sans-serif"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/color_description_sights_text"
         android:textStyle="bold"
         tools:text="pronunciation" />
 
     <TextView
-
         android:id="@+id/english_list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/LanguageListItemStyle"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/pronunciation_list"
-        android:layout_marginBottom="@dimen/layout_margin_bottom"
-        android:layout_marginLeft="@dimen/layout_margin"
-        android:layout_marginRight="@dimen/layout_margin"
-        android:fontFamily="sans-serif"
-        android:textSize="16sp"
         android:textColor="@color/color_description_sights_text"
+        android:textSize="16sp"
         tools:text="english" />
 
     <TextView
         android:id="@+id/korean_list"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/LanguageListItemStyle"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/english_list"
-        android:layout_marginBottom="@dimen/layout_margin_bottom"
-        android:layout_marginLeft="@dimen/layout_margin"
-        android:layout_marginRight="@dimen/layout_margin"
-        android:fontFamily="sans-serif"
-        android:textSize="16sp"
         android:textColor="@color/color_description_food_text"
+        android:textSize="16sp"
         tools:text="korean" />
 
     <ImageView

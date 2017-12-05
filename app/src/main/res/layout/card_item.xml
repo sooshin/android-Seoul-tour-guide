@@ -24,33 +24,17 @@
 
             <ImageView
                 android:id="@+id/attraction_image_card"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/layout_height_image"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_gravity="center"
-                android:contentDescription="@string/image_des"
-                android:scaleType="centerCrop" />
+                style="@style/AttractionImageViewStyle" />
 
             <TextView
                 android:id="@+id/attraction_name_card"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/attraction_image_card"
-                android:fontFamily="sans-serif-medium"
-                android:padding="@dimen/padding_text_view"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/white"
+                style="@style/AttractionNameCardStyle"
                 tools:text="name" />
 
             <TextView
                 android:id="@+id/attraction_short_card"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
-                android:layout_below="@+id/attraction_name_card"
-                android:padding="@dimen/padding_text_view"
-                android:textColor="@color/color_green_900"
+                style="@style/AttractionShortCardStyle"
+
                 tools:text="short description" />
 
         </RelativeLayout>

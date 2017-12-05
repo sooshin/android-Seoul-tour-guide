@@ -12,20 +12,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by sj on 11/23/2017.
+ * DetailActivity is the activity that appears when a card item is clicke on the
+ * {@link InformationFragment}, {@link SightsFragment}, {@link NatureCultureFragment},
+ * {@link ShopFragment}, {@link FoodFragment}
  */
 
 public class DetailActivity extends AppCompatActivity {
 
     private int imageId;
-    private String name;
     private String description;
     private String address;
-    private String transport;
-    private String phone;
-    private String web;
-    private String hours;
-    private String fee;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,14 +33,14 @@ public class DetailActivity extends AppCompatActivity {
 
         // Get the data from the intent
         imageId = detailIntent.getIntExtra(getString(R.string.image_id), -1);
-        name = detailIntent.getStringExtra(getString(R.string.name));
+        String name = detailIntent.getStringExtra(getString(R.string.name));
         description = detailIntent.getStringExtra(getString(R.string.description));
         address = detailIntent.getStringExtra(getString(R.string.address));
-        transport = detailIntent.getStringExtra(getString(R.string.transport));
-        phone = detailIntent.getStringExtra(getString(R.string.phone));
-        web = detailIntent.getStringExtra(getString(R.string.web));
-        hours = detailIntent.getStringExtra(getString(R.string.hours));
-        fee = detailIntent.getStringExtra(getString(R.string.fee));
+        String transport = detailIntent.getStringExtra(getString(R.string.transport));
+        String phone = detailIntent.getStringExtra(getString(R.string.phone));
+        String web = detailIntent.getStringExtra(getString(R.string.web));
+        String hours = detailIntent.getStringExtra(getString(R.string.hours));
+        String fee = detailIntent.getStringExtra(getString(R.string.fee));
 
         // Set title of an action bar
         setTitle(name);
@@ -56,6 +52,7 @@ public class DetailActivity extends AppCompatActivity {
         // Set DescriptionTextview
         setDescriptionTextView();
 
+        // Find textView with ID detail_address
         final TextView addressTextView = findViewById(R.id.detail_address);
 
         // Set a click listener to start geoIntent when address is clicked on
@@ -108,7 +105,7 @@ public class DetailActivity extends AppCompatActivity {
 
     /**
      * Find textView with the detail_long_description ID and display description text on that textView
-     * and set Background color based on category
+     * and set Background color and text color based on category
      */
     public void setDescriptionTextView() {
         // Find descriptionView

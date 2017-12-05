@@ -1,7 +1,8 @@
 package com.example.android.tourguide;
 
 /**
- * Created by sj on 11/20/2017.
+ * {@link Attraction} represents a attraction(Sights, Nature&Culture, Shop) image, name, short
+ * description, description, address, transportation, phone number, web site, operation hours, fee.
  */
 
 public class Attraction {
@@ -26,7 +27,7 @@ public class Attraction {
      * @param attractionDescription is the description of the place
      * @param attractionWeb is the website of the place
      */
-    public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
+     Attraction(int attractionImageId, String attractionName, String attractionShortDs,
                       String attractionDescription, String attractionWeb){
         mAttractionImageId = attractionImageId;
         mAttractionName = attractionName;
@@ -46,7 +47,7 @@ public class Attraction {
      * @param attractionTransportation is the transportation of the place
      * @param attractionPhone is the phone number of the place
      */
-    public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
+     Attraction(int attractionImageId, String attractionName, String attractionShortDs,
                       String attractionDescription, String attractionAddress,
                       String attractionTransportation, String attractionPhone){
         mAttractionImageId = attractionImageId;
@@ -72,7 +73,7 @@ public class Attraction {
      * @param attractionHours is the operating hours of the place
      * @param attractionFee is the admission fee of the place
      */
-    public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
+     Attraction(int attractionImageId, String attractionName, String attractionShortDs,
                       String attractionDescription, String attractionAddress,
                       String attractionTransportation, String attractionPhone,
                       String attractionWeb, String attractionHours, String attractionFee) {
@@ -89,15 +90,16 @@ public class Attraction {
     }
 
     /**
-     * (For shop)
-     * @param attractionImageId
-     * @param attractionName
-     * @param attractionDescription
-     * @param attractionAddress
-     * @param attractionTransportation
-     * @param attractionHours
+     * Create a new Attraction object. (For shop)
+     *
+     * @param attractionImageId is the image resource id of the place
+     * @param attractionName is a name of the place
+     * @param attractionDescription is the description of the place
+     * @param attractionAddress is the address of the place
+     * @param attractionTransportation is the transportation of the place
+     * @param attractionHours is the operating hours of the place
      */
-    public Attraction(int attractionImageId, String attractionName, String attractionDescription,
+     Attraction(int attractionImageId, String attractionName, String attractionDescription,
                       String attractionAddress, String attractionTransportation, String attractionHours) {
         mAttractionImageId = attractionImageId;
         mAttractionName = attractionName;
@@ -108,82 +110,30 @@ public class Attraction {
     }
 
     /**
-     * (For food)
-     * @param attractionImageId
-     * @param attractionName
-     * @param attractionDescription
-     * @param attractionAddress
-     * @param attractionTransportation
-     * @param attractionPhone
-     * @param attractionWeb
-     * @param attractionHours
-     * @param attractionFee
-     */
-    public Attraction(int attractionImageId, String attractionName, String attractionDescription,
-                      String attractionAddress, String attractionTransportation, String attractionPhone,
-                      String attractionWeb,String attractionHours, String attractionFee) {
-        mAttractionImageId = attractionImageId;
-        mAttractionName = attractionName;
-        mAttractionDescription = attractionDescription;
-        mAttractionAddress = attractionAddress;
-        mAttractionTransportation = attractionTransportation;
-        mAttractionPhone = attractionPhone;
-        mAttractionWeb = attractionWeb;
-        mAttractionHours = attractionHours;
-        mAttractionFee = attractionFee;
-    }
-
-    /**
-     * (For food, better than beef)
-     * @param attractionImageId
-     * @param attractionName
-     * @param attractionDescription
-     * @param attractionAddress
-     * @param attractionTransportation
-     * @param attractionPhone
-     * @param attractionHours
-     * @param attractionFee
-     */
-    public Attraction(int attractionImageId, String attractionName, String attractionDescription,
-                      String attractionAddress, String attractionTransportation, String attractionPhone,
-            String attractionHours, String attractionFee) {
-        mAttractionImageId = attractionImageId;
-        mAttractionName = attractionName;
-        mAttractionDescription = attractionDescription;
-        mAttractionAddress = attractionAddress;
-        mAttractionTransportation = attractionTransportation;
-        mAttractionPhone = attractionPhone;
-        mAttractionHours = attractionHours;
-        mAttractionFee = attractionFee;
-    }
-
-
-
-    /**
      * Get the image resource Id of the place
      */
-    public int getAttractionImageId() {
+    int getAttractionImageId() {
         return mAttractionImageId;
     }
 
     /**
      * Get the name of the place
      */
-    public String getAttractionName() {
+    String getAttractionName() {
         return mAttractionName;
     }
 
     /**
      * Get the short description of the place
      */
-    public String getAttractionShortDs() {
+    String getAttractionShortDs() {
         return mAttractionShortDs;
     }
 
     /**
      * Get the description of the place
      */
-    public String getAttractionDescription() {
+    String getAttractionDescription() {
         return mAttractionDescription;
     }
 

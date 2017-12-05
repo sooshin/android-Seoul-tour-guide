@@ -11,19 +11,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
 
 /**
- * Created by sj on 12/5/2017.
+ * {@link ShopAdapter} is an {@link RecyclerAdapter} that can provide a layout for each card view item
  */
 
 public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ViewHolder> {
     private Context mContext;
     private List<Attraction> mAttractions;
 
-    public ShopAdapter(Context context, List<Attraction> attractions, int item_layout) {
+    ShopAdapter(Context context, List<Attraction> attractions, int item_layout) {
         mContext = context;
         mAttractions = attractions;
     }
@@ -39,13 +38,13 @@ public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ViewHolder> {
         return mAttractions.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
         private TextView nameTextView;
         private TextView descriptionShortTextView;
         private CardView cardView;
 
-        public ViewHolder(View itemView) {
+        ViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.shop_image_card);
             nameTextView = itemView.findViewById(R.id.shop_name_card);
@@ -62,7 +61,6 @@ public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ViewHolder> {
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, attraction.getAttractionName(), Toast.LENGTH_SHORT).show();
                 // Create a new intent to open the {@link DetailActivity}
                 Intent detailIntent = new Intent(mContext, DetailActivity.class);
 

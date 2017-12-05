@@ -12,7 +12,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by sj on 11/20/2017.
+ * NatureCultureFragment is a simple {@link Fragment} subclass and it represent attraction of Seoul,
+ * such as parks, museums, tours,
  */
 
 public class NatureCultureFragment extends Fragment {

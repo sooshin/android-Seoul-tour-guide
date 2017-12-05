@@ -11,19 +11,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
 
 /**
- * Created by sj on 12/2/2017.
+ * {@link FoodAdapter} is an {@link RecyclerAdapter} that can provide a layout for each card view item
  */
 
 public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
     private Context mContext;
     private List<Food> mFoods;
 
-    public FoodAdapter(Context context, List<Food> foods, int item_layout) {
+    FoodAdapter(Context context, List<Food> foods, int item_layout) {
         mContext = context;
         mFoods = foods;
     }
@@ -39,12 +38,12 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
         return mFoods.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
         private TextView nameTextView;
         private CardView cardView;
 
-        public ViewHolder(View itemView) {
+        ViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.food_image_card);
             nameTextView = itemView.findViewById(R.id.food_name_card);
@@ -61,7 +60,6 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, attraction.getFoodName(), Toast.LENGTH_SHORT).show();
                 // Create a new intent to open the {@link DetailActivity}
                 Intent detailIntent = new Intent(mContext, DetailActivity.class);
 

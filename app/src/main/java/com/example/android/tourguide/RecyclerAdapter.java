@@ -11,18 +11,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
 
 /**
- * Created by sj on 11/19/2017.
+ * {@link RecyclerAdapter} is an {@link RecyclerAdapter} that can provide a layout for each card view item
  */
 public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
     private Context mContext;
     private List<Attraction> mAttractions;
 
-    public RecyclerAdapter(Context context, List<Attraction> attractions, int item_layout) {
+    RecyclerAdapter(Context context, List<Attraction> attractions, int item_layout) {
         mContext = context;
         mAttractions = attractions;
     }
@@ -38,13 +37,13 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         return mAttractions.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
         private TextView nameTextView;
         private TextView descriptionShortTextView;
         private CardView cardView;
 
-        public ViewHolder(View itemView) {
+        ViewHolder(View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.attraction_image_card);
             nameTextView = itemView.findViewById(R.id.attraction_name_card);
@@ -63,7 +62,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(mContext, attraction.getAttractionName(), Toast.LENGTH_SHORT).show();
                 // Create a new intent to open the {@link DetailActivity}
                 Intent detailIntent = new Intent(mContext, DetailActivity.class);
 

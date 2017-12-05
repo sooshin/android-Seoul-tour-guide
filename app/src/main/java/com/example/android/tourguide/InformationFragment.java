@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 /**
- * Created by sj on 11/20/2017.
+ * InformationFragment is a simple {@link Fragment} subclass and it represents basic information of Seoul
  */
 
 public class InformationFragment extends Fragment{
@@ -20,7 +20,7 @@ public class InformationFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_info, container, false);
 
-        // Set different textSize in one TextView
+        // Set different textSize in one TextView, specifically "seoul" text
         TextView textView = rootView.findViewById(R.id.seoul_des);
         Spannable span = new SpannableString(textView.getText());
         span.setSpan(new RelativeSizeSpan(1.8f), 0,5, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);

@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by sj on 11/20/2017.
+ * A simple {@link Fragment} subclass
  */
 
 public class FoodFragment extends Fragment{
