@@ -21,7 +21,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     private Context mContext;
     private List<Attraction> mAttractions;
 
-    RecyclerAdapter(Context context, List<Attraction> attractions, int item_layout) {
+    RecyclerAdapter(Context context, List<Attraction> attractions) {
         mContext = context;
         mAttractions = attractions;
     }

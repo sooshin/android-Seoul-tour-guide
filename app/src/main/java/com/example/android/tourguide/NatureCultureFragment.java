@@ -36,7 +36,7 @@ public class NatureCultureFragment extends Fragment {
         addAttractions();
 
         // Make the recyclerView use the RecyclerAdapter
-        recyclerView.setAdapter(new RecyclerAdapter(getActivity(), attractions, R.layout.activity_main));
+        recyclerView.setAdapter(new RecyclerAdapter(getActivity(), attractions));
 
         return rootView;
     }

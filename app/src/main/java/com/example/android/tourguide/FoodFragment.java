@@ -36,7 +36,7 @@ public class FoodFragment extends Fragment{
         addFoods();
 
         // Make the recyclerView use the RecyclerAdapter
-        recyclerView.setAdapter(new FoodAdapter(getActivity(), foods, R.layout.activity_main));
+        recyclerView.setAdapter(new FoodAdapter(getActivity(), foods));
         return rootView;
     }
 

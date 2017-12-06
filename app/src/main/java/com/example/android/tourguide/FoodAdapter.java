@@ -22,7 +22,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
     private Context mContext;
     private List<Food> mFoods;
 
-    FoodAdapter(Context context, List<Food> foods, int item_layout) {
+    FoodAdapter(Context context, List<Food> foods) {
         mContext = context;
         mFoods = foods;
     }
