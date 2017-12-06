@@ -55,7 +55,7 @@ public class KoreanFragment extends Fragment {
             };
 
     /**
-     * This listener gets triggered when the {@Link MediaPlayer} has completed
+     * This listener gets triggered when the {@link MediaPlayer} has completed
      * playing the audio file.
      */
     private MediaPlayer.OnCompletionListener mCompletionListener = new MediaPlayer.OnCompletionListener() {

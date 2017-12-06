@@ -72,7 +72,7 @@
     <!-- Gyeongbokgoung -->
     <string name="gyeongbokgung">Gyeongbokgung Palace</string>
     <string name="gyeongbokgung_short">Gyeongbokgung Palace is the royal palace of Joseon Dynasty
-        built in 1395. It is the largest and most significant of Seoul's Five Grand Palaces.</string>
+        built in 1395. It is the largest and most significant of Seoul\'s Five Grand Palaces.</string>
     <string name="gyeongbokgung_des">Gyeongbokgung Palace was the first of the five palaces built
         in the Joseon Dynasty (1395). It was destroyed by Japanese Invasion of Korea(1592) but rebuilt
         during King Kojong(1867). During the Japanese colonial period(1910-1945), much of the palace was
@@ -183,7 +183,7 @@
     <string name="lotte_world_tower_des">Lotte World Tower was designed with a conceptual design
         drawing inspiration from Korean ceramics and Korean writing brushes. The tower contains
         galleries, cafes, and a luxury hotel, in addition to a sky walk and an observation deck.
-        It will be one of the best spots to appreciate the breathtaking view of Seoul's vibrant
+        It will be one of the best spots to appreciate the breathtaking view of Seoul\'s vibrant
         city lights.</string>
     <string name="lotte_world_tower_address"> 300, Olympic-ro, Songpa-gu, Seoul(Sincheon-dong 29)</string>
     <string name="lotte_world_tower_transport">Jamsil Station (Subway Line 2), Exit 2
@@ -196,7 +196,7 @@
     <!-- Bongeunsa Temple -->
     <string name="bongeunsa">Bongeunsa Temple</string>
     <string name="bongeunsa_short">Bongeunsa Temple is a Buddhist temple located across the road from
-        COEX mall and was founded in the 10th year of Silla King Weongseong's reign (794). </string>
+        COEX mall and was founded in the 10th year of Silla King Weongseong\'s reign (794). </string>
     <string name="bongeunsa_des">Bongeunsa Temple is once known as Gyeonseongsa Temple. In 1498,
         Queen Jeonghyeon refurbished Gyeonseongsa Temple at the east of King Seongjong\'s royal
         mausoleum and renamed the temple as Bongeunsa.
