@@ -21,9 +21,12 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     private Context mContext;
     private List<Attraction> mAttractions;
 
-    RecyclerAdapter(Context context, List<Attraction> attractions) {
+    private int mCategory;
+
+    RecyclerAdapter(Context context, List<Attraction> attractions, int category) {
         mContext = context;
         mAttractions = attractions;
+        mCategory = category;
     }
 
     @Override
@@ -64,6 +67,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             public void onClick(View view) {
                 // Create a new intent to open the {@link DetailActivity}
                 Intent detailIntent = new Intent(mContext, DetailActivity.class);
+
+                // Pass value indicating to a category
+                detailIntent.putExtra("category", mCategory);
 
                 // Pass value to {@link DetailActivity}
                 detailIntent.putExtra(mContext.getString(R.string.image_id),

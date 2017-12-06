@@ -18,6 +18,9 @@ import java.util.List;
 public class FoodFragment extends Fragment{
 
     private List<Food> foods;
+
+    /** Predefined constants to manage background color and text color based on category */
+    private static final int FOOD = 4;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_item, container, false);
@@ -36,7 +39,7 @@ public class FoodFragment extends Fragment{
         addFoods();
 
         // Make the recyclerView use the RecyclerAdapter
-        recyclerView.setAdapter(new FoodAdapter(getActivity(), foods));
+        recyclerView.setAdapter(new FoodAdapter(getActivity(), foods, FOOD));
         return rootView;
     }
 

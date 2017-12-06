@@ -22,9 +22,19 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
     private Context mContext;
     private List<Food> mFoods;
 
-    FoodAdapter(Context context, List<Food> foods) {
+    /** Integer for each category */
+    private int mCategory;
+
+    /**
+     * our own custom constructor
+     * @param context the current context
+     * @param foods a list of food objects
+     * @param category is a constant indicating to which category
+     */
+    FoodAdapter(Context context, List<Food> foods, int category) {
         mContext = context;
         mFoods = foods;
+        mCategory = category;
     }
 
     @Override
@@ -62,6 +72,9 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
             public void onClick(View view) {
                 // Create a new intent to open the {@link DetailActivity}
                 Intent detailIntent = new Intent(mContext, DetailActivity.class);
+
+                //Pass value indicating to a category
+                detailIntent.putExtra("category", mCategory);
 
                 // Pass value to {@link DetailActivity}
                 detailIntent.putExtra(mContext.getString(R.string.image_id),

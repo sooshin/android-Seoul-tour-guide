@@ -18,6 +18,10 @@ import java.util.List;
 public class ShopFragment extends Fragment {
 
     private List<Attraction> attractions;
+
+    /** Predefined constants to manage background color and text color based on category */
+    private static final int SHOP = 3;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_item, container, false);
@@ -36,7 +40,7 @@ public class ShopFragment extends Fragment {
         addAttractions();
 
         // Make the recyclerView use the ShopAdapter
-        recyclerView.setAdapter(new ShopAdapter(getActivity(), attractions, R.layout.activity_main));
+        recyclerView.setAdapter(new ShopAdapter(getActivity(), attractions, SHOP));
 
         return rootView;
     }

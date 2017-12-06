@@ -22,9 +22,12 @@ public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ViewHolder> {
     private Context mContext;
     private List<Attraction> mAttractions;
 
-    ShopAdapter(Context context, List<Attraction> attractions, int item_layout) {
+    private int mCategory;
+
+    ShopAdapter(Context context, List<Attraction> attractions, int category) {
         mContext = context;
         mAttractions = attractions;
+        mCategory = category;
     }
 
     @Override
@@ -63,6 +66,9 @@ public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ViewHolder> {
             public void onClick(View view) {
                 // Create a new intent to open the {@link DetailActivity}
                 Intent detailIntent = new Intent(mContext, DetailActivity.class);
+
+                // Pass value indicating to a category
+                detailIntent.putExtra("category", mCategory);
 
                 // Pass value to {@link DetailActivity}
                 detailIntent.putExtra(mContext.getString(R.string.image_id),

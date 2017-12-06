@@ -20,6 +20,9 @@ public class NatureCultureFragment extends Fragment {
 
     private  List<Attraction> attractions;
 
+    /** Predefined constants to manage background color and text color based on category */
+    private static final int NATURE_AND_CULTURE = 2;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_item, container, false);
@@ -36,7 +39,7 @@ public class NatureCultureFragment extends Fragment {
         addAttractions();
 
         // Make the recyclerView use the RecyclerAdapter
-        recyclerView.setAdapter(new RecyclerAdapter(getActivity(), attractions));
+        recyclerView.setAdapter(new RecyclerAdapter(getActivity(), attractions, NATURE_AND_CULTURE));
 
         return rootView;
     }

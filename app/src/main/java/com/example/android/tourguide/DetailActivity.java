@@ -19,9 +19,17 @@ import android.widget.TextView;
 
 public class DetailActivity extends AppCompatActivity {
 
-    private int imageId;
     private String description;
     private String address;
+
+    /** Integer for each category */
+    private int category;
+
+    /** Handles predefined constants to manage background color and text color based on category */
+    private static final int SIGHTS = 1;
+    private static final int NATURE_AND_CULTURE = 2;
+    private static final int SHOP = 3;
+    private static final int FOOD = 4;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,8 +39,10 @@ public class DetailActivity extends AppCompatActivity {
         // {@link ShopFragment}, {@link FoodFragment}
         Intent detailIntent = getIntent();
 
+        category = detailIntent.getIntExtra(getString(R.string.category), 0);
+
         // Get the data from the intent
-        imageId = detailIntent.getIntExtra(getString(R.string.image_id), -1);
+        int imageId = detailIntent.getIntExtra(getString(R.string.image_id), -1);
         String name = detailIntent.getStringExtra(getString(R.string.name));
         description = detailIntent.getStringExtra(getString(R.string.description));
         address = detailIntent.getStringExtra(getString(R.string.address));
@@ -113,41 +123,28 @@ public class DetailActivity extends AppCompatActivity {
 
         // Set the description on that textView
         descriptionTextView.setText(description);
-        if (imageId == R.drawable.gyeongbokgung || imageId == R.drawable.bukchon_hanok ||
-                imageId == R.drawable.changdeokgung || imageId == R.drawable.seoul_tower ||
-                imageId == R.drawable.cheonggyecheon || imageId == R.drawable.war_memorial ||
-                imageId == R.drawable.lotte_world_tower || imageId == R.drawable.bongeunsa ||
-                imageId == R.drawable.insadong || imageId == R.drawable.ddp ||
-                imageId == R.drawable.hongik_uni_street || imageId == R.drawable.jongmyo_shrine) {
+        // Set Background color and text color based on the category
+        switch (category) {
+            case SIGHTS:
+                // if images belong to Sights category, set backgroundResource on the descriptionTextView
+                descriptionTextView.setBackgroundResource(R.color.color_description_sights);
+                descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_sights_text));
+                break;
 
-            // if images belong to Sights category, set backgroundResource on the descriptionTextView
-            descriptionTextView.setBackgroundResource(R.color.color_description_sights);
-            descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_sights_text));
+            case NATURE_AND_CULTURE:
+                // if images belong to Nature and Culture category, set backgroundResource on the descriptionTextView
+                descriptionTextView.setBackgroundResource(R.color.color_description_nature);
+                descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_nature_text));
+                break;
 
-        } else if(imageId == R.drawable.myeongdong || imageId == R.drawable.namdaemun ||
-                imageId == R.drawable.goto_mall || imageId == R.drawable.dongdaemun ||
-                imageId == R.drawable.common_ground || imageId == R.drawable.garosugil ||
-                imageId == R.drawable.times_square){
-
-            // if images belong to Shop category, set backgroundResource on the descriptionTextView
-            descriptionTextView.setBackgroundResource(R.color.color_description_shop);
-            descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_shop_text));
-
-        } else if(imageId == R.drawable.gwangjang || imageId == R.drawable.hanilkwan ||
-                imageId == R.drawable.tosokchon || imageId == R.drawable.jokbal ||
-                imageId == R.drawable.better_than_beef || imageId == R.drawable.daedo ||
-                imageId == R.drawable.chicken || imageId == R.drawable.jungsik ||
-                imageId == R.drawable.beef_sarang || imageId == R.drawable.bamdokkaebi) {
-
-            // if images belong to Food category, set backgroundResource on the descriptionTextView
-            descriptionTextView.setBackgroundResource(R.color.color_description_food);
-            descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_food_text));
-
-        } else {
-
-            // if images belong to Nature and Culture category, set backgroundResource on the descriptionTextView
-            descriptionTextView.setBackgroundResource(R.color.color_description_nature);
-            descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_nature_text));
+            case SHOP:
+                // if images belong to Shop category, set backgroundResource on the descriptionTextView
+                descriptionTextView.setBackgroundResource(R.color.color_description_shop);
+                descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_shop_text));
+            case FOOD:
+                // if images belong to Food category, set backgroundResource on the descriptionTextView
+                descriptionTextView.setBackgroundResource(R.color.color_description_food);
+                descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_food_text));
         }
     }
 

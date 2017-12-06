@@ -32,6 +32,7 @@
     <string name="web">web</string>
     <string name="hours">hours</string>
     <string name="fee">fee</string>
+    <string name="category">category</string>
 
     <!-- Basic information -->
     <string name="seoul">Seoul</string>
