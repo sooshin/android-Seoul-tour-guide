@@ -69,7 +69,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
                 Intent detailIntent = new Intent(mContext, DetailActivity.class);
 
                 // Pass value indicating to a category
-                detailIntent.putExtra("category", mCategory);
+                detailIntent.putExtra(mContext.getString(R.string.category), mCategory);
 
                 // Pass value to {@link DetailActivity}
                 detailIntent.putExtra(mContext.getString(R.string.image_id),
