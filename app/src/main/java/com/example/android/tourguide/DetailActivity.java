@@ -12,8 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * DetailActivity is the activity that appears when a card item is clicke on the
- * {@link InformationFragment}, {@link SightsFragment}, {@link NatureCultureFragment},
+ * DetailActivity is the activity that appears when a card item is clicked on the
+ * {@link SightsFragment}, {@link NatureCultureFragment},
  * {@link ShopFragment}, {@link FoodFragment}
  */
 
