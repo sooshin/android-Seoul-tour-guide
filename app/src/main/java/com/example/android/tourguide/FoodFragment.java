@@ -46,7 +46,7 @@ public class FoodFragment extends Fragment{
     /**
      * Add foods to the list of foods
      */
-    public void addFoods() {
+    private void addFoods() {
         foods.add(new Food(R.drawable.gwangjang,
                 getString(R.string.gwangjang),
                 getString(R.string.gwangjang_des),

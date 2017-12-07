@@ -48,7 +48,7 @@ public class ShopFragment extends Fragment {
     /**
      * Add attractions to the list of attractions
      */
-    public void addAttractions() {
+    private void addAttractions() {
         attractions.add(new Attraction(R.drawable.myeongdong,
                 getString(R.string.myeongdong),
                 getString(R.string.myeongdong_des),

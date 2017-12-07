@@ -97,7 +97,7 @@ public class DetailActivity extends AppCompatActivity {
      * @param string A string to display on the textView
      * @param icResourceId Resource ID for the ic image
      */
-    public void setDetails(int textViewId, String string, int icResourceId) {
+    private void setDetails(int textViewId, String string, int icResourceId) {
         TextView textView = findViewById(textViewId);
         if (string == null) {
             textView.setVisibility(View.GONE);
@@ -117,7 +117,7 @@ public class DetailActivity extends AppCompatActivity {
      * Find textView with the detail_long_description ID and display description text on that textView
      * and set Background color and text color based on category
      */
-    public void setDescriptionTextView() {
+    private void setDescriptionTextView() {
         // Find descriptionView
         TextView descriptionTextView = findViewById(R.id.detail_long_description);
 

@@ -131,7 +131,7 @@ public class KoreanFragment extends Fragment {
     /**
      * Add phrases to the list of phrases
      */
-    public void addPhrases() {
+    private void addPhrases() {
         mPhrases.add(new Phrase(getString(R.string.hello_p),
                 getString(R.string.hello),
                 getString(R.string.hello_k),

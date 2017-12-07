@@ -46,7 +46,7 @@ public class SightsFragment extends Fragment{
     /**
      * Add attractions to the list of attractions
      */
-    public void addAttractions() {
+    private void addAttractions() {
         attractions.add(new Attraction(R.drawable.gyeongbokgung, getString(R.string.gyeongbokgung),
                 getString(R.string.gyeongbokgung_short),
                 getString(R.string.gyeongbokgung_des), getString(R.string.gyeongbokgung_address),
