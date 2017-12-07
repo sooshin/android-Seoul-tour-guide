@@ -141,10 +141,16 @@ public class DetailActivity extends AppCompatActivity {
                 // if images belong to Shop category, set backgroundResource on the descriptionTextView
                 descriptionTextView.setBackgroundResource(R.color.color_description_shop);
                 descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_shop_text));
+                break;
+
             case FOOD:
                 // if images belong to Food category, set backgroundResource on the descriptionTextView
                 descriptionTextView.setBackgroundResource(R.color.color_description_food);
                 descriptionTextView.setTextColor(getResources().getColor(R.color.color_description_food_text));
+                break;
+
+            default:
+                break;
         }
     }
 
