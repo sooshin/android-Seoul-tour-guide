@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.activity;
 
 import android.app.FragmentManager;
 import android.os.Bundle;
@@ -10,6 +10,14 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import com.example.android.tourguide.R;
+import com.example.android.tourguide.fragment.FoodFragment;
+import com.example.android.tourguide.fragment.InformationFragment;
+import com.example.android.tourguide.fragment.KoreanFragment;
+import com.example.android.tourguide.fragment.NatureCultureFragment;
+import com.example.android.tourguide.fragment.ShopFragment;
+import com.example.android.tourguide.fragment.SightsFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

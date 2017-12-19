@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.object;
 
 /**
  * {@link Attraction} represents a attraction(Sights, Nature&Culture, Shop) image, name, short
@@ -27,7 +27,7 @@ public class Attraction {
      * @param attractionDescription is the description of the place
      * @param attractionWeb is the website of the place
      */
-     Attraction(int attractionImageId, String attractionName, String attractionShortDs,
+     public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
                       String attractionDescription, String attractionWeb){
         mAttractionImageId = attractionImageId;
         mAttractionName = attractionName;
@@ -47,7 +47,7 @@ public class Attraction {
      * @param attractionTransportation is the transportation of the place
      * @param attractionPhone is the phone number of the place
      */
-     Attraction(int attractionImageId, String attractionName, String attractionShortDs,
+     public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
                       String attractionDescription, String attractionAddress,
                       String attractionTransportation, String attractionPhone){
         mAttractionImageId = attractionImageId;
@@ -73,7 +73,7 @@ public class Attraction {
      * @param attractionHours is the operating hours of the place
      * @param attractionFee is the admission fee of the place
      */
-     Attraction(int attractionImageId, String attractionName, String attractionShortDs,
+     public Attraction(int attractionImageId, String attractionName, String attractionShortDs,
                       String attractionDescription, String attractionAddress,
                       String attractionTransportation, String attractionPhone,
                       String attractionWeb, String attractionHours, String attractionFee) {
@@ -99,7 +99,7 @@ public class Attraction {
      * @param attractionTransportation is the transportation of the place
      * @param attractionHours is the operating hours of the place
      */
-     Attraction(int attractionImageId, String attractionName, String attractionDescription,
+     public Attraction(int attractionImageId, String attractionName, String attractionDescription,
                       String attractionAddress, String attractionTransportation, String attractionHours) {
         mAttractionImageId = attractionImageId;
         mAttractionName = attractionName;
@@ -112,70 +112,70 @@ public class Attraction {
     /**
      * Get the image resource Id of the place
      */
-    int getAttractionImageId() {
+    public int getAttractionImageId() {
         return mAttractionImageId;
     }
 
     /**
      * Get the name of the place
      */
-    String getAttractionName() {
+    public String getAttractionName() {
         return mAttractionName;
     }
 
     /**
      * Get the short description of the place
      */
-    String getAttractionShortDs() {
+    public String getAttractionShortDs() {
         return mAttractionShortDs;
     }
 
     /**
      * Get the description of the place
      */
-    String getAttractionDescription() {
+    public String getAttractionDescription() {
         return mAttractionDescription;
     }
 
     /**
      * Get the address of the place
      */
-    String getAttractionAddress() {
+    public String getAttractionAddress() {
         return mAttractionAddress;
     }
 
     /**
      * Get the transportation of the place
      */
-    String getAttractionTransportation() {
+    public String getAttractionTransportation() {
         return mAttractionTransportation;
     }
 
     /**
      * Get the phone number of the place
      */
-    String getAttractionPhone() {
+    public String getAttractionPhone() {
         return mAttractionPhone;
     }
 
     /**
      * Get the web page of the place
      */
-    String getAttractionWeb() {
+    public String getAttractionWeb() {
         return mAttractionWeb;
     }
 
     /**
      * Get the hours of the place
      */
-    String getAttractionHours() {
+    public String getAttractionHours() {
         return mAttractionHours;
     }
 
     /**
      * Get the Admission Fee of the place
      */
-    String getAttractionFee() {
+    public String getAttractionFee() {
         return mAttractionFee;
     }
 

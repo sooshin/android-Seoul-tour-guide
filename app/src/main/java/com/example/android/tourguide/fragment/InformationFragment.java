@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.fragment;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.android.tourguide.R;
 
 /**
  * InformationFragment is a simple {@link Fragment} subclass and it represents basic information of Seoul

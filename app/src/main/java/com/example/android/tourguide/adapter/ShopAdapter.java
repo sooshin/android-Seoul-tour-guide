@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,27 +12,32 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.android.tourguide.object.Attraction;
+import com.example.android.tourguide.activity.DetailActivity;
+import com.example.android.tourguide.R;
+
 import java.util.List;
 
 /**
- * {@link RecyclerAdapter} is an {@link RecyclerAdapter} that can provide a layout for each card view item
+ * {@link ShopAdapter} is an {@link RecyclerAdapter} that can provide a layout for each card view item
  */
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
+
+public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ViewHolder> {
     private Context mContext;
     private List<Attraction> mAttractions;
 
     private int mCategory;
 
-    RecyclerAdapter(Context context, List<Attraction> attractions, int category) {
+    public ShopAdapter(Context context, List<Attraction> attractions, int category) {
         mContext = context;
         mAttractions = attractions;
         mCategory = category;
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item, null);
-        return new ViewHolder(v);
+    public ShopAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item_shop, null);
+        return new ShopAdapter.ViewHolder(v);
     }
 
     @Override
@@ -48,20 +53,18 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
         ViewHolder(View itemView) {
             super(itemView);
-            imageView = itemView.findViewById(R.id.attraction_image_card);
-            nameTextView = itemView.findViewById(R.id.attraction_name_card);
-            descriptionShortTextView = itemView.findViewById(R.id.attraction_short_card);
-            cardView = itemView.findViewById(R.id.cardview);
+            imageView = itemView.findViewById(R.id.shop_image_card);
+            nameTextView = itemView.findViewById(R.id.shop_name_card);
+            cardView = itemView.findViewById(R.id.cardview_shop);
         }
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(ShopAdapter.ViewHolder holder, int position) {
         final Attraction attraction = mAttractions.get(position);
         Drawable drawable = ContextCompat.getDrawable(mContext, attraction.getAttractionImageId());
         holder.imageView.setBackground(drawable);
         holder.nameTextView.setText(attraction.getAttractionName());
-        holder.descriptionShortTextView.setText(attraction.getAttractionShortDs());
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -96,5 +99,4 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             }
         });
     }
-
 }

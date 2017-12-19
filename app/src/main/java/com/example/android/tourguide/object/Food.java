@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.object;
 
 /**
  * {@link Food} represents a Food image, name, description, address, transportation,
@@ -93,66 +93,64 @@ public class Food {
     /**
      * Get the image resource Id of the food
      */
-    int getFoodImageId() {
+    public int getFoodImageId() {
         return mFoodImageId;
     }
 
     /**
      * Get the name of the food
      */
-    String getFoodName() {
+    public String getFoodName() {
         return mFoodName;
     }
 
     /**
      * Get the description of the food
      */
-    String getFoodDescription() {
+    public String getFoodDescription() {
         return mFoodDescription;
     }
 
     /**
      * Get the address of the food
      */
-    String getFoodAddress() {
+    public String getFoodAddress() {
         return mFoodAddress;
     }
 
     /**
      * Get the transportation of the food
      */
-    String getFoodTransportation() {
+    public String getFoodTransportation() {
         return mFoodTransportation;
     }
 
     /**
      * Get the phone number of the food
      */
-    String getFoodPhone() {
+    public String getFoodPhone() {
         return mFoodPhone;
     }
 
     /**
      * Get the web page of the food
      */
-    String getFoodWeb() {
+    public String getFoodWeb() {
         return mFoodWeb;
     }
 
     /**
      * Get the hours of the food
      */
-    String getFoodHours() {
+    public String getFoodHours() {
         return mFoodHours;
     }
 
     /**
      * Get the Admission Fee of the food
      */
-    String getFoodFee() {
+    public String getFoodFee() {
         return mFoodFee;
     }
-
-
 
 }

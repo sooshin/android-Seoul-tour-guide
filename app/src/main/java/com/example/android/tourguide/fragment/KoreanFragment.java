@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.fragment;
 
 import android.app.Fragment;
 import android.content.Context;
@@ -10,6 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import com.example.android.tourguide.object.Phrase;
+import com.example.android.tourguide.R;
+import com.example.android.tourguide.adapter.PhraseAdapter;
 
 import java.util.ArrayList;
 

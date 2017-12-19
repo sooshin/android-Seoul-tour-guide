@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.activity;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,6 +10,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.android.tourguide.R;
+import com.example.android.tourguide.fragment.FoodFragment;
+import com.example.android.tourguide.fragment.NatureCultureFragment;
+import com.example.android.tourguide.fragment.ShopFragment;
+import com.example.android.tourguide.fragment.SightsFragment;
 
 /**
  * DetailActivity is the activity that appears when a card item is clicked on the

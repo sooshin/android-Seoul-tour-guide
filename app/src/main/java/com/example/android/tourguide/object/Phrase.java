@@ -1,4 +1,4 @@
-package com.example.android.tourguide;
+package com.example.android.tourguide.object;
 
 /**
  * {@link Phrase} represents a phrase that tourist can use when traveling Seoul
@@ -26,7 +26,7 @@ public class Phrase {
      * @param koreanTranslation is the phrase in Korean.
      * @param audioResourceId is the resourde ID for the audio file associated with this word
      */
-     Phrase(String pronunciation, String englishTranslation, String koreanTranslation, int audioResourceId) {
+     public Phrase(String pronunciation, String englishTranslation, String koreanTranslation, int audioResourceId) {
         mPronunciation = pronunciation;
         mEnglishTranslation = englishTranslation;
         mKoreanTranslation = koreanTranslation;
@@ -36,28 +36,28 @@ public class Phrase {
     /**
      * Get the pronunciation of the phrase.
      */
-    String getPronunciation() {
+    public String getPronunciation() {
         return mPronunciation;
     }
 
     /**
      * Get English translation of the phrase.
      */
-    String getEnglishTranslation() {
+    public String getEnglishTranslation() {
         return mEnglishTranslation;
     }
 
     /**
      * Get Korean translation of the phrase.
      */
-    String getKoreanTranslation() {
+    public String getKoreanTranslation() {
         return mKoreanTranslation;
     }
 
     /**
      * Returns the audio resource Id of the phrase.
      */
-    int getAudioResourceId() {
+    public int getAudioResourceId() {
         return mAudioResourceId;
     }
 
