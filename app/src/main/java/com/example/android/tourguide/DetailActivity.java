@@ -31,6 +31,11 @@ public class DetailActivity extends AppCompatActivity {
     private static final int SHOP = 3;
     private static final int FOOD = 4;
 
+    /** Handles default number */
+    private static final int DEFAULT_NUMBER = 0;
+    /** Constant value that represent no image was provided */
+    private static final int NO_IMAGE_PROVIDED = -1;
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
@@ -39,10 +44,10 @@ public class DetailActivity extends AppCompatActivity {
         // {@link ShopFragment}, {@link FoodFragment}
         Intent detailIntent = getIntent();
 
-        category = detailIntent.getIntExtra(getString(R.string.category), 0);
+        category = detailIntent.getIntExtra(getString(R.string.category), DEFAULT_NUMBER);
 
         // Get the data from the intent
-        int imageId = detailIntent.getIntExtra(getString(R.string.image_id), -1);
+        int imageId = detailIntent.getIntExtra(getString(R.string.image_id), NO_IMAGE_PROVIDED);
         String name = detailIntent.getStringExtra(getString(R.string.name));
         description = detailIntent.getStringExtra(getString(R.string.description));
         address = detailIntent.getStringExtra(getString(R.string.address));
@@ -103,11 +108,12 @@ public class DetailActivity extends AppCompatActivity {
             textView.setVisibility(View.GONE);
         } else {
             textView.setText(string);
-            textView.setCompoundDrawablesWithIntrinsicBounds(icResourceId, 0, 0, 0);
+            textView.setCompoundDrawablesWithIntrinsicBounds(icResourceId, DEFAULT_NUMBER,
+                    DEFAULT_NUMBER, DEFAULT_NUMBER);
             if (string.equals(address)) {
                 // If autoLink map does not work, add links to addressTextView
                 SpannableString spanStr = new SpannableString(address);
-                spanStr.setSpan(new UnderlineSpan(), 0, spanStr.length(), 0);
+                spanStr.setSpan(new UnderlineSpan(), DEFAULT_NUMBER, spanStr.length(), DEFAULT_NUMBER);
                 textView.setText(spanStr);
             }
         }
