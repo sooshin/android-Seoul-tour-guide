@@ -22,6 +22,9 @@ public class InformationFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_info, container, false);
 
+        // Set title
+        getActivity().setTitle(getString(R.string.app_name));
+
         // Set different textSize in one TextView, specifically "seoul" text
         TextView textView = rootView.findViewById(R.id.seoul_des);
         Spannable span = new SpannableString(textView.getText());

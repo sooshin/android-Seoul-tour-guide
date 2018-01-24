@@ -30,6 +30,9 @@ public class SightsFragment extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_item, container, false);
 
+        // Set title
+        getActivity().setTitle(getString(R.string.sights));
+
         RecyclerView recyclerView = rootView.findViewById(R.id.recyclerview);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setHasFixedSize(true);

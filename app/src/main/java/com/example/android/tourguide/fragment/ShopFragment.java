@@ -30,6 +30,9 @@ public class ShopFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_item, container, false);
 
+        // Set title
+        getActivity().setTitle(getString(R.string.shop));
+
         // Set up the RecyclerView
         RecyclerView recyclerView = rootView.findViewById(R.id.recyclerview);
         int numberOfColumns = 2;

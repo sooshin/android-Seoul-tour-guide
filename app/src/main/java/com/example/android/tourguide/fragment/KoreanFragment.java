@@ -78,6 +78,9 @@ public class KoreanFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_korean, container, false);
 
+        // Set title
+        getActivity().setTitle(getString(R.string.basic_korean));
+
         // Create and setup the {@link AudioManager} to request audio focus
         mAudioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);
 

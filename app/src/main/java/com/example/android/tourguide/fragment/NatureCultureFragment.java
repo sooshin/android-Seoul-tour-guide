@@ -31,6 +31,9 @@ public class NatureCultureFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_item, container, false);
 
+        // Set title
+        getActivity().setTitle(getString(R.string.nature_and_culture));
+
         RecyclerView recyclerView = rootView.findViewById(R.id.recyclerview);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setHasFixedSize(true);
