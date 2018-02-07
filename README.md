@@ -25,24 +25,55 @@ This app lists top sights, parks & museums, shops, and restaurants for the city.
 ![screenshot_basic_korean](https://user-images.githubusercontent.com/33213229/35332183-68c948de-014d-11e8-8627-5bbe42590ea2.png)
 
 ### Authors
-This app contains Creative Commons images.
-"[Buchon Hanok Village](https://commons.wikimedia.org/wiki/File:Area_west_of_Bukchon_Hanok_Village_B.JPG)"
-by Sakaori is licensed under CC BY-SA 3.0.
-"Changdeokgung and Huwon" by Cho Injeong is licensed under CC BY-NC-ND 2.0 KR.
-"[Bongeunsa](https://commons.wikimedia.org/wiki/File:Korea-Seoul-Bongeunsa-01.jpg)" by Gaël Chardon is licensed under CC BY-SA-2.0.
-"[DDP](https://www.flickr.com/photos/nestorlacle/13461827735)" by Nestor Lacle is licensed under CC BY 2.0
-"[National Museum of Korea](https://commons.wikimedia.org/wiki/File:Front_view_of_national_museum_of_korea.jpg)"
-by Jinah78 is license under CC BY-SA 3.0.
-"Grevin Museum" by Haerin is licensed under CC BY-NC-ND 2.0 KR.
-"[National Folk Museum of Korea](https://commons.wikimedia.org/wiki/File:Korea-Seoul-National.folk.museum-01.JPG)"
-by Isaac Crum is licensed under CC BY-SA 3.0.
-"COEX aquarium" by Miho is licensed under CC BY-NC-ND 2.0 KR.
-"[DMZ](https://www.flickr.com/photos/bcgovphotos/11136687804)" by Province of British Columbia
-is licensed under CC BY-NC-SA 2.0.
-"[Jamsil Baseball Stadium](https://commons.wikimedia.org/wiki/File:JamsilBP.gif)" by Kosaf000 is licensed under CC BY-SA-4.0. 
-"[Yeouido Hangang Park](http://www.cynic.org.uk/photos/Korea2016/index2.html)" by Robin Stevens is licensed under CC BY-NC-ND 2.0.
-"Siloam Spa" by pinah_08 is licensed under CC BY-NC-ND 2.0 KR.
-"Namdaemun" by bizinfo1357, "Goto Mall" by nuburi3, "Dongdaemun" by ssanykal63, "Common Ground" by Sora5517
-"Garosugil" by dahliakim, "Times Square Mall" by Kr_jeju, "Deado sikdang" by dbffldksk86, "Better than Beef" by sweet dew,
-"Manjok Ohyang Jokbal" by 030425, "Tosokchon" by matziptongue, "Hanilkwan" by rockview, "Gwangjang Market" by cutejung1020,
-"Jungsik" by niji486, "chicken" by dh_planet, "bamdokkaebi" by boramdoll is licensed under CC BY-NC-ND 2.0 KR.
+This app contains Creative Commons images.<br/>
+[Photo](https://commons.wikimedia.org/wiki/File:Area_west_of_Bukchon_Hanok_Village_B.JPG) by Sakaori
+/ [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)<br/>
+[Photo](http://blog.naver.com/storyphoto/viewer.jsp?src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAxNzA0MTlfMTY5%2FMDAxNDkyNTI5NzUzODAy.Z38a62nCWWThr0Qf-GfLaFZpdQAsoR8_wXJdO3jVZ20g.Bijv-qaPbxrwEgI1rZiwUj7F3CsJqgsNiYC_6DqeL8Ug.JPEG.7lovei%2Fimage_3285799211492528003688.jpg) by Cho Injeong / [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://commons.wikimedia.org/wiki/File:Korea-Seoul-Bongeunsa-01.jpg) by Gaël Chardon 
+/ [CC BY-SA-2.0](https://creativecommons.org/licenses/by-sa/2.0/)<br/>
+[Photo](https://www.flickr.com/photos/nestorlacle/13461827735) by Nestor Lacle 
+/ [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)<br/>
+[Photo](https://commons.wikimedia.org/wiki/File:Front_view_of_national_museum_of_korea.jpg) by Jinah78 
+/ [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)<br/>
+"Grevin Museum" by Haerin is licensed under [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://commons.wikimedia.org/wiki/File:Korea-Seoul-National.folk.museum-01.JPG) by Isaac Crum 
+/ [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)<br/>
+[Photo](https://blog.naver.com/jmh7738/220766764319) by Miho 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://www.flickr.com/photos/bcgovphotos/11136687804) by Province of British Columbia 
+/ [CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/)<br/>
+[Photo](https://commons.wikimedia.org/wiki/File:JamsilBP.gif) by Kosaf000 
+/ [CC BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)<br/>
+[Photo](http://www.cynic.org.uk/photos/Korea2016/index2.html) by Robin Stevens 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/pinah_08/220489309654) by pinah_08 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/bizinfo1357/221126420036) by bizinfo1357 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/nuburi3/90167881130) by nuburi3 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/ssangkal63/220298107638)" by ssangkal63
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://sora5517.blog.me/220942103629?Redirect=Log&from=postView) by Sora5517 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/dahliakim/220534057641) by dahliakim 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](http://blog.naver.com/storyphoto/viewer.jsp?src=http%3A%2F%2Fblogfiles.naver.net%2F20160208_181%2Fkr_jeju_1454923229579AncoC_JPEG%2F%25BF%25B5%25B5%25EE%25C6%25F7%25C5%25B8%25C0%25D3%25BD%25BA%25C4%25F9%25BE%25EE-9.jpg) by Kr_jeju 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](http://blog.naver.com/storyphoto/viewer.jsp?src=https%3A%2F%2Fblogfiles.pstatic.net%2FMjAxNjEyMThfMjM1%2FMDAxNDgyMDY3MDk1OTc0.HF9ZJ-t79RJmC47pbxJC3C9MVGuGQ07OTpiizDg_RkMg.Dr-u4eK3_dgJN6UU_8xR_NMufH5zkIUGyglZX6Lh010g.JPEG.dbffldksk86%2Fimage_457923801482066983653.jpg) by dbffldksk86 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/sweetdew_/220292759427) by sweet dew
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+"Manjok Ohyang Jokbal" by 030425 is licensed under [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/matziptongue/50143142018) by matziptongue
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/rockview/220584791707) by rockview 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/cutejung1020/220486983767) by cutejung1020 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/niji486/220620524250) by niji486 
+/ [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)<br/>
+[Photo](https://blog.naver.com/dh_planet/220992743627) by dh_planet 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
+[Photo](https://blog.naver.com/boramdoll/221070390765) by boramdoll 
+/ [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/)<br/>
