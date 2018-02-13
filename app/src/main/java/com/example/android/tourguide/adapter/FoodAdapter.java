@@ -43,7 +43,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.ViewHolder> {
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item_food, null);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_item_food, parent, false);
         return new ViewHolder(v);
     }
 
