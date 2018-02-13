@@ -48,7 +48,6 @@ public class ShopAdapter extends RecyclerView.Adapter<ShopAdapter.ViewHolder> {
     class ViewHolder extends RecyclerView.ViewHolder {
         private ImageView imageView;
         private TextView nameTextView;
-        private TextView descriptionShortTextView;
         private CardView cardView;
 
         ViewHolder(View itemView) {

@@ -25,7 +25,6 @@
             <ImageView
                 android:id="@+id/shop_image_card"
                 style="@style/ShopImageViewStyle"
-
                 android:contentDescription="@string/image_des"/>
 
             <TextView
