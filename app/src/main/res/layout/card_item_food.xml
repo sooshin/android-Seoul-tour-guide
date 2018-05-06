@@ -30,7 +30,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/layout_height_shop_food"
-                android:background="@drawable/scrim"/>
+                android:background="@drawable/scrim_food"/>
 
             <TextView
                 android:id="@+id/food_name_card"
