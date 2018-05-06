@@ -3,8 +3,7 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_height="wrap_content">
 
     <android.support.v7.widget.CardView
         android:id="@+id/cardview"
@@ -19,25 +18,37 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:gravity="center">
 
-            <ImageView
-                android:id="@+id/attraction_image_card"
-                style="@style/AttractionImageViewStyle" />
+            <FrameLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/attraction_name_card"
-                style="@style/AttractionNameCardStyle"
-                tools:text="name" />
+                <ImageView
+                    android:id="@+id/attraction_image_card"
+                    style="@style/AttractionImageViewStyle" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/layout_height_image"
+                    android:background="@drawable/scrim_attraction" />
+
+                <TextView
+                    android:id="@+id/attraction_name_card"
+                    style="@style/AttractionNameCardStyle"
+                    android:layout_gravity="bottom"
+                    tools:text="name" />
+
+            </FrameLayout>
 
             <TextView
                 android:id="@+id/attraction_short_card"
                 style="@style/AttractionShortCardStyle"
-
                 tools:text="short description" />
 
         </RelativeLayout>
+
     </android.support.v7.widget.CardView>
 
 </RelativeLayout>

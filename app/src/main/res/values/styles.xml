@@ -99,8 +99,6 @@
     <style name="AttractionImageViewStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/layout_height_image</item>
-        <item name="android:layout_alignParentStart">true</item>
-        <item name="android:layout_alignParentTop">true</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:contentDescription">@string/image_des</item>
         <item name="android:scaleType">centerCrop</item>
@@ -110,7 +108,6 @@
     <style name="AttractionNameCardStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_alignBottom">@id/attraction_image_card</item>
         <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:padding">@dimen/padding_text_view</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
@@ -122,7 +119,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentStart">true</item>
-        <item name="android:layout_below">@+id/attraction_name_card</item>
+        <item name="android:layout_below">@+id/frame</item>
         <item name="android:padding">@dimen/padding_text_view</item>
         <item name="android:textColor">@color/color_green_900</item>
     </style>
