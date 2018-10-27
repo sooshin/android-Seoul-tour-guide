@@ -1,6 +1,6 @@
 package com.example.android.tourguide.fragment;
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.text.Spannable;
 import android.text.SpannableString;
