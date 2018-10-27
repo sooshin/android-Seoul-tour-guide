@@ -39,7 +39,9 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         // Set the default fragment when starting the app
-        onNavigationItemSelected(navigationView.getMenu().getItem(0).setChecked(true));
+        if (savedInstanceState == null) {
+            onNavigationItemSelected(navigationView.getMenu().getItem(0).setChecked(true));
+        }
     }
 
     @Override
