@@ -1,30 +1,36 @@
 # Tour Guide App
 Project as a part of Android Basics by Google Nanodegree at Udacity.
-### Projet Overview
-The goal is to create a Tour Guide App which presents relevant information to a user who’s visiting Seoul. 
-This app lists top sights, parks & museums, shops, and restaurants for the city. It also contains useful basic Korean Phrases.
-### Features
+
+## Projet Overview
+The goal is to create a Tour Guide App which presents relevant information to a user who’s visiting your city. The app can list top attractions, restaurants, public places, or events for the city. It can contain all the best known secrets that only locals know. It’s up to you which categories you want to provide, as well as what information to provide in each category.
+
+## Why this project?
+In the most recent portion of the Nanodegree program, you worked to build the Miwok language app, which taught you how to present information in a multi-screen app to your users. Now, you will practice that skillset by presenting information that you care about in your own life to a user. Your Tour Guide app will be unique to your city, your life, and your interests.
+
+## What I learned
+* Planning your app design and navigation before coding
+* Selecting proper data structures to store lists of information
+* Building layouts to display those lists of data
+* Navigating between lists in Fragments using Navigation Drawer
+* Creating your own custom classes
+* Properly handling images or audio
+
+## Features
 * Navigation Drawer
 * Fragments
-* Custom object
-* Custom adapter
 * RecyclerView
 * CardView
 * MediaPlayer
 * AudioManager
 * Intent
-### Screenshots
-![screenshot_navi](https://user-images.githubusercontent.com/33213229/35332146-48bbf834-014d-11e8-93f4-e46420dc773a.png)
-![screenshot_basic_info](https://user-images.githubusercontent.com/33213229/35332154-4eda0508-014d-11e8-817c-a3f12b8c9828.png)
-![screenshot_sights](https://user-images.githubusercontent.com/33213229/35387908-fcfd7328-0214-11e8-9175-23beb126280f.png)
-![screenshot_nature_culture](https://user-images.githubusercontent.com/33213229/35332170-5abd2aa8-014d-11e8-9212-ec4c60cfa0e2.png)
-![screenshot_nature_detail](https://user-images.githubusercontent.com/33213229/35332982-6bd87d8a-0150-11e8-9873-b02a03032523.png)
-![screenshot_shop](https://user-images.githubusercontent.com/33213229/35332260-c34b6670-014d-11e8-9d40-96fafc80ce68.png)
-![screenshot_food](https://user-images.githubusercontent.com/33213229/35332180-65b8942e-014d-11e8-9be9-7b4bc30f6236.png)
-![screenshot_food_detail](https://user-images.githubusercontent.com/33213229/35332991-6f2da230-0150-11e8-8db1-61fa35180167.png)
-![screenshot_basic_korean](https://user-images.githubusercontent.com/33213229/35332183-68c948de-014d-11e8-8627-5bbe42590ea2.png)
 
-### Authors
+## Video
+Click [here](https://youtu.be/JYXlQqXe3SY) to see a video demonstrating the app.
+
+## Screenshots
+<img src="screenshots/tour_guide_navi.png" width="33%" /><img src="screenshots/tour_guide_main.png" width="33%" /><img src="screenshots/tour_guide_sights.png" width="33%" />
+
+## Authors
 This app contains Creative Commons images.<br/>
 [Photo](https://commons.wikimedia.org/wiki/File:Area_west_of_Bukchon_Hanok_Village_B.JPG) by Sakaori
 / [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)<br/>
