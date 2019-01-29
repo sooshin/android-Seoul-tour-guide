@@ -24,6 +24,9 @@ In the most recent portion of the Nanodegree program, you worked to build the Mi
 * AudioManager
 * Intent
 
+## Video
+Here is the link to view a video demonstrating the app: https://youtu.be/JYXlQqXe3SY
+
 ## Screenshots
 <img src="screenshots/tour_guide_navi.png" width="33%" /><img src="screenshots/tour_guide_main.png" width="33%" /><img src="screenshots/tour_guide_sights.png" width="33%" />
 
